@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/TDG Storage Solutions/Scenes/Demo Scene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
