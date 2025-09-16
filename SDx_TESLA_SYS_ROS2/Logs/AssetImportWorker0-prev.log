@@ -1,0 +1,2160 @@
+Unity Editor version:    2022.3.64f1 (a5c5c4ade6bd)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #67~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Jun 24 15:19:46 UTC 2
+Kernel version:          6.8.0-64-generic
+Architecture:            x86_64
+Available memory:        128524 MB
+Using pre-set license
+Pro License: YES
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/tesla/SDx_TESLA_SYS_ROS2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+41381
+Successfully changed project path to: /home/tesla/SDx_TESLA_SYS_ROS2
+/home/tesla/SDx_TESLA_SYS_ROS2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [127355393835968]  Target information:
+
+Player connection [127355393835968]  * "[IP] 192.168.0.240 [Port] 0 [Flags] 2 [Guid] 356045535 [EditorId] 356045535 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.240) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [127355393835968] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [127355393835968] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.64f1 (a5c5c4ade6bd)
+[Subsystems] Discovering subsystems at path /home/tesla/Unity/Hub/Editor/2022.3.64f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/tesla/SDx_TESLA_SYS_ROS2/Assets
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGI_video_sync GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_texture_from_pixmap GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_NV_multigpu_context 
+Renderer: NVIDIA GeForce RTX 4090/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 575.64.03
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_
+blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_sha
+der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_program_multiview GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_primitive_shading_rate GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_obje
+ct GL_NV_shader_subgroup_partitioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_dirty_tile_map GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_b
+lend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1602793032
+Initialize mono
+Mono path[0] = '/home/tesla/Unity/Hub/Editor/2022.3.64f1/Editor/Data/Managed'
+Mono path[1] = '/home/tesla/Unity/Hub/Editor/2022.3.64f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/tesla/Unity/Hub/Editor/2022.3.64f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56923
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/tesla/Unity/Hub/Editor/2022.3.64f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/tesla/Unity/Hub/Editor/2022.3.64f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /home/tesla/Unity/Hub/Editor/2022.3.64f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002750 seconds.
+- Loaded All Assemblies, in  0.152 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.146 seconds
+Domain Reload Profiling: 298ms
+	BeginReloadAssembly (36ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (3ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (67ms)
+		LoadAssemblies (36ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (67ms)
+			TypeCache.Refresh (66ms)
+				TypeCache.ScanAssembly (59ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (146ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (122ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.271 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.258 seconds
+Domain Reload Profiling: 529ms
+	BeginReloadAssembly (61ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (3ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (112ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (74ms)
+				TypeCache.ScanAssembly (67ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (259ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (192ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3474 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (45.7 KB). Loaded Objects now: 3939.
+Memory consumption went from 123.1 MB to 123.1 MB.
+Total: 3.153083 ms (FindLiveObjects: 0.123701 ms CreateObjectMapping: 0.043003 ms MarkObjects: 2.885076 ms  DeleteObjects: 0.100699 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.244 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.303 seconds
+Domain Reload Profiling: 546ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (303ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Script is not up to date after domain reload: guid(d0ef414dc7a6d264fa4fa44bddb4b74d) path("Packages/org.mujoco/libmujoco.so") state(2)
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3598 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 4073.
+Memory consumption went from 124.7 MB to 124.6 MB.
+Total: 2.457312 ms (FindLiveObjects: 0.222762 ms CreateObjectMapping: 0.043505 ms MarkObjects: 2.157890 ms  DeleteObjects: 0.031378 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MjSiteQuaternionSensor.cs: b60dfb117aa2ef486fb414d4a1485aca -> 
+  custom:scripting/monoscript/fileName/MjUserSensor.cs: 7115d226e7badc1d918b262fafc7502d -> 
+  custom:scripting/monoscript/fileName/MjFixedTendon.cs: 52727ae4b2a3f2c6fe22ae23a0733e72 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MjInertial.cs: e3c62e93fda85c3016cbcd1a385dbbe9 -> 
+  custom:scripting/monoscript/fileName/MjSlideJoint.cs: e4b64c48a37b6145d8705d986bef6aba -> 
+  custom:scripting/monoscript/fileName/MjShapeComponent.cs: 5d44650ed40aee2f12d3ce4704cf7d60 -> 
+  custom:scripting/monoscript/fileName/MjWeld.cs: 5417c593b3b31c9d94d18873cacad223 -> 
+  custom:scripting/monoscript/fileName/MjShapeComponentEditor.cs: 4d72820f5829c6f98a4835dbf2d23315 -> 
+  custom:scripting/monoscript/fileName/MjGeomEditor.cs: 9411a7f17cab7e50918ea32e9e5c5c15 -> 
+  custom:scripting/monoscript/fileName/MjBallJoint.cs: b570e4d834471706d4955d60c2815554 -> 
+  custom:scripting/monoscript/fileName/MjVfs.cs: ea5060cfe963fe176f1066e1986e1aac -> 
+  custom:scripting/monoscript/fileName/MeshGenerators.cs: a2fc78e7f0e3111496075a7b68220a6e -> 
+  custom:scripting/monoscript/fileName/MjActuatorScalarSensor.cs: 8922573f65310c98bae7e7876626902f -> 
+  custom:scripting/monoscript/fileName/MjFreeJoint.cs: ad846d8ebed1de4b5f499fdce9275cba -> 
+  custom:scripting/monoscript/fileName/MjMeshFilter.cs: 403b63a529953f10afb13a8edd062067 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MjImporterEditorWindow.cs: 8edc88226dd1fea935e16bf219c0579f -> 
+  custom:scripting/monoscript/fileName/MjSiteVectorSensor.cs: f02191850b317f403eae61a0aa8e5dc2 -> 
+  custom:scripting/monoscript/fileName/XmlElementExtensions.cs: f392ddda2711857ac1cd377add961ffb -> 
+  custom:scripting/monoscript/fileName/MjExclude.cs: 9ad5b6687beb6c56a769dbb46328058f -> 
+  custom:scripting/monoscript/fileName/MjHeightFieldShape.cs: 448d454b0ead3325aa84f29dfc0d0ef0 -> 
+  custom:scripting/monoscript/fileName/MjHingeJointEditor.cs: d6743d20934e4661e2c9cd402727baa2 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Runtime: f0d75fee56956c294f1e5a88f976f48f -> 
+  custom:scripting/monoscript/fileName/MjGeomQuaternionSensor.cs: 68a9916eb730e86000c842bdb2c4671b -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/MjBaseConstraint.cs: f84cef664f7156dacef9e95bccad6eec -> 
+  custom:scripting/monoscript/fileName/MjCapsuleShape.cs: d149f5cc035372a0b6960b9c43823c88 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MjComponent.cs: c2746fbeef9d7f1422b0f331b1af3db9 -> 
+  custom:scripting/monoscript/fileName/ObjMeshImportUtility.cs: 41a047001676dd811096ad68d0196ab1 -> 
+  custom:scripting/monoscript/fileName/MjGlobalSettings.cs: ea1a52c34e2b0081b4f2746b18152e11 -> 
+  custom:scripting/monoscript/fileName/MjBodyVectorSensor.cs: a9d16fa0b79edb08ac451457634b4897 -> 
+  custom:scripting/monoscript/fileName/MjCylinderShape.cs: 018bd22aec334c8ec3a257a07f658c73 -> 
+  custom:scripting/monoscript/fileName/MjScene.cs: 0c459445e43875adb8e5aae224b6904b -> 
+  custom:scripting/monoscript/fileName/MjImporterWithAssets.cs: da98cd65ba7015d5727493f27e6dc84d -> 
+  custom:scripting/monoscript/fileName/MjTransformation.cs: d7c9347661e593cf4eeb95250303b582 -> 
+  custom:scripting/monoscript/fileName/MjConnect.cs: 0a43dcf62dc9bab6c4b68553ac044dcb -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MjEngineTool.cs: b6f6998c0829bc881a91561fd5413817 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Editor: 67b25dc592f934568179ccb0452b57a2 -> 
+  custom:scripting/monoscript/fileName/MjBodyQuaternionSensor.cs: 9a48a94d82ac78cd6f7e3b89e64f42ac -> 
+  custom:scripting/monoscript/fileName/MjMeshShape.cs: 77ed84f2e7e016ff261103983a2490ff -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/MjActuatorEditor.cs: 95d2056ae741dfcbe81100c16b17f121 -> 
+  custom:scripting/monoscript/fileName/MjMocapBody.cs: 9a0d55672883e62d8e31272db21f74d2 -> 
+  custom:scripting/monoscript/fileName/MjActuator.cs: dac37b67a91f8a43698bcfacf528fc3f -> 
+  custom:scripting/monoscript/fileName/AbsoluteValuePropertyEditor.cs: 03f8eef3993de3ceb48920e1f5cc64b1 -> 
+  custom:scripting/monoscript/fileName/MjEllipsoidShape.cs: 4c3bc6c498a2590ad2ab16e5416c2beb -> 
+  custom:scripting/monoscript/fileName/MjJointScalarSensor.cs: 9676fdd1baf4b69ca8629dea5fdbf187 -> 
+  custom:scripting/monoscript/fileName/MjBaseJoint.cs: 9948528b34ab10e2abda79159bf1c6c8 -> 
+  custom:scripting/monoscript/fileName/ConvertMj2Rca.cs: 551ef05e90467316f21d7ad36e827d9f -> 
+  custom:scripting/monoscript/fileName/MjHingeJoint.cs: 8c4fba9e9295de9c6025f654281f397f -> 
+  custom:scripting/monoscript/fileName/StlMeshParser.cs: 2d9f6d758bbeafc10a1c473ed076146c -> 
+  custom:scripting/monoscript/fileName/MjSpatialTendon.cs: 44971d309d122c8cd6067b9469055a40 -> 
+  custom:scripting/monoscript/fileName/MjBaseTendon.cs: 732412196b7be47206504dc87744c69c -> 
+  custom:scripting/monoscript/fileName/MjJointConstraint.cs: 6957106da5bca701d1191324a41e8cb0 -> 
+  custom:scripting/monoscript/fileName/MjSphereShape.cs: d5bd32aadbf0384e59c9f19fa3e7b18f -> 
+  custom:scripting/monoscript/fileName/MjJointSettings.cs: 84a3112da088540625f81e65d4f6d474 -> 
+  custom:scripting/monoscript/fileName/MjBoxShape.cs: 275293f2e238739ea6a55965f5aef4dd -> 
+  custom:scripting/monoscript/fileName/MjSlideJointEditor.cs: af9501b546f88cac2e0d7edfc6e7e0a1 -> 
+  custom:scripting/monoscript/fileName/MjExporterEditorWindow.cs: c6d18dc7644a985b2d771d6e64d4077d -> 
+  custom:scripting/monoscript/fileName/MjHandles.cs: 2121dd2f7d0fdae5e406aa6957c778f5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MjSiteScalarSensor.cs: 143f3859a8484f8f68cb5e2da4ed0ca1 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MujocoBinaryRetriever.cs: b8c1e5ff59fc9ac6be491a16252d38b9 -> 
+  custom:scripting/monoscript/fileName/MjBaseBody.cs: 70d16e8258164a72ab6e2d6ac87246a9 -> 
+  custom:scripting/monoscript/fileName/FixedSizeIListHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MjcfGenerationContext.cs: 6c253e5cb18192860c82555858378195 -> 
+  custom:scripting/monoscript/fileName/MjGizmos.cs: bcbc4c4d757983b1927b21ad54571734 -> 
+  custom:scripting/monoscript/fileName/IMjShape.cs: 28e2fc1a70053b697c9dba3b4c33e299 -> 
+  custom:scripting/monoscript/fileName/MjTendonConstraint.cs: ce02803b10ebaa17a0fa840232fc8804 -> 
+  custom:scripting/monoscript/fileName/MjXmlModifiers.cs: f73fbca2b6c8621fb12f8a84c02432b7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MjGeomSettings.cs: f3b9636e7d28375599b704551650dbed -> 
+  custom:scripting/monoscript/fileName/MjBindings.cs: 15e5f349c6b6b7226f8b87b303badd89 -> 
+  custom:scripting/monoscript/fileName/MjBody.cs: fb3c30663f79557d77b9d66320fc5945 -> 
+  custom:scripting/monoscript/fileName/AbsoluteValueAttribute.cs: 09dd73acdf3bf8ae02bb9c5da352e3c1 -> 
+  custom:scripting/monoscript/fileName/MjGeomVectorSensor.cs: bb040ac3acaa482722a47ab9b3e710d4 -> 
+  custom:scripting/monoscript/fileName/MjMouseSpring.cs: 07cfd2983bd7502b3fbdeb74dd3d1902 -> 
+  custom:scripting/monoscript/fileName/MjPlaneShape.cs: cf90bac2c3e56f2a8f58d27cf928340f -> 
+  custom:scripting/monoscript/fileName/StlMeshImporter.cs: 6da5f9c74d96f2a80700038721e7ef5e -> 
+  custom:scripting/monoscript/fileName/MjSite.cs: 62c7d3a10dcdd79bdfd23e034057b677 -> 
+  custom:scripting/monoscript/fileName/MjBaseSensor.cs: f6b54bc2e6fd2eaf4083ed9730a9ae7a -> 
+  custom:scripting/monoscript/fileName/MjHierarchyTool.cs: a9e7f446b43cbe4a6a7af4bdd6c2ebe1 -> 
+  custom:scripting/monoscript/fileName/MjGeom.cs: 20eae74b07822d9f0b6b038f7e93a133 -> 
+  custom:scripting/monoscript/fileName/MjcfImporter.cs: 208df5a85caef54b5f5855a8c9c5a37a -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.189 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.321 seconds
+Domain Reload Profiling: 509ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (86ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (321ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (183ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3598 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 4076.
+Memory consumption went from 124.7 MB to 124.6 MB.
+Total: 1.969572 ms (FindLiveObjects: 0.126904 ms CreateObjectMapping: 0.045992 ms MarkObjects: 1.766640 ms  DeleteObjects: 0.029451 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MjSiteQuaternionSensor.cs: b60dfb117aa2ef486fb414d4a1485aca -> 
+  custom:scripting/monoscript/fileName/MjUserSensor.cs: 7115d226e7badc1d918b262fafc7502d -> 
+  custom:scripting/monoscript/fileName/MjFixedTendon.cs: 52727ae4b2a3f2c6fe22ae23a0733e72 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MjInertial.cs: e3c62e93fda85c3016cbcd1a385dbbe9 -> 
+  custom:scripting/monoscript/fileName/MjSlideJoint.cs: e4b64c48a37b6145d8705d986bef6aba -> 
+  custom:scripting/monoscript/fileName/MjShapeComponent.cs: 5d44650ed40aee2f12d3ce4704cf7d60 -> 
+  custom:scripting/monoscript/fileName/MjWeld.cs: 5417c593b3b31c9d94d18873cacad223 -> 
+  custom:scripting/monoscript/fileName/MjShapeComponentEditor.cs: 4d72820f5829c6f98a4835dbf2d23315 -> 
+  custom:scripting/monoscript/fileName/MjGeomEditor.cs: 9411a7f17cab7e50918ea32e9e5c5c15 -> 
+  custom:scripting/monoscript/fileName/MjBallJoint.cs: b570e4d834471706d4955d60c2815554 -> 
+  custom:scripting/monoscript/fileName/MjVfs.cs: ea5060cfe963fe176f1066e1986e1aac -> 
+  custom:scripting/monoscript/fileName/MeshGenerators.cs: a2fc78e7f0e3111496075a7b68220a6e -> 
+  custom:scripting/monoscript/fileName/MjActuatorScalarSensor.cs: 8922573f65310c98bae7e7876626902f -> 
+  custom:scripting/monoscript/fileName/MjFreeJoint.cs: ad846d8ebed1de4b5f499fdce9275cba -> 
+  custom:scripting/monoscript/fileName/MjMeshFilter.cs: 403b63a529953f10afb13a8edd062067 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MjImporterEditorWindow.cs: 8edc88226dd1fea935e16bf219c0579f -> 
+  custom:scripting/monoscript/fileName/MjSiteVectorSensor.cs: f02191850b317f403eae61a0aa8e5dc2 -> 
+  custom:scripting/monoscript/fileName/XmlElementExtensions.cs: f392ddda2711857ac1cd377add961ffb -> 
+  custom:scripting/monoscript/fileName/MjExclude.cs: 9ad5b6687beb6c56a769dbb46328058f -> 
+  custom:scripting/monoscript/fileName/MjHeightFieldShape.cs: 448d454b0ead3325aa84f29dfc0d0ef0 -> 
+  custom:scripting/monoscript/fileName/MjHingeJointEditor.cs: d6743d20934e4661e2c9cd402727baa2 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Runtime: f0d75fee56956c294f1e5a88f976f48f -> 
+  custom:scripting/monoscript/fileName/MjGeomQuaternionSensor.cs: 68a9916eb730e86000c842bdb2c4671b -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/MjBaseConstraint.cs: f84cef664f7156dacef9e95bccad6eec -> 
+  custom:scripting/monoscript/fileName/MjCapsuleShape.cs: d149f5cc035372a0b6960b9c43823c88 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MjComponent.cs: c2746fbeef9d7f1422b0f331b1af3db9 -> 
+  custom:scripting/monoscript/fileName/ObjMeshImportUtility.cs: 41a047001676dd811096ad68d0196ab1 -> 
+  custom:scripting/monoscript/fileName/MjGlobalSettings.cs: ea1a52c34e2b0081b4f2746b18152e11 -> 
+  custom:scripting/monoscript/fileName/MjBodyVectorSensor.cs: a9d16fa0b79edb08ac451457634b4897 -> 
+  custom:scripting/monoscript/fileName/MjCylinderShape.cs: 018bd22aec334c8ec3a257a07f658c73 -> 
+  custom:scripting/monoscript/fileName/MjScene.cs: 0c459445e43875adb8e5aae224b6904b -> 
+  custom:scripting/monoscript/fileName/MjImporterWithAssets.cs: da98cd65ba7015d5727493f27e6dc84d -> 
+  custom:scripting/monoscript/fileName/MjTransformation.cs: d7c9347661e593cf4eeb95250303b582 -> 
+  custom:scripting/monoscript/fileName/MjConnect.cs: 0a43dcf62dc9bab6c4b68553ac044dcb -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MjEngineTool.cs: b6f6998c0829bc881a91561fd5413817 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Editor: 67b25dc592f934568179ccb0452b57a2 -> 
+  custom:scripting/monoscript/fileName/MjBodyQuaternionSensor.cs: 9a48a94d82ac78cd6f7e3b89e64f42ac -> 
+  custom:scripting/monoscript/fileName/MjMeshShape.cs: 77ed84f2e7e016ff261103983a2490ff -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/MjActuatorEditor.cs: 95d2056ae741dfcbe81100c16b17f121 -> 
+  custom:scripting/monoscript/fileName/MjMocapBody.cs: 9a0d55672883e62d8e31272db21f74d2 -> 
+  custom:scripting/monoscript/fileName/MjActuator.cs: dac37b67a91f8a43698bcfacf528fc3f -> 
+  custom:scripting/monoscript/fileName/AbsoluteValuePropertyEditor.cs: 03f8eef3993de3ceb48920e1f5cc64b1 -> 
+  custom:scripting/monoscript/fileName/MjEllipsoidShape.cs: 4c3bc6c498a2590ad2ab16e5416c2beb -> 
+  custom:scripting/monoscript/fileName/MjJointScalarSensor.cs: 9676fdd1baf4b69ca8629dea5fdbf187 -> 
+  custom:scripting/monoscript/fileName/MjBaseJoint.cs: 9948528b34ab10e2abda79159bf1c6c8 -> 
+  custom:scripting/monoscript/fileName/ConvertMj2Rca.cs: 551ef05e90467316f21d7ad36e827d9f -> 
+  custom:scripting/monoscript/fileName/MjHingeJoint.cs: 8c4fba9e9295de9c6025f654281f397f -> 
+  custom:scripting/monoscript/fileName/StlMeshParser.cs: 2d9f6d758bbeafc10a1c473ed076146c -> 
+  custom:scripting/monoscript/fileName/MjSpatialTendon.cs: 44971d309d122c8cd6067b9469055a40 -> 
+  custom:scripting/monoscript/fileName/MjBaseTendon.cs: 732412196b7be47206504dc87744c69c -> 
+  custom:scripting/monoscript/fileName/MjJointConstraint.cs: 6957106da5bca701d1191324a41e8cb0 -> 
+  custom:scripting/monoscript/fileName/MjSphereShape.cs: d5bd32aadbf0384e59c9f19fa3e7b18f -> 
+  custom:scripting/monoscript/fileName/MjJointSettings.cs: 84a3112da088540625f81e65d4f6d474 -> 
+  custom:scripting/monoscript/fileName/MjBoxShape.cs: 275293f2e238739ea6a55965f5aef4dd -> 
+  custom:scripting/monoscript/fileName/MjSlideJointEditor.cs: af9501b546f88cac2e0d7edfc6e7e0a1 -> 
+  custom:scripting/monoscript/fileName/MjExporterEditorWindow.cs: c6d18dc7644a985b2d771d6e64d4077d -> 
+  custom:scripting/monoscript/fileName/MjHandles.cs: 2121dd2f7d0fdae5e406aa6957c778f5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MjSiteScalarSensor.cs: 143f3859a8484f8f68cb5e2da4ed0ca1 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MujocoBinaryRetriever.cs: b8c1e5ff59fc9ac6be491a16252d38b9 -> 
+  custom:scripting/monoscript/fileName/MjBaseBody.cs: 70d16e8258164a72ab6e2d6ac87246a9 -> 
+  custom:scripting/monoscript/fileName/FixedSizeIListHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MjcfGenerationContext.cs: 6c253e5cb18192860c82555858378195 -> 
+  custom:scripting/monoscript/fileName/MjGizmos.cs: bcbc4c4d757983b1927b21ad54571734 -> 
+  custom:scripting/monoscript/fileName/IMjShape.cs: 28e2fc1a70053b697c9dba3b4c33e299 -> 
+  custom:scripting/monoscript/fileName/MjTendonConstraint.cs: ce02803b10ebaa17a0fa840232fc8804 -> 
+  custom:scripting/monoscript/fileName/MjXmlModifiers.cs: f73fbca2b6c8621fb12f8a84c02432b7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MjGeomSettings.cs: f3b9636e7d28375599b704551650dbed -> 
+  custom:scripting/monoscript/fileName/MjBindings.cs: 15e5f349c6b6b7226f8b87b303badd89 -> 
+  custom:scripting/monoscript/fileName/MjBody.cs: fb3c30663f79557d77b9d66320fc5945 -> 
+  custom:scripting/monoscript/fileName/AbsoluteValueAttribute.cs: 09dd73acdf3bf8ae02bb9c5da352e3c1 -> 
+  custom:scripting/monoscript/fileName/MjGeomVectorSensor.cs: bb040ac3acaa482722a47ab9b3e710d4 -> 
+  custom:scripting/monoscript/fileName/MjMouseSpring.cs: 07cfd2983bd7502b3fbdeb74dd3d1902 -> 
+  custom:scripting/monoscript/fileName/MjPlaneShape.cs: cf90bac2c3e56f2a8f58d27cf928340f -> 
+  custom:scripting/monoscript/fileName/StlMeshImporter.cs: 6da5f9c74d96f2a80700038721e7ef5e -> 
+  custom:scripting/monoscript/fileName/MjSite.cs: 62c7d3a10dcdd79bdfd23e034057b677 -> 
+  custom:scripting/monoscript/fileName/MjBaseSensor.cs: f6b54bc2e6fd2eaf4083ed9730a9ae7a -> 
+  custom:scripting/monoscript/fileName/MjHierarchyTool.cs: a9e7f446b43cbe4a6a7af4bdd6c2ebe1 -> 
+  custom:scripting/monoscript/fileName/MjGeom.cs: 20eae74b07822d9f0b6b038f7e93a133 -> 
+  custom:scripting/monoscript/fileName/MjcfImporter.cs: 208df5a85caef54b5f5855a8c9c5a37a -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.184 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.320 seconds
+Domain Reload Profiling: 503ms
+	BeginReloadAssembly (63ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (86ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (320ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (190ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3598 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.9 KB). Loaded Objects now: 4079.
+Memory consumption went from 124.7 MB to 124.6 MB.
+Total: 1.975974 ms (FindLiveObjects: 0.127263 ms CreateObjectMapping: 0.041134 ms MarkObjects: 1.774956 ms  DeleteObjects: 0.032001 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MjSiteQuaternionSensor.cs: b60dfb117aa2ef486fb414d4a1485aca -> 
+  custom:scripting/monoscript/fileName/MjUserSensor.cs: 7115d226e7badc1d918b262fafc7502d -> 
+  custom:scripting/monoscript/fileName/MjFixedTendon.cs: 52727ae4b2a3f2c6fe22ae23a0733e72 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MjInertial.cs: e3c62e93fda85c3016cbcd1a385dbbe9 -> 
+  custom:scripting/monoscript/fileName/MjSlideJoint.cs: e4b64c48a37b6145d8705d986bef6aba -> 
+  custom:scripting/monoscript/fileName/MjShapeComponent.cs: 5d44650ed40aee2f12d3ce4704cf7d60 -> 
+  custom:scripting/monoscript/fileName/MjWeld.cs: 5417c593b3b31c9d94d18873cacad223 -> 
+  custom:scripting/monoscript/fileName/MjShapeComponentEditor.cs: 4d72820f5829c6f98a4835dbf2d23315 -> 
+  custom:scripting/monoscript/fileName/MjGeomEditor.cs: 9411a7f17cab7e50918ea32e9e5c5c15 -> 
+  custom:scripting/monoscript/fileName/MjBallJoint.cs: b570e4d834471706d4955d60c2815554 -> 
+  custom:scripting/monoscript/fileName/MjVfs.cs: ea5060cfe963fe176f1066e1986e1aac -> 
+  custom:scripting/monoscript/fileName/MeshGenerators.cs: a2fc78e7f0e3111496075a7b68220a6e -> 
+  custom:scripting/monoscript/fileName/MjActuatorScalarSensor.cs: 8922573f65310c98bae7e7876626902f -> 
+  custom:scripting/monoscript/fileName/MjFreeJoint.cs: ad846d8ebed1de4b5f499fdce9275cba -> 
+  custom:scripting/monoscript/fileName/MjMeshFilter.cs: 403b63a529953f10afb13a8edd062067 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MjImporterEditorWindow.cs: 8edc88226dd1fea935e16bf219c0579f -> 
+  custom:scripting/monoscript/fileName/MjSiteVectorSensor.cs: f02191850b317f403eae61a0aa8e5dc2 -> 
+  custom:scripting/monoscript/fileName/XmlElementExtensions.cs: f392ddda2711857ac1cd377add961ffb -> 
+  custom:scripting/monoscript/fileName/MjExclude.cs: 9ad5b6687beb6c56a769dbb46328058f -> 
+  custom:scripting/monoscript/fileName/MjHeightFieldShape.cs: 448d454b0ead3325aa84f29dfc0d0ef0 -> 
+  custom:scripting/monoscript/fileName/MjHingeJointEditor.cs: d6743d20934e4661e2c9cd402727baa2 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Runtime: f0d75fee56956c294f1e5a88f976f48f -> 
+  custom:scripting/monoscript/fileName/MjGeomQuaternionSensor.cs: 68a9916eb730e86000c842bdb2c4671b -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/MjBaseConstraint.cs: f84cef664f7156dacef9e95bccad6eec -> 
+  custom:scripting/monoscript/fileName/MjCapsuleShape.cs: d149f5cc035372a0b6960b9c43823c88 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MjComponent.cs: c2746fbeef9d7f1422b0f331b1af3db9 -> 
+  custom:scripting/monoscript/fileName/ObjMeshImportUtility.cs: 41a047001676dd811096ad68d0196ab1 -> 
+  custom:scripting/monoscript/fileName/MjGlobalSettings.cs: ea1a52c34e2b0081b4f2746b18152e11 -> 
+  custom:scripting/monoscript/fileName/MjBodyVectorSensor.cs: a9d16fa0b79edb08ac451457634b4897 -> 
+  custom:scripting/monoscript/fileName/MjCylinderShape.cs: 018bd22aec334c8ec3a257a07f658c73 -> 
+  custom:scripting/monoscript/fileName/MjScene.cs: 0c459445e43875adb8e5aae224b6904b -> 
+  custom:scripting/monoscript/fileName/MjImporterWithAssets.cs: da98cd65ba7015d5727493f27e6dc84d -> 
+  custom:scripting/monoscript/fileName/MjTransformation.cs: d7c9347661e593cf4eeb95250303b582 -> 
+  custom:scripting/monoscript/fileName/MjConnect.cs: 0a43dcf62dc9bab6c4b68553ac044dcb -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MjEngineTool.cs: b6f6998c0829bc881a91561fd5413817 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Editor: 67b25dc592f934568179ccb0452b57a2 -> 
+  custom:scripting/monoscript/fileName/MjBodyQuaternionSensor.cs: 9a48a94d82ac78cd6f7e3b89e64f42ac -> 
+  custom:scripting/monoscript/fileName/MjMeshShape.cs: 77ed84f2e7e016ff261103983a2490ff -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/MjActuatorEditor.cs: 95d2056ae741dfcbe81100c16b17f121 -> 
+  custom:scripting/monoscript/fileName/MjMocapBody.cs: 9a0d55672883e62d8e31272db21f74d2 -> 
+  custom:scripting/monoscript/fileName/MjActuator.cs: dac37b67a91f8a43698bcfacf528fc3f -> 
+  custom:scripting/monoscript/fileName/AbsoluteValuePropertyEditor.cs: 03f8eef3993de3ceb48920e1f5cc64b1 -> 
+  custom:scripting/monoscript/fileName/MjEllipsoidShape.cs: 4c3bc6c498a2590ad2ab16e5416c2beb -> 
+  custom:scripting/monoscript/fileName/MjJointScalarSensor.cs: 9676fdd1baf4b69ca8629dea5fdbf187 -> 
+  custom:scripting/monoscript/fileName/MjBaseJoint.cs: 9948528b34ab10e2abda79159bf1c6c8 -> 
+  custom:scripting/monoscript/fileName/ConvertMj2Rca.cs: 551ef05e90467316f21d7ad36e827d9f -> 
+  custom:scripting/monoscript/fileName/MjHingeJoint.cs: 8c4fba9e9295de9c6025f654281f397f -> 
+  custom:scripting/monoscript/fileName/StlMeshParser.cs: 2d9f6d758bbeafc10a1c473ed076146c -> 
+  custom:scripting/monoscript/fileName/MjSpatialTendon.cs: 44971d309d122c8cd6067b9469055a40 -> 
+  custom:scripting/monoscript/fileName/MjBaseTendon.cs: 732412196b7be47206504dc87744c69c -> 
+  custom:scripting/monoscript/fileName/MjJointConstraint.cs: 6957106da5bca701d1191324a41e8cb0 -> 
+  custom:scripting/monoscript/fileName/MjSphereShape.cs: d5bd32aadbf0384e59c9f19fa3e7b18f -> 
+  custom:scripting/monoscript/fileName/MjJointSettings.cs: 84a3112da088540625f81e65d4f6d474 -> 
+  custom:scripting/monoscript/fileName/MjBoxShape.cs: 275293f2e238739ea6a55965f5aef4dd -> 
+  custom:scripting/monoscript/fileName/MjSlideJointEditor.cs: af9501b546f88cac2e0d7edfc6e7e0a1 -> 
+  custom:scripting/monoscript/fileName/MjExporterEditorWindow.cs: c6d18dc7644a985b2d771d6e64d4077d -> 
+  custom:scripting/monoscript/fileName/MjHandles.cs: 2121dd2f7d0fdae5e406aa6957c778f5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MjSiteScalarSensor.cs: 143f3859a8484f8f68cb5e2da4ed0ca1 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MujocoBinaryRetriever.cs: b8c1e5ff59fc9ac6be491a16252d38b9 -> 
+  custom:scripting/monoscript/fileName/MjBaseBody.cs: 70d16e8258164a72ab6e2d6ac87246a9 -> 
+  custom:scripting/monoscript/fileName/FixedSizeIListHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MjcfGenerationContext.cs: 6c253e5cb18192860c82555858378195 -> 
+  custom:scripting/monoscript/fileName/MjGizmos.cs: bcbc4c4d757983b1927b21ad54571734 -> 
+  custom:scripting/monoscript/fileName/IMjShape.cs: 28e2fc1a70053b697c9dba3b4c33e299 -> 
+  custom:scripting/monoscript/fileName/MjTendonConstraint.cs: ce02803b10ebaa17a0fa840232fc8804 -> 
+  custom:scripting/monoscript/fileName/MjXmlModifiers.cs: f73fbca2b6c8621fb12f8a84c02432b7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MjGeomSettings.cs: f3b9636e7d28375599b704551650dbed -> 
+  custom:scripting/monoscript/fileName/MjBindings.cs: 15e5f349c6b6b7226f8b87b303badd89 -> 
+  custom:scripting/monoscript/fileName/MjBody.cs: fb3c30663f79557d77b9d66320fc5945 -> 
+  custom:scripting/monoscript/fileName/AbsoluteValueAttribute.cs: 09dd73acdf3bf8ae02bb9c5da352e3c1 -> 
+  custom:scripting/monoscript/fileName/MjGeomVectorSensor.cs: bb040ac3acaa482722a47ab9b3e710d4 -> 
+  custom:scripting/monoscript/fileName/MjMouseSpring.cs: 07cfd2983bd7502b3fbdeb74dd3d1902 -> 
+  custom:scripting/monoscript/fileName/MjPlaneShape.cs: cf90bac2c3e56f2a8f58d27cf928340f -> 
+  custom:scripting/monoscript/fileName/StlMeshImporter.cs: 6da5f9c74d96f2a80700038721e7ef5e -> 
+  custom:scripting/monoscript/fileName/MjSite.cs: 62c7d3a10dcdd79bdfd23e034057b677 -> 
+  custom:scripting/monoscript/fileName/MjBaseSensor.cs: f6b54bc2e6fd2eaf4083ed9730a9ae7a -> 
+  custom:scripting/monoscript/fileName/MjHierarchyTool.cs: a9e7f446b43cbe4a6a7af4bdd6c2ebe1 -> 
+  custom:scripting/monoscript/fileName/MjGeom.cs: 20eae74b07822d9f0b6b038f7e93a133 -> 
+  custom:scripting/monoscript/fileName/MjcfImporter.cs: 208df5a85caef54b5f5855a8c9c5a37a -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.190 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.344 seconds
+Domain Reload Profiling: 534ms
+	BeginReloadAssembly (63ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (344ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (194ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.9 KB). Loaded Objects now: 4087.
+Memory consumption went from 126.3 MB to 126.2 MB.
+Total: 2.923369 ms (FindLiveObjects: 0.176787 ms CreateObjectMapping: 0.067006 ms MarkObjects: 2.642342 ms  DeleteObjects: 0.036491 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MjSiteQuaternionSensor.cs: b60dfb117aa2ef486fb414d4a1485aca -> 
+  custom:scripting/monoscript/fileName/MjUserSensor.cs: 7115d226e7badc1d918b262fafc7502d -> 
+  custom:scripting/monoscript/fileName/MjFixedTendon.cs: 52727ae4b2a3f2c6fe22ae23a0733e72 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MjInertial.cs: e3c62e93fda85c3016cbcd1a385dbbe9 -> 
+  custom:scripting/monoscript/fileName/MjSlideJoint.cs: e4b64c48a37b6145d8705d986bef6aba -> 
+  custom:scripting/monoscript/fileName/MjShapeComponent.cs: 5d44650ed40aee2f12d3ce4704cf7d60 -> 
+  custom:scripting/monoscript/fileName/MouseComponent.cs: 94e823bbc5bba5353e1499a9c42b41a2 -> 
+  custom:scripting/monoscript/fileName/MjWeld.cs: 5417c593b3b31c9d94d18873cacad223 -> 
+  custom:scripting/monoscript/fileName/MjShapeComponentEditor.cs: 4d72820f5829c6f98a4835dbf2d23315 -> 
+  custom:scripting/monoscript/fileName/MjGeomEditor.cs: 9411a7f17cab7e50918ea32e9e5c5c15 -> 
+  custom:scripting/monoscript/fileName/MjBallJoint.cs: b570e4d834471706d4955d60c2815554 -> 
+  custom:scripting/monoscript/fileName/MjVfs.cs: ea5060cfe963fe176f1066e1986e1aac -> 
+  custom:scripting/monoscript/fileName/MeshGenerators.cs: a2fc78e7f0e3111496075a7b68220a6e -> 
+  custom:scripting/monoscript/fileName/MjActuatorScalarSensor.cs: 8922573f65310c98bae7e7876626902f -> 
+  custom:scripting/monoscript/fileName/MjFreeJoint.cs: ad846d8ebed1de4b5f499fdce9275cba -> 
+  custom:scripting/monoscript/fileName/MjMeshFilter.cs: 403b63a529953f10afb13a8edd062067 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MjImporterEditorWindow.cs: 8edc88226dd1fea935e16bf219c0579f -> 
+  custom:scripting/monoscript/fileName/MjSiteVectorSensor.cs: f02191850b317f403eae61a0aa8e5dc2 -> 
+  custom:scripting/monoscript/fileName/XmlElementExtensions.cs: f392ddda2711857ac1cd377add961ffb -> 
+  custom:scripting/monoscript/fileName/MjExclude.cs: 9ad5b6687beb6c56a769dbb46328058f -> 
+  custom:scripting/monoscript/fileName/MjHeightFieldShape.cs: 448d454b0ead3325aa84f29dfc0d0ef0 -> 
+  custom:scripting/monoscript/fileName/MjHingeJointEditor.cs: d6743d20934e4661e2c9cd402727baa2 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Runtime: f0d75fee56956c294f1e5a88f976f48f -> 
+  custom:scripting/monoscript/fileName/MjGeomQuaternionSensor.cs: 68a9916eb730e86000c842bdb2c4671b -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/MjBaseConstraint.cs: f84cef664f7156dacef9e95bccad6eec -> 
+  custom:scripting/monoscript/fileName/MjCapsuleShape.cs: d149f5cc035372a0b6960b9c43823c88 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MjComponent.cs: c2746fbeef9d7f1422b0f331b1af3db9 -> 
+  custom:scripting/monoscript/fileName/ObjMeshImportUtility.cs: 41a047001676dd811096ad68d0196ab1 -> 
+  custom:scripting/monoscript/fileName/MjGlobalSettings.cs: ea1a52c34e2b0081b4f2746b18152e11 -> 
+  custom:scripting/monoscript/fileName/MjBodyVectorSensor.cs: a9d16fa0b79edb08ac451457634b4897 -> 
+  custom:scripting/monoscript/fileName/MjCylinderShape.cs: 018bd22aec334c8ec3a257a07f658c73 -> 
+  custom:scripting/monoscript/fileName/MjScene.cs: 0c459445e43875adb8e5aae224b6904b -> 
+  custom:scripting/monoscript/fileName/MjImporterWithAssets.cs: da98cd65ba7015d5727493f27e6dc84d -> 
+  custom:scripting/monoscript/fileName/MjTransformation.cs: d7c9347661e593cf4eeb95250303b582 -> 
+  custom:scripting/monoscript/fileName/MjConnect.cs: 0a43dcf62dc9bab6c4b68553ac044dcb -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MjEngineTool.cs: b6f6998c0829bc881a91561fd5413817 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Editor: 67b25dc592f934568179ccb0452b57a2 -> 
+  custom:scripting/monoscript/fileName/MjBodyQuaternionSensor.cs: 9a48a94d82ac78cd6f7e3b89e64f42ac -> 
+  custom:scripting/monoscript/fileName/PushPhysics.cs: 4729cc2ad7ca901609f952da0e3092f0 -> 
+  custom:scripting/monoscript/fileName/MjMeshShape.cs: 77ed84f2e7e016ff261103983a2490ff -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/MjActuatorEditor.cs: 95d2056ae741dfcbe81100c16b17f121 -> 
+  custom:scripting/monoscript/fileName/MjMocapBody.cs: 9a0d55672883e62d8e31272db21f74d2 -> 
+  custom:scripting/monoscript/fileName/MjActuator.cs: dac37b67a91f8a43698bcfacf528fc3f -> 
+  custom:scripting/monoscript/fileName/AbsoluteValuePropertyEditor.cs: 03f8eef3993de3ceb48920e1f5cc64b1 -> 
+  custom:scripting/monoscript/fileName/MjEllipsoidShape.cs: 4c3bc6c498a2590ad2ab16e5416c2beb -> 
+  custom:scripting/monoscript/fileName/MjJointScalarSensor.cs: 9676fdd1baf4b69ca8629dea5fdbf187 -> 
+  custom:scripting/monoscript/fileName/MjBaseJoint.cs: 9948528b34ab10e2abda79159bf1c6c8 -> 
+  custom:scripting/monoscript/fileName/ConvertMj2Rca.cs: 551ef05e90467316f21d7ad36e827d9f -> 
+  custom:scripting/monoscript/fileName/MjHingeJoint.cs: 8c4fba9e9295de9c6025f654281f397f -> 
+  custom:scripting/monoscript/fileName/StlMeshParser.cs: 2d9f6d758bbeafc10a1c473ed076146c -> 
+  custom:scripting/monoscript/fileName/MjSpatialTendon.cs: 44971d309d122c8cd6067b9469055a40 -> 
+  custom:scripting/monoscript/fileName/MjBaseTendon.cs: 732412196b7be47206504dc87744c69c -> 
+  custom:scripting/monoscript/fileName/MjJointConstraint.cs: 6957106da5bca701d1191324a41e8cb0 -> 
+  custom:scripting/monoscript/fileName/MjSphereShape.cs: d5bd32aadbf0384e59c9f19fa3e7b18f -> 
+  custom:scripting/monoscript/fileName/MjJointSettings.cs: 84a3112da088540625f81e65d4f6d474 -> 
+  custom:scripting/monoscript/fileName/MjBoxShape.cs: 275293f2e238739ea6a55965f5aef4dd -> 
+  custom:scripting/monoscript/fileName/MjSlideJointEditor.cs: af9501b546f88cac2e0d7edfc6e7e0a1 -> 
+  custom:scripting/monoscript/fileName/MjExporterEditorWindow.cs: c6d18dc7644a985b2d771d6e64d4077d -> 
+  custom:scripting/monoscript/fileName/MjHandles.cs: 2121dd2f7d0fdae5e406aa6957c778f5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MjSiteScalarSensor.cs: 143f3859a8484f8f68cb5e2da4ed0ca1 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MujocoBinaryRetriever.cs: b8c1e5ff59fc9ac6be491a16252d38b9 -> 
+  custom:scripting/monoscript/fileName/LightFlicker.cs: 10986106b750453c905cb11118ec8f88 -> 
+  custom:scripting/monoscript/fileName/MjBaseBody.cs: 70d16e8258164a72ab6e2d6ac87246a9 -> 
+  custom:scripting/monoscript/fileName/FixedSizeIListHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MjcfGenerationContext.cs: 6c253e5cb18192860c82555858378195 -> 
+  custom:scripting/monoscript/fileName/MjGizmos.cs: bcbc4c4d757983b1927b21ad54571734 -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 42480eed24e61f9d7e7e895933644f96 -> 
+  custom:scripting/monoscript/fileName/IMjShape.cs: 28e2fc1a70053b697c9dba3b4c33e299 -> 
+  custom:scripting/monoscript/fileName/MjTendonConstraint.cs: ce02803b10ebaa17a0fa840232fc8804 -> 
+  custom:scripting/monoscript/fileName/MjXmlModifiers.cs: f73fbca2b6c8621fb12f8a84c02432b7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MjGeomSettings.cs: f3b9636e7d28375599b704551650dbed -> 
+  custom:scripting/monoscript/fileName/MjBindings.cs: 15e5f349c6b6b7226f8b87b303badd89 -> 
+  custom:scripting/monoscript/fileName/MjBody.cs: fb3c30663f79557d77b9d66320fc5945 -> 
+  custom:scripting/monoscript/fileName/AbsoluteValueAttribute.cs: 09dd73acdf3bf8ae02bb9c5da352e3c1 -> 
+  custom:scripting/monoscript/fileName/MjGeomVectorSensor.cs: bb040ac3acaa482722a47ab9b3e710d4 -> 
+  custom:scripting/monoscript/fileName/MjMouseSpring.cs: 07cfd2983bd7502b3fbdeb74dd3d1902 -> 
+  custom:scripting/monoscript/fileName/PlayRandomSound.cs: 29a7bd3cdf0927d222f2cd2ff80b15bf -> 
+  custom:scripting/monoscript/fileName/MjPlaneShape.cs: cf90bac2c3e56f2a8f58d27cf928340f -> 
+  custom:scripting/monoscript/fileName/StlMeshImporter.cs: 6da5f9c74d96f2a80700038721e7ef5e -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c3c2d02238d9fd5e5138e188ce5e6829 -> 
+  custom:scripting/monoscript/fileName/MjSite.cs: 62c7d3a10dcdd79bdfd23e034057b677 -> 
+  custom:scripting/monoscript/fileName/MjBaseSensor.cs: f6b54bc2e6fd2eaf4083ed9730a9ae7a -> 
+  custom:scripting/monoscript/fileName/MjHierarchyTool.cs: a9e7f446b43cbe4a6a7af4bdd6c2ebe1 -> 
+  custom:scripting/monoscript/fileName/MjGeom.cs: 20eae74b07822d9f0b6b038f7e93a133 -> 
+  custom:scripting/monoscript/fileName/MjcfImporter.cs: 208df5a85caef54b5f5855a8c9c5a37a -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89250.487455 seconds.
+  path: Assets/SciFi Warehouse Kit/Demo
+  artifactKey: Guid(71f479b99f6e39a4b97f66327d20bd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Demo using Guid(71f479b99f6e39a4b97f66327d20bd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'bd564bcd050443a38b02fdf07789a826') in 0.000952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.655387 seconds.
+  path: Assets/SciFi Warehouse Kit/Demo/Scene
+  artifactKey: Guid(a072680649fea4544960d94cd5550b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Demo/Scene using Guid(a072680649fea4544960d94cd5550b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '68dcb75de4bc0ec3b8818d3924a03dbe') in 0.000348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.487212 seconds.
+  path: Assets/SciFi Warehouse Kit/Demo/Scene/Lighting Data
+  artifactKey: Guid(cd66ea861ab218e418eba62af64e64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Demo/Scene/Lighting Data using Guid(cd66ea861ab218e418eba62af64e64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5a929ee357ffc1fd36777d2df98bfe19') in 0.000249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.504669 seconds.
+  path: Assets/SciFi Warehouse Kit/Demo/Scene/SciFi_Warehouse.unity
+  artifactKey: Guid(04ba57353b4f0284686265d3d150c23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi Warehouse Kit/Demo/Scene/SciFi_Warehouse.unity using Guid(04ba57353b4f0284686265d3d150c23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7736f5833be4ee78b84eedb2e3bc1739') in 0.000241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.188 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.328 seconds
+Domain Reload Profiling: 516ms
+	BeginReloadAssembly (64ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (89ms)
+		LoadAssemblies (108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (329ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (195ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3602 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 4090.
+Memory consumption went from 126.0 MB to 126.0 MB.
+Total: 2.067831 ms (FindLiveObjects: 0.162516 ms CreateObjectMapping: 0.052849 ms MarkObjects: 1.820509 ms  DeleteObjects: 0.031195 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MjSiteQuaternionSensor.cs: b60dfb117aa2ef486fb414d4a1485aca -> 
+  custom:scripting/monoscript/fileName/MjUserSensor.cs: 7115d226e7badc1d918b262fafc7502d -> 
+  custom:scripting/monoscript/fileName/MjFixedTendon.cs: 52727ae4b2a3f2c6fe22ae23a0733e72 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MjInertial.cs: e3c62e93fda85c3016cbcd1a385dbbe9 -> 
+  custom:scripting/monoscript/fileName/MjSlideJoint.cs: e4b64c48a37b6145d8705d986bef6aba -> 
+  custom:scripting/monoscript/fileName/MjShapeComponent.cs: 5d44650ed40aee2f12d3ce4704cf7d60 -> 
+  custom:scripting/monoscript/fileName/MouseComponent.cs: 94e823bbc5bba5353e1499a9c42b41a2 -> 
+  custom:scripting/monoscript/fileName/MjWeld.cs: 5417c593b3b31c9d94d18873cacad223 -> 
+  custom:scripting/monoscript/fileName/MjShapeComponentEditor.cs: 4d72820f5829c6f98a4835dbf2d23315 -> 
+  custom:scripting/monoscript/fileName/MjGeomEditor.cs: 9411a7f17cab7e50918ea32e9e5c5c15 -> 
+  custom:scripting/monoscript/fileName/MjBallJoint.cs: b570e4d834471706d4955d60c2815554 -> 
+  custom:scripting/monoscript/fileName/MjVfs.cs: ea5060cfe963fe176f1066e1986e1aac -> 
+  custom:scripting/monoscript/fileName/MeshGenerators.cs: a2fc78e7f0e3111496075a7b68220a6e -> 
+  custom:scripting/monoscript/fileName/MjActuatorScalarSensor.cs: 8922573f65310c98bae7e7876626902f -> 
+  custom:scripting/monoscript/fileName/MjFreeJoint.cs: ad846d8ebed1de4b5f499fdce9275cba -> 
+  custom:scripting/monoscript/fileName/MjMeshFilter.cs: 403b63a529953f10afb13a8edd062067 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MjImporterEditorWindow.cs: 8edc88226dd1fea935e16bf219c0579f -> 
+  custom:scripting/monoscript/fileName/MjSiteVectorSensor.cs: f02191850b317f403eae61a0aa8e5dc2 -> 
+  custom:scripting/monoscript/fileName/XmlElementExtensions.cs: f392ddda2711857ac1cd377add961ffb -> 
+  custom:scripting/monoscript/fileName/MjExclude.cs: 9ad5b6687beb6c56a769dbb46328058f -> 
+  custom:scripting/monoscript/fileName/MjHeightFieldShape.cs: 448d454b0ead3325aa84f29dfc0d0ef0 -> 
+  custom:scripting/monoscript/fileName/MjHingeJointEditor.cs: d6743d20934e4661e2c9cd402727baa2 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Runtime: f0d75fee56956c294f1e5a88f976f48f -> 
+  custom:scripting/monoscript/fileName/MjGeomQuaternionSensor.cs: 68a9916eb730e86000c842bdb2c4671b -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/MjBaseConstraint.cs: f84cef664f7156dacef9e95bccad6eec -> 
+  custom:scripting/monoscript/fileName/MjCapsuleShape.cs: d149f5cc035372a0b6960b9c43823c88 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MjComponent.cs: c2746fbeef9d7f1422b0f331b1af3db9 -> 
+  custom:scripting/monoscript/fileName/ObjMeshImportUtility.cs: 41a047001676dd811096ad68d0196ab1 -> 
+  custom:scripting/monoscript/fileName/MjGlobalSettings.cs: ea1a52c34e2b0081b4f2746b18152e11 -> 
+  custom:scripting/monoscript/fileName/MjBodyVectorSensor.cs: a9d16fa0b79edb08ac451457634b4897 -> 
+  custom:scripting/monoscript/fileName/MjCylinderShape.cs: 018bd22aec334c8ec3a257a07f658c73 -> 
+  custom:scripting/monoscript/fileName/MjScene.cs: 0c459445e43875adb8e5aae224b6904b -> 
+  custom:scripting/monoscript/fileName/MjImporterWithAssets.cs: da98cd65ba7015d5727493f27e6dc84d -> 
+  custom:scripting/monoscript/fileName/MjTransformation.cs: d7c9347661e593cf4eeb95250303b582 -> 
+  custom:scripting/monoscript/fileName/MjConnect.cs: 0a43dcf62dc9bab6c4b68553ac044dcb -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MjEngineTool.cs: b6f6998c0829bc881a91561fd5413817 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Editor: 67b25dc592f934568179ccb0452b57a2 -> 
+  custom:scripting/monoscript/fileName/MjBodyQuaternionSensor.cs: 9a48a94d82ac78cd6f7e3b89e64f42ac -> 
+  custom:scripting/monoscript/fileName/PushPhysics.cs: 4729cc2ad7ca901609f952da0e3092f0 -> 
+  custom:scripting/monoscript/fileName/MjMeshShape.cs: 77ed84f2e7e016ff261103983a2490ff -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/MjActuatorEditor.cs: 95d2056ae741dfcbe81100c16b17f121 -> 
+  custom:scripting/monoscript/fileName/MjMocapBody.cs: 9a0d55672883e62d8e31272db21f74d2 -> 
+  custom:scripting/monoscript/fileName/MjActuator.cs: dac37b67a91f8a43698bcfacf528fc3f -> 
+  custom:scripting/monoscript/fileName/AbsoluteValuePropertyEditor.cs: 03f8eef3993de3ceb48920e1f5cc64b1 -> 
+  custom:scripting/monoscript/fileName/MjEllipsoidShape.cs: 4c3bc6c498a2590ad2ab16e5416c2beb -> 
+  custom:scripting/monoscript/fileName/MjJointScalarSensor.cs: 9676fdd1baf4b69ca8629dea5fdbf187 -> 
+  custom:scripting/monoscript/fileName/MjBaseJoint.cs: 9948528b34ab10e2abda79159bf1c6c8 -> 
+  custom:scripting/monoscript/fileName/ConvertMj2Rca.cs: 551ef05e90467316f21d7ad36e827d9f -> 
+  custom:scripting/monoscript/fileName/MjHingeJoint.cs: 8c4fba9e9295de9c6025f654281f397f -> 
+  custom:scripting/monoscript/fileName/StlMeshParser.cs: 2d9f6d758bbeafc10a1c473ed076146c -> 
+  custom:scripting/monoscript/fileName/MjSpatialTendon.cs: 44971d309d122c8cd6067b9469055a40 -> 
+  custom:scripting/monoscript/fileName/MjBaseTendon.cs: 732412196b7be47206504dc87744c69c -> 
+  custom:scripting/monoscript/fileName/MjJointConstraint.cs: 6957106da5bca701d1191324a41e8cb0 -> 
+  custom:scripting/monoscript/fileName/MjSphereShape.cs: d5bd32aadbf0384e59c9f19fa3e7b18f -> 
+  custom:scripting/monoscript/fileName/MjJointSettings.cs: 84a3112da088540625f81e65d4f6d474 -> 
+  custom:scripting/monoscript/fileName/MjBoxShape.cs: 275293f2e238739ea6a55965f5aef4dd -> 
+  custom:scripting/monoscript/fileName/MjSlideJointEditor.cs: af9501b546f88cac2e0d7edfc6e7e0a1 -> 
+  custom:scripting/monoscript/fileName/MjExporterEditorWindow.cs: c6d18dc7644a985b2d771d6e64d4077d -> 
+  custom:scripting/monoscript/fileName/MjHandles.cs: 2121dd2f7d0fdae5e406aa6957c778f5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MjSiteScalarSensor.cs: 143f3859a8484f8f68cb5e2da4ed0ca1 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MujocoBinaryRetriever.cs: b8c1e5ff59fc9ac6be491a16252d38b9 -> 
+  custom:scripting/monoscript/fileName/LightFlicker.cs: 10986106b750453c905cb11118ec8f88 -> 
+  custom:scripting/monoscript/fileName/MjBaseBody.cs: 70d16e8258164a72ab6e2d6ac87246a9 -> 
+  custom:scripting/monoscript/fileName/FixedSizeIListHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MjcfGenerationContext.cs: 6c253e5cb18192860c82555858378195 -> 
+  custom:scripting/monoscript/fileName/MjGizmos.cs: bcbc4c4d757983b1927b21ad54571734 -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 42480eed24e61f9d7e7e895933644f96 -> 
+  custom:scripting/monoscript/fileName/IMjShape.cs: 28e2fc1a70053b697c9dba3b4c33e299 -> 
+  custom:scripting/monoscript/fileName/MjTendonConstraint.cs: ce02803b10ebaa17a0fa840232fc8804 -> 
+  custom:scripting/monoscript/fileName/MjXmlModifiers.cs: f73fbca2b6c8621fb12f8a84c02432b7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MjGeomSettings.cs: f3b9636e7d28375599b704551650dbed -> 
+  custom:scripting/monoscript/fileName/MjBindings.cs: 15e5f349c6b6b7226f8b87b303badd89 -> 
+  custom:scripting/monoscript/fileName/MjBody.cs: fb3c30663f79557d77b9d66320fc5945 -> 
+  custom:scripting/monoscript/fileName/AbsoluteValueAttribute.cs: 09dd73acdf3bf8ae02bb9c5da352e3c1 -> 
+  custom:scripting/monoscript/fileName/MjGeomVectorSensor.cs: bb040ac3acaa482722a47ab9b3e710d4 -> 
+  custom:scripting/monoscript/fileName/MjMouseSpring.cs: 07cfd2983bd7502b3fbdeb74dd3d1902 -> 
+  custom:scripting/monoscript/fileName/PlayRandomSound.cs: 29a7bd3cdf0927d222f2cd2ff80b15bf -> 
+  custom:scripting/monoscript/fileName/MjPlaneShape.cs: cf90bac2c3e56f2a8f58d27cf928340f -> 
+  custom:scripting/monoscript/fileName/StlMeshImporter.cs: 6da5f9c74d96f2a80700038721e7ef5e -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c3c2d02238d9fd5e5138e188ce5e6829 -> 
+  custom:scripting/monoscript/fileName/MjSite.cs: 62c7d3a10dcdd79bdfd23e034057b677 -> 
+  custom:scripting/monoscript/fileName/MjBaseSensor.cs: f6b54bc2e6fd2eaf4083ed9730a9ae7a -> 
+  custom:scripting/monoscript/fileName/MjHierarchyTool.cs: a9e7f446b43cbe4a6a7af4bdd6c2ebe1 -> 
+  custom:scripting/monoscript/fileName/MjGeom.cs: 20eae74b07822d9f0b6b038f7e93a133 -> 
+  custom:scripting/monoscript/fileName/MjcfImporter.cs: 208df5a85caef54b5f5855a8c9c5a37a -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.189 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.321 seconds
+Domain Reload Profiling: 509ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (3ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (86ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (321ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (188ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.9 KB). Loaded Objects now: 4093.
+Memory consumption went from 126.3 MB to 126.2 MB.
+Total: 1.943870 ms (FindLiveObjects: 0.133541 ms CreateObjectMapping: 0.047464 ms MarkObjects: 1.732684 ms  DeleteObjects: 0.029579 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MjSiteQuaternionSensor.cs: b60dfb117aa2ef486fb414d4a1485aca -> 
+  custom:scripting/monoscript/fileName/MjUserSensor.cs: 7115d226e7badc1d918b262fafc7502d -> 
+  custom:scripting/monoscript/fileName/MjFixedTendon.cs: 52727ae4b2a3f2c6fe22ae23a0733e72 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MjInertial.cs: e3c62e93fda85c3016cbcd1a385dbbe9 -> 
+  custom:scripting/monoscript/fileName/MjSlideJoint.cs: e4b64c48a37b6145d8705d986bef6aba -> 
+  custom:scripting/monoscript/fileName/MjShapeComponent.cs: 5d44650ed40aee2f12d3ce4704cf7d60 -> 
+  custom:scripting/monoscript/fileName/MouseComponent.cs: 94e823bbc5bba5353e1499a9c42b41a2 -> 
+  custom:scripting/monoscript/fileName/MjWeld.cs: 5417c593b3b31c9d94d18873cacad223 -> 
+  custom:scripting/monoscript/fileName/MjShapeComponentEditor.cs: 4d72820f5829c6f98a4835dbf2d23315 -> 
+  custom:scripting/monoscript/fileName/MjGeomEditor.cs: 9411a7f17cab7e50918ea32e9e5c5c15 -> 
+  custom:scripting/monoscript/fileName/MjBallJoint.cs: b570e4d834471706d4955d60c2815554 -> 
+  custom:scripting/monoscript/fileName/MjVfs.cs: ea5060cfe963fe176f1066e1986e1aac -> 
+  custom:scripting/monoscript/fileName/MeshGenerators.cs: a2fc78e7f0e3111496075a7b68220a6e -> 
+  custom:scripting/monoscript/fileName/MjActuatorScalarSensor.cs: 8922573f65310c98bae7e7876626902f -> 
+  custom:scripting/monoscript/fileName/MjFreeJoint.cs: ad846d8ebed1de4b5f499fdce9275cba -> 
+  custom:scripting/monoscript/fileName/MjMeshFilter.cs: 403b63a529953f10afb13a8edd062067 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MjImporterEditorWindow.cs: 8edc88226dd1fea935e16bf219c0579f -> 
+  custom:scripting/monoscript/fileName/MjSiteVectorSensor.cs: f02191850b317f403eae61a0aa8e5dc2 -> 
+  custom:scripting/monoscript/fileName/XmlElementExtensions.cs: f392ddda2711857ac1cd377add961ffb -> 
+  custom:scripting/monoscript/fileName/MjExclude.cs: 9ad5b6687beb6c56a769dbb46328058f -> 
+  custom:scripting/monoscript/fileName/MjHeightFieldShape.cs: 448d454b0ead3325aa84f29dfc0d0ef0 -> 
+  custom:scripting/monoscript/fileName/MjHingeJointEditor.cs: d6743d20934e4661e2c9cd402727baa2 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Runtime: f0d75fee56956c294f1e5a88f976f48f -> 
+  custom:scripting/monoscript/fileName/MjGeomQuaternionSensor.cs: 68a9916eb730e86000c842bdb2c4671b -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/MjBaseConstraint.cs: f84cef664f7156dacef9e95bccad6eec -> 
+  custom:scripting/monoscript/fileName/MjCapsuleShape.cs: d149f5cc035372a0b6960b9c43823c88 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MjComponent.cs: c2746fbeef9d7f1422b0f331b1af3db9 -> 
+  custom:scripting/monoscript/fileName/ObjMeshImportUtility.cs: 41a047001676dd811096ad68d0196ab1 -> 
+  custom:scripting/monoscript/fileName/MjGlobalSettings.cs: ea1a52c34e2b0081b4f2746b18152e11 -> 
+  custom:scripting/monoscript/fileName/MjBodyVectorSensor.cs: a9d16fa0b79edb08ac451457634b4897 -> 
+  custom:scripting/monoscript/fileName/MjCylinderShape.cs: 018bd22aec334c8ec3a257a07f658c73 -> 
+  custom:scripting/monoscript/fileName/MjScene.cs: 0c459445e43875adb8e5aae224b6904b -> 
+  custom:scripting/monoscript/fileName/MjImporterWithAssets.cs: da98cd65ba7015d5727493f27e6dc84d -> 
+  custom:scripting/monoscript/fileName/MjTransformation.cs: d7c9347661e593cf4eeb95250303b582 -> 
+  custom:scripting/monoscript/fileName/MjConnect.cs: 0a43dcf62dc9bab6c4b68553ac044dcb -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MjEngineTool.cs: b6f6998c0829bc881a91561fd5413817 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Editor: 67b25dc592f934568179ccb0452b57a2 -> 
+  custom:scripting/monoscript/fileName/MjBodyQuaternionSensor.cs: 9a48a94d82ac78cd6f7e3b89e64f42ac -> 
+  custom:scripting/monoscript/fileName/PushPhysics.cs: 4729cc2ad7ca901609f952da0e3092f0 -> 
+  custom:scripting/monoscript/fileName/MjMeshShape.cs: 77ed84f2e7e016ff261103983a2490ff -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/MjActuatorEditor.cs: 95d2056ae741dfcbe81100c16b17f121 -> 
+  custom:scripting/monoscript/fileName/MjMocapBody.cs: 9a0d55672883e62d8e31272db21f74d2 -> 
+  custom:scripting/monoscript/fileName/MjActuator.cs: dac37b67a91f8a43698bcfacf528fc3f -> 
+  custom:scripting/monoscript/fileName/AbsoluteValuePropertyEditor.cs: 03f8eef3993de3ceb48920e1f5cc64b1 -> 
+  custom:scripting/monoscript/fileName/MjEllipsoidShape.cs: 4c3bc6c498a2590ad2ab16e5416c2beb -> 
+  custom:scripting/monoscript/fileName/MjJointScalarSensor.cs: 9676fdd1baf4b69ca8629dea5fdbf187 -> 
+  custom:scripting/monoscript/fileName/MjBaseJoint.cs: 9948528b34ab10e2abda79159bf1c6c8 -> 
+  custom:scripting/monoscript/fileName/ConvertMj2Rca.cs: 551ef05e90467316f21d7ad36e827d9f -> 
+  custom:scripting/monoscript/fileName/MjHingeJoint.cs: 8c4fba9e9295de9c6025f654281f397f -> 
+  custom:scripting/monoscript/fileName/StlMeshParser.cs: 2d9f6d758bbeafc10a1c473ed076146c -> 
+  custom:scripting/monoscript/fileName/MjSpatialTendon.cs: 44971d309d122c8cd6067b9469055a40 -> 
+  custom:scripting/monoscript/fileName/MjBaseTendon.cs: 732412196b7be47206504dc87744c69c -> 
+  custom:scripting/monoscript/fileName/MjJointConstraint.cs: 6957106da5bca701d1191324a41e8cb0 -> 
+  custom:scripting/monoscript/fileName/MjSphereShape.cs: d5bd32aadbf0384e59c9f19fa3e7b18f -> 
+  custom:scripting/monoscript/fileName/MjJointSettings.cs: 84a3112da088540625f81e65d4f6d474 -> 
+  custom:scripting/monoscript/fileName/MjBoxShape.cs: 275293f2e238739ea6a55965f5aef4dd -> 
+  custom:scripting/monoscript/fileName/MjSlideJointEditor.cs: af9501b546f88cac2e0d7edfc6e7e0a1 -> 
+  custom:scripting/monoscript/fileName/MjExporterEditorWindow.cs: c6d18dc7644a985b2d771d6e64d4077d -> 
+  custom:scripting/monoscript/fileName/MjHandles.cs: 2121dd2f7d0fdae5e406aa6957c778f5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MjSiteScalarSensor.cs: 143f3859a8484f8f68cb5e2da4ed0ca1 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MujocoBinaryRetriever.cs: b8c1e5ff59fc9ac6be491a16252d38b9 -> 
+  custom:scripting/monoscript/fileName/LightFlicker.cs: 10986106b750453c905cb11118ec8f88 -> 
+  custom:scripting/monoscript/fileName/MjBaseBody.cs: 70d16e8258164a72ab6e2d6ac87246a9 -> 
+  custom:scripting/monoscript/fileName/FixedSizeIListHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MjcfGenerationContext.cs: 6c253e5cb18192860c82555858378195 -> 
+  custom:scripting/monoscript/fileName/MjGizmos.cs: bcbc4c4d757983b1927b21ad54571734 -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 42480eed24e61f9d7e7e895933644f96 -> 
+  custom:scripting/monoscript/fileName/IMjShape.cs: 28e2fc1a70053b697c9dba3b4c33e299 -> 
+  custom:scripting/monoscript/fileName/MjTendonConstraint.cs: ce02803b10ebaa17a0fa840232fc8804 -> 
+  custom:scripting/monoscript/fileName/MjXmlModifiers.cs: f73fbca2b6c8621fb12f8a84c02432b7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MjGeomSettings.cs: f3b9636e7d28375599b704551650dbed -> 
+  custom:scripting/monoscript/fileName/MjBindings.cs: 15e5f349c6b6b7226f8b87b303badd89 -> 
+  custom:scripting/monoscript/fileName/MjBody.cs: fb3c30663f79557d77b9d66320fc5945 -> 
+  custom:scripting/monoscript/fileName/AbsoluteValueAttribute.cs: 09dd73acdf3bf8ae02bb9c5da352e3c1 -> 
+  custom:scripting/monoscript/fileName/MjGeomVectorSensor.cs: bb040ac3acaa482722a47ab9b3e710d4 -> 
+  custom:scripting/monoscript/fileName/MjMouseSpring.cs: 07cfd2983bd7502b3fbdeb74dd3d1902 -> 
+  custom:scripting/monoscript/fileName/PlayRandomSound.cs: 29a7bd3cdf0927d222f2cd2ff80b15bf -> 
+  custom:scripting/monoscript/fileName/MjPlaneShape.cs: cf90bac2c3e56f2a8f58d27cf928340f -> 
+  custom:scripting/monoscript/fileName/StlMeshImporter.cs: 6da5f9c74d96f2a80700038721e7ef5e -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c3c2d02238d9fd5e5138e188ce5e6829 -> 
+  custom:scripting/monoscript/fileName/MjSite.cs: 62c7d3a10dcdd79bdfd23e034057b677 -> 
+  custom:scripting/monoscript/fileName/MjBaseSensor.cs: f6b54bc2e6fd2eaf4083ed9730a9ae7a -> 
+  custom:scripting/monoscript/fileName/MjHierarchyTool.cs: a9e7f446b43cbe4a6a7af4bdd6c2ebe1 -> 
+  custom:scripting/monoscript/fileName/MjGeom.cs: 20eae74b07822d9f0b6b038f7e93a133 -> 
+  custom:scripting/monoscript/fileName/MjcfImporter.cs: 208df5a85caef54b5f5855a8c9c5a37a -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.183 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.325 seconds
+Domain Reload Profiling: 508ms
+	BeginReloadAssembly (63ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (86ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (325ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 4096.
+Memory consumption went from 126.3 MB to 126.2 MB.
+Total: 2.846264 ms (FindLiveObjects: 0.227632 ms CreateObjectMapping: 0.074803 ms MarkObjects: 2.504453 ms  DeleteObjects: 0.038772 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MjSiteQuaternionSensor.cs: b60dfb117aa2ef486fb414d4a1485aca -> 
+  custom:scripting/monoscript/fileName/MjUserSensor.cs: 7115d226e7badc1d918b262fafc7502d -> 
+  custom:scripting/monoscript/fileName/MjFixedTendon.cs: 52727ae4b2a3f2c6fe22ae23a0733e72 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MjInertial.cs: e3c62e93fda85c3016cbcd1a385dbbe9 -> 
+  custom:scripting/monoscript/fileName/MjSlideJoint.cs: e4b64c48a37b6145d8705d986bef6aba -> 
+  custom:scripting/monoscript/fileName/MjShapeComponent.cs: 5d44650ed40aee2f12d3ce4704cf7d60 -> 
+  custom:scripting/monoscript/fileName/MouseComponent.cs: 94e823bbc5bba5353e1499a9c42b41a2 -> 
+  custom:scripting/monoscript/fileName/MjWeld.cs: 5417c593b3b31c9d94d18873cacad223 -> 
+  custom:scripting/monoscript/fileName/MjShapeComponentEditor.cs: 4d72820f5829c6f98a4835dbf2d23315 -> 
+  custom:scripting/monoscript/fileName/MjGeomEditor.cs: 9411a7f17cab7e50918ea32e9e5c5c15 -> 
+  custom:scripting/monoscript/fileName/MjBallJoint.cs: b570e4d834471706d4955d60c2815554 -> 
+  custom:scripting/monoscript/fileName/MjVfs.cs: ea5060cfe963fe176f1066e1986e1aac -> 
+  custom:scripting/monoscript/fileName/MeshGenerators.cs: a2fc78e7f0e3111496075a7b68220a6e -> 
+  custom:scripting/monoscript/fileName/MjActuatorScalarSensor.cs: 8922573f65310c98bae7e7876626902f -> 
+  custom:scripting/monoscript/fileName/MjFreeJoint.cs: ad846d8ebed1de4b5f499fdce9275cba -> 
+  custom:scripting/monoscript/fileName/MjMeshFilter.cs: 403b63a529953f10afb13a8edd062067 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MjImporterEditorWindow.cs: 8edc88226dd1fea935e16bf219c0579f -> 
+  custom:scripting/monoscript/fileName/MjSiteVectorSensor.cs: f02191850b317f403eae61a0aa8e5dc2 -> 
+  custom:scripting/monoscript/fileName/XmlElementExtensions.cs: f392ddda2711857ac1cd377add961ffb -> 
+  custom:scripting/monoscript/fileName/MjExclude.cs: 9ad5b6687beb6c56a769dbb46328058f -> 
+  custom:scripting/monoscript/fileName/MjHeightFieldShape.cs: 448d454b0ead3325aa84f29dfc0d0ef0 -> 
+  custom:scripting/monoscript/fileName/MjHingeJointEditor.cs: d6743d20934e4661e2c9cd402727baa2 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Runtime: f0d75fee56956c294f1e5a88f976f48f -> 
+  custom:scripting/monoscript/fileName/MjGeomQuaternionSensor.cs: 68a9916eb730e86000c842bdb2c4671b -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/MjBaseConstraint.cs: f84cef664f7156dacef9e95bccad6eec -> 
+  custom:scripting/monoscript/fileName/MjCapsuleShape.cs: d149f5cc035372a0b6960b9c43823c88 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MjComponent.cs: c2746fbeef9d7f1422b0f331b1af3db9 -> 
+  custom:scripting/monoscript/fileName/ObjMeshImportUtility.cs: 41a047001676dd811096ad68d0196ab1 -> 
+  custom:scripting/monoscript/fileName/MjGlobalSettings.cs: ea1a52c34e2b0081b4f2746b18152e11 -> 
+  custom:scripting/monoscript/fileName/MjBodyVectorSensor.cs: a9d16fa0b79edb08ac451457634b4897 -> 
+  custom:scripting/monoscript/fileName/MjCylinderShape.cs: 018bd22aec334c8ec3a257a07f658c73 -> 
+  custom:scripting/monoscript/fileName/MjScene.cs: 0c459445e43875adb8e5aae224b6904b -> 
+  custom:scripting/monoscript/fileName/MjImporterWithAssets.cs: da98cd65ba7015d5727493f27e6dc84d -> 
+  custom:scripting/monoscript/fileName/MjTransformation.cs: d7c9347661e593cf4eeb95250303b582 -> 
+  custom:scripting/monoscript/fileName/MjConnect.cs: 0a43dcf62dc9bab6c4b68553ac044dcb -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MjEngineTool.cs: b6f6998c0829bc881a91561fd5413817 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Editor: 67b25dc592f934568179ccb0452b57a2 -> 
+  custom:scripting/monoscript/fileName/MjBodyQuaternionSensor.cs: 9a48a94d82ac78cd6f7e3b89e64f42ac -> 
+  custom:scripting/monoscript/fileName/PushPhysics.cs: 4729cc2ad7ca901609f952da0e3092f0 -> 
+  custom:scripting/monoscript/fileName/MjMeshShape.cs: 77ed84f2e7e016ff261103983a2490ff -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/MjActuatorEditor.cs: 95d2056ae741dfcbe81100c16b17f121 -> 
+  custom:scripting/monoscript/fileName/MjMocapBody.cs: 9a0d55672883e62d8e31272db21f74d2 -> 
+  custom:scripting/monoscript/fileName/MjActuator.cs: dac37b67a91f8a43698bcfacf528fc3f -> 
+  custom:scripting/monoscript/fileName/AbsoluteValuePropertyEditor.cs: 03f8eef3993de3ceb48920e1f5cc64b1 -> 
+  custom:scripting/monoscript/fileName/MjEllipsoidShape.cs: 4c3bc6c498a2590ad2ab16e5416c2beb -> 
+  custom:scripting/monoscript/fileName/MjJointScalarSensor.cs: 9676fdd1baf4b69ca8629dea5fdbf187 -> 
+  custom:scripting/monoscript/fileName/MjBaseJoint.cs: 9948528b34ab10e2abda79159bf1c6c8 -> 
+  custom:scripting/monoscript/fileName/ConvertMj2Rca.cs: 551ef05e90467316f21d7ad36e827d9f -> 
+  custom:scripting/monoscript/fileName/MjHingeJoint.cs: 8c4fba9e9295de9c6025f654281f397f -> 
+  custom:scripting/monoscript/fileName/StlMeshParser.cs: 2d9f6d758bbeafc10a1c473ed076146c -> 
+  custom:scripting/monoscript/fileName/MjSpatialTendon.cs: 44971d309d122c8cd6067b9469055a40 -> 
+  custom:scripting/monoscript/fileName/MjBaseTendon.cs: 732412196b7be47206504dc87744c69c -> 
+  custom:scripting/monoscript/fileName/MjJointConstraint.cs: 6957106da5bca701d1191324a41e8cb0 -> 
+  custom:scripting/monoscript/fileName/MjSphereShape.cs: d5bd32aadbf0384e59c9f19fa3e7b18f -> 
+  custom:scripting/monoscript/fileName/MjJointSettings.cs: 84a3112da088540625f81e65d4f6d474 -> 
+  custom:scripting/monoscript/fileName/MjBoxShape.cs: 275293f2e238739ea6a55965f5aef4dd -> 
+  custom:scripting/monoscript/fileName/MjSlideJointEditor.cs: af9501b546f88cac2e0d7edfc6e7e0a1 -> 
+  custom:scripting/monoscript/fileName/MjExporterEditorWindow.cs: c6d18dc7644a985b2d771d6e64d4077d -> 
+  custom:scripting/monoscript/fileName/MjHandles.cs: 2121dd2f7d0fdae5e406aa6957c778f5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MjSiteScalarSensor.cs: 143f3859a8484f8f68cb5e2da4ed0ca1 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MujocoBinaryRetriever.cs: b8c1e5ff59fc9ac6be491a16252d38b9 -> 
+  custom:scripting/monoscript/fileName/LightFlicker.cs: 10986106b750453c905cb11118ec8f88 -> 
+  custom:scripting/monoscript/fileName/MjBaseBody.cs: 70d16e8258164a72ab6e2d6ac87246a9 -> 
+  custom:scripting/monoscript/fileName/FixedSizeIListHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MjcfGenerationContext.cs: 6c253e5cb18192860c82555858378195 -> 
+  custom:scripting/monoscript/fileName/MjGizmos.cs: bcbc4c4d757983b1927b21ad54571734 -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 42480eed24e61f9d7e7e895933644f96 -> 
+  custom:scripting/monoscript/fileName/IMjShape.cs: 28e2fc1a70053b697c9dba3b4c33e299 -> 
+  custom:scripting/monoscript/fileName/MjTendonConstraint.cs: ce02803b10ebaa17a0fa840232fc8804 -> 
+  custom:scripting/monoscript/fileName/MjXmlModifiers.cs: f73fbca2b6c8621fb12f8a84c02432b7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MjGeomSettings.cs: f3b9636e7d28375599b704551650dbed -> 
+  custom:scripting/monoscript/fileName/MjBindings.cs: 15e5f349c6b6b7226f8b87b303badd89 -> 
+  custom:scripting/monoscript/fileName/MjBody.cs: fb3c30663f79557d77b9d66320fc5945 -> 
+  custom:scripting/monoscript/fileName/AbsoluteValueAttribute.cs: 09dd73acdf3bf8ae02bb9c5da352e3c1 -> 
+  custom:scripting/monoscript/fileName/MjGeomVectorSensor.cs: bb040ac3acaa482722a47ab9b3e710d4 -> 
+  custom:scripting/monoscript/fileName/MjMouseSpring.cs: 07cfd2983bd7502b3fbdeb74dd3d1902 -> 
+  custom:scripting/monoscript/fileName/PlayRandomSound.cs: 29a7bd3cdf0927d222f2cd2ff80b15bf -> 
+  custom:scripting/monoscript/fileName/MjPlaneShape.cs: cf90bac2c3e56f2a8f58d27cf928340f -> 
+  custom:scripting/monoscript/fileName/StlMeshImporter.cs: 6da5f9c74d96f2a80700038721e7ef5e -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c3c2d02238d9fd5e5138e188ce5e6829 -> 
+  custom:scripting/monoscript/fileName/MjSite.cs: 62c7d3a10dcdd79bdfd23e034057b677 -> 
+  custom:scripting/monoscript/fileName/MjBaseSensor.cs: f6b54bc2e6fd2eaf4083ed9730a9ae7a -> 
+  custom:scripting/monoscript/fileName/MjHierarchyTool.cs: a9e7f446b43cbe4a6a7af4bdd6c2ebe1 -> 
+  custom:scripting/monoscript/fileName/MjGeom.cs: 20eae74b07822d9f0b6b038f7e93a133 -> 
+  custom:scripting/monoscript/fileName/MjcfImporter.cs: 208df5a85caef54b5f5855a8c9c5a37a -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.184 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.326 seconds
+Domain Reload Profiling: 509ms
+	BeginReloadAssembly (63ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (87ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (326ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (188ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (28.9 KB). Loaded Objects now: 4099.
+Memory consumption went from 126.3 MB to 126.2 MB.
+Total: 2.794759 ms (FindLiveObjects: 0.226448 ms CreateObjectMapping: 0.071531 ms MarkObjects: 2.465295 ms  DeleteObjects: 0.030805 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MjSiteQuaternionSensor.cs: b60dfb117aa2ef486fb414d4a1485aca -> 
+  custom:scripting/monoscript/fileName/MjUserSensor.cs: 7115d226e7badc1d918b262fafc7502d -> 
+  custom:scripting/monoscript/fileName/MjFixedTendon.cs: 52727ae4b2a3f2c6fe22ae23a0733e72 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MjInertial.cs: e3c62e93fda85c3016cbcd1a385dbbe9 -> 
+  custom:scripting/monoscript/fileName/MjSlideJoint.cs: e4b64c48a37b6145d8705d986bef6aba -> 
+  custom:scripting/monoscript/fileName/MjShapeComponent.cs: 5d44650ed40aee2f12d3ce4704cf7d60 -> 
+  custom:scripting/monoscript/fileName/MouseComponent.cs: 94e823bbc5bba5353e1499a9c42b41a2 -> 
+  custom:scripting/monoscript/fileName/MjWeld.cs: 5417c593b3b31c9d94d18873cacad223 -> 
+  custom:scripting/monoscript/fileName/MjShapeComponentEditor.cs: 4d72820f5829c6f98a4835dbf2d23315 -> 
+  custom:scripting/monoscript/fileName/MjGeomEditor.cs: 9411a7f17cab7e50918ea32e9e5c5c15 -> 
+  custom:scripting/monoscript/fileName/MjBallJoint.cs: b570e4d834471706d4955d60c2815554 -> 
+  custom:scripting/monoscript/fileName/MjVfs.cs: ea5060cfe963fe176f1066e1986e1aac -> 
+  custom:scripting/monoscript/fileName/MeshGenerators.cs: a2fc78e7f0e3111496075a7b68220a6e -> 
+  custom:scripting/monoscript/fileName/MjActuatorScalarSensor.cs: 8922573f65310c98bae7e7876626902f -> 
+  custom:scripting/monoscript/fileName/MjFreeJoint.cs: ad846d8ebed1de4b5f499fdce9275cba -> 
+  custom:scripting/monoscript/fileName/MjMeshFilter.cs: 403b63a529953f10afb13a8edd062067 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MjImporterEditorWindow.cs: 8edc88226dd1fea935e16bf219c0579f -> 
+  custom:scripting/monoscript/fileName/MjSiteVectorSensor.cs: f02191850b317f403eae61a0aa8e5dc2 -> 
+  custom:scripting/monoscript/fileName/XmlElementExtensions.cs: f392ddda2711857ac1cd377add961ffb -> 
+  custom:scripting/monoscript/fileName/MjExclude.cs: 9ad5b6687beb6c56a769dbb46328058f -> 
+  custom:scripting/monoscript/fileName/MjHeightFieldShape.cs: 448d454b0ead3325aa84f29dfc0d0ef0 -> 
+  custom:scripting/monoscript/fileName/MjHingeJointEditor.cs: d6743d20934e4661e2c9cd402727baa2 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Runtime: f0d75fee56956c294f1e5a88f976f48f -> 
+  custom:scripting/monoscript/fileName/MjGeomQuaternionSensor.cs: 68a9916eb730e86000c842bdb2c4671b -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/MjBaseConstraint.cs: f84cef664f7156dacef9e95bccad6eec -> 
+  custom:scripting/monoscript/fileName/MjCapsuleShape.cs: d149f5cc035372a0b6960b9c43823c88 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MjComponent.cs: c2746fbeef9d7f1422b0f331b1af3db9 -> 
+  custom:scripting/monoscript/fileName/ObjMeshImportUtility.cs: 41a047001676dd811096ad68d0196ab1 -> 
+  custom:scripting/monoscript/fileName/MjGlobalSettings.cs: ea1a52c34e2b0081b4f2746b18152e11 -> 
+  custom:scripting/monoscript/fileName/MjBodyVectorSensor.cs: a9d16fa0b79edb08ac451457634b4897 -> 
+  custom:scripting/monoscript/fileName/MjCylinderShape.cs: 018bd22aec334c8ec3a257a07f658c73 -> 
+  custom:scripting/monoscript/fileName/MjScene.cs: 0c459445e43875adb8e5aae224b6904b -> 
+  custom:scripting/monoscript/fileName/MjImporterWithAssets.cs: da98cd65ba7015d5727493f27e6dc84d -> 
+  custom:scripting/monoscript/fileName/MjTransformation.cs: d7c9347661e593cf4eeb95250303b582 -> 
+  custom:scripting/monoscript/fileName/MjConnect.cs: 0a43dcf62dc9bab6c4b68553ac044dcb -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MjEngineTool.cs: b6f6998c0829bc881a91561fd5413817 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Editor: 67b25dc592f934568179ccb0452b57a2 -> 
+  custom:scripting/monoscript/fileName/MjBodyQuaternionSensor.cs: 9a48a94d82ac78cd6f7e3b89e64f42ac -> 
+  custom:scripting/monoscript/fileName/PushPhysics.cs: 4729cc2ad7ca901609f952da0e3092f0 -> 
+  custom:scripting/monoscript/fileName/MjMeshShape.cs: 77ed84f2e7e016ff261103983a2490ff -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/MjActuatorEditor.cs: 95d2056ae741dfcbe81100c16b17f121 -> 
+  custom:scripting/monoscript/fileName/MjMocapBody.cs: 9a0d55672883e62d8e31272db21f74d2 -> 
+  custom:scripting/monoscript/fileName/MjActuator.cs: dac37b67a91f8a43698bcfacf528fc3f -> 
+  custom:scripting/monoscript/fileName/AbsoluteValuePropertyEditor.cs: 03f8eef3993de3ceb48920e1f5cc64b1 -> 
+  custom:scripting/monoscript/fileName/MjEllipsoidShape.cs: 4c3bc6c498a2590ad2ab16e5416c2beb -> 
+  custom:scripting/monoscript/fileName/MjJointScalarSensor.cs: 9676fdd1baf4b69ca8629dea5fdbf187 -> 
+  custom:scripting/monoscript/fileName/MjBaseJoint.cs: 9948528b34ab10e2abda79159bf1c6c8 -> 
+  custom:scripting/monoscript/fileName/ConvertMj2Rca.cs: 551ef05e90467316f21d7ad36e827d9f -> 
+  custom:scripting/monoscript/fileName/MjHingeJoint.cs: 8c4fba9e9295de9c6025f654281f397f -> 
+  custom:scripting/monoscript/fileName/StlMeshParser.cs: 2d9f6d758bbeafc10a1c473ed076146c -> 
+  custom:scripting/monoscript/fileName/MjSpatialTendon.cs: 44971d309d122c8cd6067b9469055a40 -> 
+  custom:scripting/monoscript/fileName/MjBaseTendon.cs: 732412196b7be47206504dc87744c69c -> 
+  custom:scripting/monoscript/fileName/MjJointConstraint.cs: 6957106da5bca701d1191324a41e8cb0 -> 
+  custom:scripting/monoscript/fileName/MjSphereShape.cs: d5bd32aadbf0384e59c9f19fa3e7b18f -> 
+  custom:scripting/monoscript/fileName/MjJointSettings.cs: 84a3112da088540625f81e65d4f6d474 -> 
+  custom:scripting/monoscript/fileName/MjBoxShape.cs: 275293f2e238739ea6a55965f5aef4dd -> 
+  custom:scripting/monoscript/fileName/MjSlideJointEditor.cs: af9501b546f88cac2e0d7edfc6e7e0a1 -> 
+  custom:scripting/monoscript/fileName/MjExporterEditorWindow.cs: c6d18dc7644a985b2d771d6e64d4077d -> 
+  custom:scripting/monoscript/fileName/MjHandles.cs: 2121dd2f7d0fdae5e406aa6957c778f5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MjSiteScalarSensor.cs: 143f3859a8484f8f68cb5e2da4ed0ca1 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MujocoBinaryRetriever.cs: b8c1e5ff59fc9ac6be491a16252d38b9 -> 
+  custom:scripting/monoscript/fileName/LightFlicker.cs: 10986106b750453c905cb11118ec8f88 -> 
+  custom:scripting/monoscript/fileName/MjBaseBody.cs: 70d16e8258164a72ab6e2d6ac87246a9 -> 
+  custom:scripting/monoscript/fileName/FixedSizeIListHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MjcfGenerationContext.cs: 6c253e5cb18192860c82555858378195 -> 
+  custom:scripting/monoscript/fileName/MjGizmos.cs: bcbc4c4d757983b1927b21ad54571734 -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 42480eed24e61f9d7e7e895933644f96 -> 
+  custom:scripting/monoscript/fileName/IMjShape.cs: 28e2fc1a70053b697c9dba3b4c33e299 -> 
+  custom:scripting/monoscript/fileName/MjTendonConstraint.cs: ce02803b10ebaa17a0fa840232fc8804 -> 
+  custom:scripting/monoscript/fileName/MjXmlModifiers.cs: f73fbca2b6c8621fb12f8a84c02432b7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MjGeomSettings.cs: f3b9636e7d28375599b704551650dbed -> 
+  custom:scripting/monoscript/fileName/MjBindings.cs: 15e5f349c6b6b7226f8b87b303badd89 -> 
+  custom:scripting/monoscript/fileName/MjBody.cs: fb3c30663f79557d77b9d66320fc5945 -> 
+  custom:scripting/monoscript/fileName/AbsoluteValueAttribute.cs: 09dd73acdf3bf8ae02bb9c5da352e3c1 -> 
+  custom:scripting/monoscript/fileName/MjGeomVectorSensor.cs: bb040ac3acaa482722a47ab9b3e710d4 -> 
+  custom:scripting/monoscript/fileName/MjMouseSpring.cs: 07cfd2983bd7502b3fbdeb74dd3d1902 -> 
+  custom:scripting/monoscript/fileName/PlayRandomSound.cs: 29a7bd3cdf0927d222f2cd2ff80b15bf -> 
+  custom:scripting/monoscript/fileName/MjPlaneShape.cs: cf90bac2c3e56f2a8f58d27cf928340f -> 
+  custom:scripting/monoscript/fileName/StlMeshImporter.cs: 6da5f9c74d96f2a80700038721e7ef5e -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c3c2d02238d9fd5e5138e188ce5e6829 -> 
+  custom:scripting/monoscript/fileName/MjSite.cs: 62c7d3a10dcdd79bdfd23e034057b677 -> 
+  custom:scripting/monoscript/fileName/MjBaseSensor.cs: f6b54bc2e6fd2eaf4083ed9730a9ae7a -> 
+  custom:scripting/monoscript/fileName/MjHierarchyTool.cs: a9e7f446b43cbe4a6a7af4bdd6c2ebe1 -> 
+  custom:scripting/monoscript/fileName/MjGeom.cs: 20eae74b07822d9f0b6b038f7e93a133 -> 
+  custom:scripting/monoscript/fileName/MjcfImporter.cs: 208df5a85caef54b5f5855a8c9c5a37a -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.187 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.322 seconds
+Domain Reload Profiling: 509ms
+	BeginReloadAssembly (65ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (87ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (322ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (191ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 4102.
+Memory consumption went from 126.3 MB to 126.2 MB.
+Total: 1.963315 ms (FindLiveObjects: 0.133217 ms CreateObjectMapping: 0.048837 ms MarkObjects: 1.750650 ms  DeleteObjects: 0.029962 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MjSiteQuaternionSensor.cs: b60dfb117aa2ef486fb414d4a1485aca -> 
+  custom:scripting/monoscript/fileName/MjUserSensor.cs: 7115d226e7badc1d918b262fafc7502d -> 
+  custom:scripting/monoscript/fileName/MjFixedTendon.cs: 52727ae4b2a3f2c6fe22ae23a0733e72 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MjInertial.cs: e3c62e93fda85c3016cbcd1a385dbbe9 -> 
+  custom:scripting/monoscript/fileName/MjSlideJoint.cs: e4b64c48a37b6145d8705d986bef6aba -> 
+  custom:scripting/monoscript/fileName/MjShapeComponent.cs: 5d44650ed40aee2f12d3ce4704cf7d60 -> 
+  custom:scripting/monoscript/fileName/MouseComponent.cs: 94e823bbc5bba5353e1499a9c42b41a2 -> 
+  custom:scripting/monoscript/fileName/MjWeld.cs: 5417c593b3b31c9d94d18873cacad223 -> 
+  custom:scripting/monoscript/fileName/MjShapeComponentEditor.cs: 4d72820f5829c6f98a4835dbf2d23315 -> 
+  custom:scripting/monoscript/fileName/MjGeomEditor.cs: 9411a7f17cab7e50918ea32e9e5c5c15 -> 
+  custom:scripting/monoscript/fileName/MjBallJoint.cs: b570e4d834471706d4955d60c2815554 -> 
+  custom:scripting/monoscript/fileName/MjVfs.cs: ea5060cfe963fe176f1066e1986e1aac -> 
+  custom:scripting/monoscript/fileName/MeshGenerators.cs: a2fc78e7f0e3111496075a7b68220a6e -> 
+  custom:scripting/monoscript/fileName/MjActuatorScalarSensor.cs: 8922573f65310c98bae7e7876626902f -> 
+  custom:scripting/monoscript/fileName/MjFreeJoint.cs: ad846d8ebed1de4b5f499fdce9275cba -> 
+  custom:scripting/monoscript/fileName/MjMeshFilter.cs: 403b63a529953f10afb13a8edd062067 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MjImporterEditorWindow.cs: 8edc88226dd1fea935e16bf219c0579f -> 
+  custom:scripting/monoscript/fileName/MjSiteVectorSensor.cs: f02191850b317f403eae61a0aa8e5dc2 -> 
+  custom:scripting/monoscript/fileName/XmlElementExtensions.cs: f392ddda2711857ac1cd377add961ffb -> 
+  custom:scripting/monoscript/fileName/MjExclude.cs: 9ad5b6687beb6c56a769dbb46328058f -> 
+  custom:scripting/monoscript/fileName/MjHeightFieldShape.cs: 448d454b0ead3325aa84f29dfc0d0ef0 -> 
+  custom:scripting/monoscript/fileName/MjHingeJointEditor.cs: d6743d20934e4661e2c9cd402727baa2 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Runtime: f0d75fee56956c294f1e5a88f976f48f -> 
+  custom:scripting/monoscript/fileName/MjGeomQuaternionSensor.cs: 68a9916eb730e86000c842bdb2c4671b -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/MjBaseConstraint.cs: f84cef664f7156dacef9e95bccad6eec -> 
+  custom:scripting/monoscript/fileName/MjCapsuleShape.cs: d149f5cc035372a0b6960b9c43823c88 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MjComponent.cs: c2746fbeef9d7f1422b0f331b1af3db9 -> 
+  custom:scripting/monoscript/fileName/ObjMeshImportUtility.cs: 41a047001676dd811096ad68d0196ab1 -> 
+  custom:scripting/monoscript/fileName/MjGlobalSettings.cs: ea1a52c34e2b0081b4f2746b18152e11 -> 
+  custom:scripting/monoscript/fileName/MjBodyVectorSensor.cs: a9d16fa0b79edb08ac451457634b4897 -> 
+  custom:scripting/monoscript/fileName/MjCylinderShape.cs: 018bd22aec334c8ec3a257a07f658c73 -> 
+  custom:scripting/monoscript/fileName/MjScene.cs: 0c459445e43875adb8e5aae224b6904b -> 
+  custom:scripting/monoscript/fileName/MjImporterWithAssets.cs: da98cd65ba7015d5727493f27e6dc84d -> 
+  custom:scripting/monoscript/fileName/MjTransformation.cs: d7c9347661e593cf4eeb95250303b582 -> 
+  custom:scripting/monoscript/fileName/MjConnect.cs: 0a43dcf62dc9bab6c4b68553ac044dcb -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MjEngineTool.cs: b6f6998c0829bc881a91561fd5413817 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Editor: 67b25dc592f934568179ccb0452b57a2 -> 
+  custom:scripting/monoscript/fileName/MjBodyQuaternionSensor.cs: 9a48a94d82ac78cd6f7e3b89e64f42ac -> 
+  custom:scripting/monoscript/fileName/PushPhysics.cs: 4729cc2ad7ca901609f952da0e3092f0 -> 
+  custom:scripting/monoscript/fileName/MjMeshShape.cs: 77ed84f2e7e016ff261103983a2490ff -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/MjActuatorEditor.cs: 95d2056ae741dfcbe81100c16b17f121 -> 
+  custom:scripting/monoscript/fileName/MjMocapBody.cs: 9a0d55672883e62d8e31272db21f74d2 -> 
+  custom:scripting/monoscript/fileName/MjActuator.cs: dac37b67a91f8a43698bcfacf528fc3f -> 
+  custom:scripting/monoscript/fileName/AbsoluteValuePropertyEditor.cs: 03f8eef3993de3ceb48920e1f5cc64b1 -> 
+  custom:scripting/monoscript/fileName/MjEllipsoidShape.cs: 4c3bc6c498a2590ad2ab16e5416c2beb -> 
+  custom:scripting/monoscript/fileName/MjJointScalarSensor.cs: 9676fdd1baf4b69ca8629dea5fdbf187 -> 
+  custom:scripting/monoscript/fileName/MjBaseJoint.cs: 9948528b34ab10e2abda79159bf1c6c8 -> 
+  custom:scripting/monoscript/fileName/ConvertMj2Rca.cs: 551ef05e90467316f21d7ad36e827d9f -> 
+  custom:scripting/monoscript/fileName/MjHingeJoint.cs: 8c4fba9e9295de9c6025f654281f397f -> 
+  custom:scripting/monoscript/fileName/StlMeshParser.cs: 2d9f6d758bbeafc10a1c473ed076146c -> 
+  custom:scripting/monoscript/fileName/MjSpatialTendon.cs: 44971d309d122c8cd6067b9469055a40 -> 
+  custom:scripting/monoscript/fileName/MjBaseTendon.cs: 732412196b7be47206504dc87744c69c -> 
+  custom:scripting/monoscript/fileName/MjJointConstraint.cs: 6957106da5bca701d1191324a41e8cb0 -> 
+  custom:scripting/monoscript/fileName/MjSphereShape.cs: d5bd32aadbf0384e59c9f19fa3e7b18f -> 
+  custom:scripting/monoscript/fileName/MjJointSettings.cs: 84a3112da088540625f81e65d4f6d474 -> 
+  custom:scripting/monoscript/fileName/MjBoxShape.cs: 275293f2e238739ea6a55965f5aef4dd -> 
+  custom:scripting/monoscript/fileName/MjSlideJointEditor.cs: af9501b546f88cac2e0d7edfc6e7e0a1 -> 
+  custom:scripting/monoscript/fileName/MjExporterEditorWindow.cs: c6d18dc7644a985b2d771d6e64d4077d -> 
+  custom:scripting/monoscript/fileName/MjHandles.cs: 2121dd2f7d0fdae5e406aa6957c778f5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MjSiteScalarSensor.cs: 143f3859a8484f8f68cb5e2da4ed0ca1 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MujocoBinaryRetriever.cs: b8c1e5ff59fc9ac6be491a16252d38b9 -> 
+  custom:scripting/monoscript/fileName/LightFlicker.cs: 10986106b750453c905cb11118ec8f88 -> 
+  custom:scripting/monoscript/fileName/MjBaseBody.cs: 70d16e8258164a72ab6e2d6ac87246a9 -> 
+  custom:scripting/monoscript/fileName/FixedSizeIListHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MjcfGenerationContext.cs: 6c253e5cb18192860c82555858378195 -> 
+  custom:scripting/monoscript/fileName/MjGizmos.cs: bcbc4c4d757983b1927b21ad54571734 -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 42480eed24e61f9d7e7e895933644f96 -> 
+  custom:scripting/monoscript/fileName/IMjShape.cs: 28e2fc1a70053b697c9dba3b4c33e299 -> 
+  custom:scripting/monoscript/fileName/MjTendonConstraint.cs: ce02803b10ebaa17a0fa840232fc8804 -> 
+  custom:scripting/monoscript/fileName/MjXmlModifiers.cs: f73fbca2b6c8621fb12f8a84c02432b7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MjGeomSettings.cs: f3b9636e7d28375599b704551650dbed -> 
+  custom:scripting/monoscript/fileName/MjBindings.cs: 15e5f349c6b6b7226f8b87b303badd89 -> 
+  custom:scripting/monoscript/fileName/MjBody.cs: fb3c30663f79557d77b9d66320fc5945 -> 
+  custom:scripting/monoscript/fileName/AbsoluteValueAttribute.cs: 09dd73acdf3bf8ae02bb9c5da352e3c1 -> 
+  custom:scripting/monoscript/fileName/MjGeomVectorSensor.cs: bb040ac3acaa482722a47ab9b3e710d4 -> 
+  custom:scripting/monoscript/fileName/MjMouseSpring.cs: 07cfd2983bd7502b3fbdeb74dd3d1902 -> 
+  custom:scripting/monoscript/fileName/PlayRandomSound.cs: 29a7bd3cdf0927d222f2cd2ff80b15bf -> 
+  custom:scripting/monoscript/fileName/MjPlaneShape.cs: cf90bac2c3e56f2a8f58d27cf928340f -> 
+  custom:scripting/monoscript/fileName/StlMeshImporter.cs: 6da5f9c74d96f2a80700038721e7ef5e -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c3c2d02238d9fd5e5138e188ce5e6829 -> 
+  custom:scripting/monoscript/fileName/MjSite.cs: 62c7d3a10dcdd79bdfd23e034057b677 -> 
+  custom:scripting/monoscript/fileName/MjBaseSensor.cs: f6b54bc2e6fd2eaf4083ed9730a9ae7a -> 
+  custom:scripting/monoscript/fileName/MjHierarchyTool.cs: a9e7f446b43cbe4a6a7af4bdd6c2ebe1 -> 
+  custom:scripting/monoscript/fileName/MjGeom.cs: 20eae74b07822d9f0b6b038f7e93a133 -> 
+  custom:scripting/monoscript/fileName/MjcfImporter.cs: 208df5a85caef54b5f5855a8c9c5a37a -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.194 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.323 seconds
+Domain Reload Profiling: 517ms
+	BeginReloadAssembly (64ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (96ms)
+		LoadAssemblies (115ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (323ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (192ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 4105.
+Memory consumption went from 126.3 MB to 126.2 MB.
+Total: 3.092861 ms (FindLiveObjects: 0.247647 ms CreateObjectMapping: 0.073064 ms MarkObjects: 2.744843 ms  DeleteObjects: 0.026386 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MjSiteQuaternionSensor.cs: b60dfb117aa2ef486fb414d4a1485aca -> 
+  custom:scripting/monoscript/fileName/MjUserSensor.cs: 7115d226e7badc1d918b262fafc7502d -> 
+  custom:scripting/monoscript/fileName/MjFixedTendon.cs: 52727ae4b2a3f2c6fe22ae23a0733e72 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MjInertial.cs: e3c62e93fda85c3016cbcd1a385dbbe9 -> 
+  custom:scripting/monoscript/fileName/MjSlideJoint.cs: e4b64c48a37b6145d8705d986bef6aba -> 
+  custom:scripting/monoscript/fileName/MjShapeComponent.cs: 5d44650ed40aee2f12d3ce4704cf7d60 -> 
+  custom:scripting/monoscript/fileName/MouseComponent.cs: 94e823bbc5bba5353e1499a9c42b41a2 -> 
+  custom:scripting/monoscript/fileName/MjWeld.cs: 5417c593b3b31c9d94d18873cacad223 -> 
+  custom:scripting/monoscript/fileName/MjShapeComponentEditor.cs: 4d72820f5829c6f98a4835dbf2d23315 -> 
+  custom:scripting/monoscript/fileName/MjGeomEditor.cs: 9411a7f17cab7e50918ea32e9e5c5c15 -> 
+  custom:scripting/monoscript/fileName/MjBallJoint.cs: b570e4d834471706d4955d60c2815554 -> 
+  custom:scripting/monoscript/fileName/MjVfs.cs: ea5060cfe963fe176f1066e1986e1aac -> 
+  custom:scripting/monoscript/fileName/MeshGenerators.cs: a2fc78e7f0e3111496075a7b68220a6e -> 
+  custom:scripting/monoscript/fileName/MjActuatorScalarSensor.cs: 8922573f65310c98bae7e7876626902f -> 
+  custom:scripting/monoscript/fileName/MjFreeJoint.cs: ad846d8ebed1de4b5f499fdce9275cba -> 
+  custom:scripting/monoscript/fileName/MjMeshFilter.cs: 403b63a529953f10afb13a8edd062067 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MjImporterEditorWindow.cs: 8edc88226dd1fea935e16bf219c0579f -> 
+  custom:scripting/monoscript/fileName/MjSiteVectorSensor.cs: f02191850b317f403eae61a0aa8e5dc2 -> 
+  custom:scripting/monoscript/fileName/XmlElementExtensions.cs: f392ddda2711857ac1cd377add961ffb -> 
+  custom:scripting/monoscript/fileName/MjExclude.cs: 9ad5b6687beb6c56a769dbb46328058f -> 
+  custom:scripting/monoscript/fileName/MjHeightFieldShape.cs: 448d454b0ead3325aa84f29dfc0d0ef0 -> 
+  custom:scripting/monoscript/fileName/MjHingeJointEditor.cs: d6743d20934e4661e2c9cd402727baa2 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Runtime: f0d75fee56956c294f1e5a88f976f48f -> 
+  custom:scripting/monoscript/fileName/MjGeomQuaternionSensor.cs: 68a9916eb730e86000c842bdb2c4671b -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/MjBaseConstraint.cs: f84cef664f7156dacef9e95bccad6eec -> 
+  custom:scripting/monoscript/fileName/MjCapsuleShape.cs: d149f5cc035372a0b6960b9c43823c88 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MjComponent.cs: c2746fbeef9d7f1422b0f331b1af3db9 -> 
+  custom:scripting/monoscript/fileName/ObjMeshImportUtility.cs: 41a047001676dd811096ad68d0196ab1 -> 
+  custom:scripting/monoscript/fileName/MjGlobalSettings.cs: ea1a52c34e2b0081b4f2746b18152e11 -> 
+  custom:scripting/monoscript/fileName/MjBodyVectorSensor.cs: a9d16fa0b79edb08ac451457634b4897 -> 
+  custom:scripting/monoscript/fileName/MjCylinderShape.cs: 018bd22aec334c8ec3a257a07f658c73 -> 
+  custom:scripting/monoscript/fileName/MjScene.cs: 0c459445e43875adb8e5aae224b6904b -> 
+  custom:scripting/monoscript/fileName/MjImporterWithAssets.cs: da98cd65ba7015d5727493f27e6dc84d -> 
+  custom:scripting/monoscript/fileName/MjTransformation.cs: d7c9347661e593cf4eeb95250303b582 -> 
+  custom:scripting/monoscript/fileName/MjConnect.cs: 0a43dcf62dc9bab6c4b68553ac044dcb -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MjEngineTool.cs: b6f6998c0829bc881a91561fd5413817 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Editor: 67b25dc592f934568179ccb0452b57a2 -> 
+  custom:scripting/monoscript/fileName/MjBodyQuaternionSensor.cs: 9a48a94d82ac78cd6f7e3b89e64f42ac -> 
+  custom:scripting/monoscript/fileName/PushPhysics.cs: 4729cc2ad7ca901609f952da0e3092f0 -> 
+  custom:scripting/monoscript/fileName/MjMeshShape.cs: 77ed84f2e7e016ff261103983a2490ff -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/MjActuatorEditor.cs: 95d2056ae741dfcbe81100c16b17f121 -> 
+  custom:scripting/monoscript/fileName/MjMocapBody.cs: 9a0d55672883e62d8e31272db21f74d2 -> 
+  custom:scripting/monoscript/fileName/MjActuator.cs: dac37b67a91f8a43698bcfacf528fc3f -> 
+  custom:scripting/monoscript/fileName/AbsoluteValuePropertyEditor.cs: 03f8eef3993de3ceb48920e1f5cc64b1 -> 
+  custom:scripting/monoscript/fileName/MjEllipsoidShape.cs: 4c3bc6c498a2590ad2ab16e5416c2beb -> 
+  custom:scripting/monoscript/fileName/MjJointScalarSensor.cs: 9676fdd1baf4b69ca8629dea5fdbf187 -> 
+  custom:scripting/monoscript/fileName/MjBaseJoint.cs: 9948528b34ab10e2abda79159bf1c6c8 -> 
+  custom:scripting/monoscript/fileName/ConvertMj2Rca.cs: 551ef05e90467316f21d7ad36e827d9f -> 
+  custom:scripting/monoscript/fileName/MjHingeJoint.cs: 8c4fba9e9295de9c6025f654281f397f -> 
+  custom:scripting/monoscript/fileName/StlMeshParser.cs: 2d9f6d758bbeafc10a1c473ed076146c -> 
+  custom:scripting/monoscript/fileName/MjSpatialTendon.cs: 44971d309d122c8cd6067b9469055a40 -> 
+  custom:scripting/monoscript/fileName/MjBaseTendon.cs: 732412196b7be47206504dc87744c69c -> 
+  custom:scripting/monoscript/fileName/MjJointConstraint.cs: 6957106da5bca701d1191324a41e8cb0 -> 
+  custom:scripting/monoscript/fileName/MjSphereShape.cs: d5bd32aadbf0384e59c9f19fa3e7b18f -> 
+  custom:scripting/monoscript/fileName/MjJointSettings.cs: 84a3112da088540625f81e65d4f6d474 -> 
+  custom:scripting/monoscript/fileName/MjBoxShape.cs: 275293f2e238739ea6a55965f5aef4dd -> 
+  custom:scripting/monoscript/fileName/MjSlideJointEditor.cs: af9501b546f88cac2e0d7edfc6e7e0a1 -> 
+  custom:scripting/monoscript/fileName/MjExporterEditorWindow.cs: c6d18dc7644a985b2d771d6e64d4077d -> 
+  custom:scripting/monoscript/fileName/MjHandles.cs: 2121dd2f7d0fdae5e406aa6957c778f5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MjSiteScalarSensor.cs: 143f3859a8484f8f68cb5e2da4ed0ca1 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MujocoBinaryRetriever.cs: b8c1e5ff59fc9ac6be491a16252d38b9 -> 
+  custom:scripting/monoscript/fileName/LightFlicker.cs: 10986106b750453c905cb11118ec8f88 -> 
+  custom:scripting/monoscript/fileName/MjBaseBody.cs: 70d16e8258164a72ab6e2d6ac87246a9 -> 
+  custom:scripting/monoscript/fileName/FixedSizeIListHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MjcfGenerationContext.cs: 6c253e5cb18192860c82555858378195 -> 
+  custom:scripting/monoscript/fileName/MjGizmos.cs: bcbc4c4d757983b1927b21ad54571734 -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 42480eed24e61f9d7e7e895933644f96 -> 
+  custom:scripting/monoscript/fileName/IMjShape.cs: 28e2fc1a70053b697c9dba3b4c33e299 -> 
+  custom:scripting/monoscript/fileName/MjTendonConstraint.cs: ce02803b10ebaa17a0fa840232fc8804 -> 
+  custom:scripting/monoscript/fileName/MjXmlModifiers.cs: f73fbca2b6c8621fb12f8a84c02432b7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MjGeomSettings.cs: f3b9636e7d28375599b704551650dbed -> 
+  custom:scripting/monoscript/fileName/MjBindings.cs: 15e5f349c6b6b7226f8b87b303badd89 -> 
+  custom:scripting/monoscript/fileName/MjBody.cs: fb3c30663f79557d77b9d66320fc5945 -> 
+  custom:scripting/monoscript/fileName/AbsoluteValueAttribute.cs: 09dd73acdf3bf8ae02bb9c5da352e3c1 -> 
+  custom:scripting/monoscript/fileName/MjGeomVectorSensor.cs: bb040ac3acaa482722a47ab9b3e710d4 -> 
+  custom:scripting/monoscript/fileName/MjMouseSpring.cs: 07cfd2983bd7502b3fbdeb74dd3d1902 -> 
+  custom:scripting/monoscript/fileName/PlayRandomSound.cs: 29a7bd3cdf0927d222f2cd2ff80b15bf -> 
+  custom:scripting/monoscript/fileName/MjPlaneShape.cs: cf90bac2c3e56f2a8f58d27cf928340f -> 
+  custom:scripting/monoscript/fileName/StlMeshImporter.cs: 6da5f9c74d96f2a80700038721e7ef5e -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c3c2d02238d9fd5e5138e188ce5e6829 -> 
+  custom:scripting/monoscript/fileName/MjSite.cs: 62c7d3a10dcdd79bdfd23e034057b677 -> 
+  custom:scripting/monoscript/fileName/MjBaseSensor.cs: f6b54bc2e6fd2eaf4083ed9730a9ae7a -> 
+  custom:scripting/monoscript/fileName/MjHierarchyTool.cs: a9e7f446b43cbe4a6a7af4bdd6c2ebe1 -> 
+  custom:scripting/monoscript/fileName/MjGeom.cs: 20eae74b07822d9f0b6b038f7e93a133 -> 
+  custom:scripting/monoscript/fileName/MjcfImporter.cs: 208df5a85caef54b5f5855a8c9c5a37a -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.189 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.328 seconds
+Domain Reload Profiling: 518ms
+	BeginReloadAssembly (68ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (4ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (87ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (328ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (196ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 4108.
+Memory consumption went from 126.3 MB to 126.2 MB.
+Total: 6.013439 ms (FindLiveObjects: 0.236108 ms CreateObjectMapping: 0.074135 ms MarkObjects: 5.657545 ms  DeleteObjects: 0.044974 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MjSiteQuaternionSensor.cs: b60dfb117aa2ef486fb414d4a1485aca -> 
+  custom:scripting/monoscript/fileName/MjUserSensor.cs: 7115d226e7badc1d918b262fafc7502d -> 
+  custom:scripting/monoscript/fileName/MjFixedTendon.cs: 52727ae4b2a3f2c6fe22ae23a0733e72 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MjInertial.cs: e3c62e93fda85c3016cbcd1a385dbbe9 -> 
+  custom:scripting/monoscript/fileName/MjSlideJoint.cs: e4b64c48a37b6145d8705d986bef6aba -> 
+  custom:scripting/monoscript/fileName/MjShapeComponent.cs: 5d44650ed40aee2f12d3ce4704cf7d60 -> 
+  custom:scripting/monoscript/fileName/MouseComponent.cs: 94e823bbc5bba5353e1499a9c42b41a2 -> 
+  custom:scripting/monoscript/fileName/MjWeld.cs: 5417c593b3b31c9d94d18873cacad223 -> 
+  custom:scripting/monoscript/fileName/MjShapeComponentEditor.cs: 4d72820f5829c6f98a4835dbf2d23315 -> 
+  custom:scripting/monoscript/fileName/MjGeomEditor.cs: 9411a7f17cab7e50918ea32e9e5c5c15 -> 
+  custom:scripting/monoscript/fileName/MjBallJoint.cs: b570e4d834471706d4955d60c2815554 -> 
+  custom:scripting/monoscript/fileName/MjVfs.cs: ea5060cfe963fe176f1066e1986e1aac -> 
+  custom:scripting/monoscript/fileName/MeshGenerators.cs: a2fc78e7f0e3111496075a7b68220a6e -> 
+  custom:scripting/monoscript/fileName/MjActuatorScalarSensor.cs: 8922573f65310c98bae7e7876626902f -> 
+  custom:scripting/monoscript/fileName/MjFreeJoint.cs: ad846d8ebed1de4b5f499fdce9275cba -> 
+  custom:scripting/monoscript/fileName/MjMeshFilter.cs: 403b63a529953f10afb13a8edd062067 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MjImporterEditorWindow.cs: 8edc88226dd1fea935e16bf219c0579f -> 
+  custom:scripting/monoscript/fileName/MjSiteVectorSensor.cs: f02191850b317f403eae61a0aa8e5dc2 -> 
+  custom:scripting/monoscript/fileName/XmlElementExtensions.cs: f392ddda2711857ac1cd377add961ffb -> 
+  custom:scripting/monoscript/fileName/MjExclude.cs: 9ad5b6687beb6c56a769dbb46328058f -> 
+  custom:scripting/monoscript/fileName/MjHeightFieldShape.cs: 448d454b0ead3325aa84f29dfc0d0ef0 -> 
+  custom:scripting/monoscript/fileName/MjHingeJointEditor.cs: d6743d20934e4661e2c9cd402727baa2 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Runtime: f0d75fee56956c294f1e5a88f976f48f -> 
+  custom:scripting/monoscript/fileName/MjGeomQuaternionSensor.cs: 68a9916eb730e86000c842bdb2c4671b -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/MjBaseConstraint.cs: f84cef664f7156dacef9e95bccad6eec -> 
+  custom:scripting/monoscript/fileName/MjCapsuleShape.cs: d149f5cc035372a0b6960b9c43823c88 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MjComponent.cs: c2746fbeef9d7f1422b0f331b1af3db9 -> 
+  custom:scripting/monoscript/fileName/ObjMeshImportUtility.cs: 41a047001676dd811096ad68d0196ab1 -> 
+  custom:scripting/monoscript/fileName/MjGlobalSettings.cs: ea1a52c34e2b0081b4f2746b18152e11 -> 
+  custom:scripting/monoscript/fileName/MjBodyVectorSensor.cs: a9d16fa0b79edb08ac451457634b4897 -> 
+  custom:scripting/monoscript/fileName/MjCylinderShape.cs: 018bd22aec334c8ec3a257a07f658c73 -> 
+  custom:scripting/monoscript/fileName/MjScene.cs: 0c459445e43875adb8e5aae224b6904b -> 
+  custom:scripting/monoscript/fileName/MjImporterWithAssets.cs: da98cd65ba7015d5727493f27e6dc84d -> 
+  custom:scripting/monoscript/fileName/MjTransformation.cs: d7c9347661e593cf4eeb95250303b582 -> 
+  custom:scripting/monoscript/fileName/MjConnect.cs: 0a43dcf62dc9bab6c4b68553ac044dcb -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MjEngineTool.cs: b6f6998c0829bc881a91561fd5413817 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Editor: 67b25dc592f934568179ccb0452b57a2 -> 
+  custom:scripting/monoscript/fileName/MjBodyQuaternionSensor.cs: 9a48a94d82ac78cd6f7e3b89e64f42ac -> 
+  custom:scripting/monoscript/fileName/PushPhysics.cs: 4729cc2ad7ca901609f952da0e3092f0 -> 
+  custom:scripting/monoscript/fileName/MjMeshShape.cs: 77ed84f2e7e016ff261103983a2490ff -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/MjActuatorEditor.cs: 95d2056ae741dfcbe81100c16b17f121 -> 
+  custom:scripting/monoscript/fileName/MjMocapBody.cs: 9a0d55672883e62d8e31272db21f74d2 -> 
+  custom:scripting/monoscript/fileName/MjActuator.cs: dac37b67a91f8a43698bcfacf528fc3f -> 
+  custom:scripting/monoscript/fileName/AbsoluteValuePropertyEditor.cs: 03f8eef3993de3ceb48920e1f5cc64b1 -> 
+  custom:scripting/monoscript/fileName/MjEllipsoidShape.cs: 4c3bc6c498a2590ad2ab16e5416c2beb -> 
+  custom:scripting/monoscript/fileName/MjJointScalarSensor.cs: 9676fdd1baf4b69ca8629dea5fdbf187 -> 
+  custom:scripting/monoscript/fileName/MjBaseJoint.cs: 9948528b34ab10e2abda79159bf1c6c8 -> 
+  custom:scripting/monoscript/fileName/ConvertMj2Rca.cs: 551ef05e90467316f21d7ad36e827d9f -> 
+  custom:scripting/monoscript/fileName/MjHingeJoint.cs: 8c4fba9e9295de9c6025f654281f397f -> 
+  custom:scripting/monoscript/fileName/StlMeshParser.cs: 2d9f6d758bbeafc10a1c473ed076146c -> 
+  custom:scripting/monoscript/fileName/MjSpatialTendon.cs: 44971d309d122c8cd6067b9469055a40 -> 
+  custom:scripting/monoscript/fileName/MjBaseTendon.cs: 732412196b7be47206504dc87744c69c -> 
+  custom:scripting/monoscript/fileName/MjJointConstraint.cs: 6957106da5bca701d1191324a41e8cb0 -> 
+  custom:scripting/monoscript/fileName/MjSphereShape.cs: d5bd32aadbf0384e59c9f19fa3e7b18f -> 
+  custom:scripting/monoscript/fileName/MjJointSettings.cs: 84a3112da088540625f81e65d4f6d474 -> 
+  custom:scripting/monoscript/fileName/MjBoxShape.cs: 275293f2e238739ea6a55965f5aef4dd -> 
+  custom:scripting/monoscript/fileName/MjSlideJointEditor.cs: af9501b546f88cac2e0d7edfc6e7e0a1 -> 
+  custom:scripting/monoscript/fileName/MjExporterEditorWindow.cs: c6d18dc7644a985b2d771d6e64d4077d -> 
+  custom:scripting/monoscript/fileName/MjHandles.cs: 2121dd2f7d0fdae5e406aa6957c778f5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MjSiteScalarSensor.cs: 143f3859a8484f8f68cb5e2da4ed0ca1 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MujocoBinaryRetriever.cs: b8c1e5ff59fc9ac6be491a16252d38b9 -> 
+  custom:scripting/monoscript/fileName/LightFlicker.cs: 10986106b750453c905cb11118ec8f88 -> 
+  custom:scripting/monoscript/fileName/MjBaseBody.cs: 70d16e8258164a72ab6e2d6ac87246a9 -> 
+  custom:scripting/monoscript/fileName/FixedSizeIListHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MjcfGenerationContext.cs: 6c253e5cb18192860c82555858378195 -> 
+  custom:scripting/monoscript/fileName/MjGizmos.cs: bcbc4c4d757983b1927b21ad54571734 -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 42480eed24e61f9d7e7e895933644f96 -> 
+  custom:scripting/monoscript/fileName/IMjShape.cs: 28e2fc1a70053b697c9dba3b4c33e299 -> 
+  custom:scripting/monoscript/fileName/MjTendonConstraint.cs: ce02803b10ebaa17a0fa840232fc8804 -> 
+  custom:scripting/monoscript/fileName/MjXmlModifiers.cs: f73fbca2b6c8621fb12f8a84c02432b7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MjGeomSettings.cs: f3b9636e7d28375599b704551650dbed -> 
+  custom:scripting/monoscript/fileName/MjBindings.cs: 15e5f349c6b6b7226f8b87b303badd89 -> 
+  custom:scripting/monoscript/fileName/MjBody.cs: fb3c30663f79557d77b9d66320fc5945 -> 
+  custom:scripting/monoscript/fileName/AbsoluteValueAttribute.cs: 09dd73acdf3bf8ae02bb9c5da352e3c1 -> 
+  custom:scripting/monoscript/fileName/MjGeomVectorSensor.cs: bb040ac3acaa482722a47ab9b3e710d4 -> 
+  custom:scripting/monoscript/fileName/MjMouseSpring.cs: 07cfd2983bd7502b3fbdeb74dd3d1902 -> 
+  custom:scripting/monoscript/fileName/PlayRandomSound.cs: 29a7bd3cdf0927d222f2cd2ff80b15bf -> 
+  custom:scripting/monoscript/fileName/MjPlaneShape.cs: cf90bac2c3e56f2a8f58d27cf928340f -> 
+  custom:scripting/monoscript/fileName/StlMeshImporter.cs: 6da5f9c74d96f2a80700038721e7ef5e -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c3c2d02238d9fd5e5138e188ce5e6829 -> 
+  custom:scripting/monoscript/fileName/MjSite.cs: 62c7d3a10dcdd79bdfd23e034057b677 -> 
+  custom:scripting/monoscript/fileName/MjBaseSensor.cs: f6b54bc2e6fd2eaf4083ed9730a9ae7a -> 
+  custom:scripting/monoscript/fileName/MjHierarchyTool.cs: a9e7f446b43cbe4a6a7af4bdd6c2ebe1 -> 
+  custom:scripting/monoscript/fileName/MjGeom.cs: 20eae74b07822d9f0b6b038f7e93a133 -> 
+  custom:scripting/monoscript/fileName/MjcfImporter.cs: 208df5a85caef54b5f5855a8c9c5a37a -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.184 seconds
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.330 seconds
+Domain Reload Profiling: 514ms
+	BeginReloadAssembly (63ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (3ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (87ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (330ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (196ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (31ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3603 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (29.0 KB). Loaded Objects now: 4111.
+Memory consumption went from 126.3 MB to 126.2 MB.
+Total: 2.269152 ms (FindLiveObjects: 0.125092 ms CreateObjectMapping: 0.041472 ms MarkObjects: 2.068866 ms  DeleteObjects: 0.033009 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MjSiteQuaternionSensor.cs: b60dfb117aa2ef486fb414d4a1485aca -> 
+  custom:scripting/monoscript/fileName/MjUserSensor.cs: 7115d226e7badc1d918b262fafc7502d -> 
+  custom:scripting/monoscript/fileName/MjFixedTendon.cs: 52727ae4b2a3f2c6fe22ae23a0733e72 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/MjInertial.cs: e3c62e93fda85c3016cbcd1a385dbbe9 -> 
+  custom:scripting/monoscript/fileName/MjSlideJoint.cs: e4b64c48a37b6145d8705d986bef6aba -> 
+  custom:scripting/monoscript/fileName/MjShapeComponent.cs: 5d44650ed40aee2f12d3ce4704cf7d60 -> 
+  custom:scripting/monoscript/fileName/MouseComponent.cs: 94e823bbc5bba5353e1499a9c42b41a2 -> 
+  custom:scripting/monoscript/fileName/MjWeld.cs: 5417c593b3b31c9d94d18873cacad223 -> 
+  custom:scripting/monoscript/fileName/MjShapeComponentEditor.cs: 4d72820f5829c6f98a4835dbf2d23315 -> 
+  custom:scripting/monoscript/fileName/MjGeomEditor.cs: 9411a7f17cab7e50918ea32e9e5c5c15 -> 
+  custom:scripting/monoscript/fileName/MjBallJoint.cs: b570e4d834471706d4955d60c2815554 -> 
+  custom:scripting/monoscript/fileName/MjVfs.cs: ea5060cfe963fe176f1066e1986e1aac -> 
+  custom:scripting/monoscript/fileName/MeshGenerators.cs: a2fc78e7f0e3111496075a7b68220a6e -> 
+  custom:scripting/monoscript/fileName/MjActuatorScalarSensor.cs: 8922573f65310c98bae7e7876626902f -> 
+  custom:scripting/monoscript/fileName/MjFreeJoint.cs: ad846d8ebed1de4b5f499fdce9275cba -> 
+  custom:scripting/monoscript/fileName/MjMeshFilter.cs: 403b63a529953f10afb13a8edd062067 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MjImporterEditorWindow.cs: 8edc88226dd1fea935e16bf219c0579f -> 
+  custom:scripting/monoscript/fileName/MjSiteVectorSensor.cs: f02191850b317f403eae61a0aa8e5dc2 -> 
+  custom:scripting/monoscript/fileName/XmlElementExtensions.cs: f392ddda2711857ac1cd377add961ffb -> 
+  custom:scripting/monoscript/fileName/MjExclude.cs: 9ad5b6687beb6c56a769dbb46328058f -> 
+  custom:scripting/monoscript/fileName/MjHeightFieldShape.cs: 448d454b0ead3325aa84f29dfc0d0ef0 -> 
+  custom:scripting/monoscript/fileName/MjHingeJointEditor.cs: d6743d20934e4661e2c9cd402727baa2 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Runtime: f0d75fee56956c294f1e5a88f976f48f -> 
+  custom:scripting/monoscript/fileName/MjGeomQuaternionSensor.cs: 68a9916eb730e86000c842bdb2c4671b -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/MjBaseConstraint.cs: f84cef664f7156dacef9e95bccad6eec -> 
+  custom:scripting/monoscript/fileName/MjCapsuleShape.cs: d149f5cc035372a0b6960b9c43823c88 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MjComponent.cs: c2746fbeef9d7f1422b0f331b1af3db9 -> 
+  custom:scripting/monoscript/fileName/ObjMeshImportUtility.cs: 41a047001676dd811096ad68d0196ab1 -> 
+  custom:scripting/monoscript/fileName/MjGlobalSettings.cs: ea1a52c34e2b0081b4f2746b18152e11 -> 
+  custom:scripting/monoscript/fileName/MjBodyVectorSensor.cs: a9d16fa0b79edb08ac451457634b4897 -> 
+  custom:scripting/monoscript/fileName/MjCylinderShape.cs: 018bd22aec334c8ec3a257a07f658c73 -> 
+  custom:scripting/monoscript/fileName/MjScene.cs: 0c459445e43875adb8e5aae224b6904b -> 
+  custom:scripting/monoscript/fileName/MjImporterWithAssets.cs: da98cd65ba7015d5727493f27e6dc84d -> 
+  custom:scripting/monoscript/fileName/MjTransformation.cs: d7c9347661e593cf4eeb95250303b582 -> 
+  custom:scripting/monoscript/fileName/MjConnect.cs: 0a43dcf62dc9bab6c4b68553ac044dcb -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/MjEngineTool.cs: b6f6998c0829bc881a91561fd5413817 -> 
+  custom:scripting/precompiled-assembly-types:Mujoco.Editor: 67b25dc592f934568179ccb0452b57a2 -> 
+  custom:scripting/monoscript/fileName/MjBodyQuaternionSensor.cs: 9a48a94d82ac78cd6f7e3b89e64f42ac -> 
+  custom:scripting/monoscript/fileName/PushPhysics.cs: 4729cc2ad7ca901609f952da0e3092f0 -> 
+  custom:scripting/monoscript/fileName/MjMeshShape.cs: 77ed84f2e7e016ff261103983a2490ff -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/MjActuatorEditor.cs: 95d2056ae741dfcbe81100c16b17f121 -> 
+  custom:scripting/monoscript/fileName/MjMocapBody.cs: 9a0d55672883e62d8e31272db21f74d2 -> 
+  custom:scripting/monoscript/fileName/MjActuator.cs: dac37b67a91f8a43698bcfacf528fc3f -> 
+  custom:scripting/monoscript/fileName/AbsoluteValuePropertyEditor.cs: 03f8eef3993de3ceb48920e1f5cc64b1 -> 
+  custom:scripting/monoscript/fileName/MjEllipsoidShape.cs: 4c3bc6c498a2590ad2ab16e5416c2beb -> 
+  custom:scripting/monoscript/fileName/MjJointScalarSensor.cs: 9676fdd1baf4b69ca8629dea5fdbf187 -> 
+  custom:scripting/monoscript/fileName/MjBaseJoint.cs: 9948528b34ab10e2abda79159bf1c6c8 -> 
+  custom:scripting/monoscript/fileName/ConvertMj2Rca.cs: 551ef05e90467316f21d7ad36e827d9f -> 
+  custom:scripting/monoscript/fileName/MjHingeJoint.cs: 8c4fba9e9295de9c6025f654281f397f -> 
+  custom:scripting/monoscript/fileName/StlMeshParser.cs: 2d9f6d758bbeafc10a1c473ed076146c -> 
+  custom:scripting/monoscript/fileName/MjSpatialTendon.cs: 44971d309d122c8cd6067b9469055a40 -> 
+  custom:scripting/monoscript/fileName/MjBaseTendon.cs: 732412196b7be47206504dc87744c69c -> 
+  custom:scripting/monoscript/fileName/MjJointConstraint.cs: 6957106da5bca701d1191324a41e8cb0 -> 
+  custom:scripting/monoscript/fileName/MjSphereShape.cs: d5bd32aadbf0384e59c9f19fa3e7b18f -> 
+  custom:scripting/monoscript/fileName/MjJointSettings.cs: 84a3112da088540625f81e65d4f6d474 -> 
+  custom:scripting/monoscript/fileName/MjBoxShape.cs: 275293f2e238739ea6a55965f5aef4dd -> 
+  custom:scripting/monoscript/fileName/MjSlideJointEditor.cs: af9501b546f88cac2e0d7edfc6e7e0a1 -> 
+  custom:scripting/monoscript/fileName/MjExporterEditorWindow.cs: c6d18dc7644a985b2d771d6e64d4077d -> 
+  custom:scripting/monoscript/fileName/MjHandles.cs: 2121dd2f7d0fdae5e406aa6957c778f5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/MjSiteScalarSensor.cs: 143f3859a8484f8f68cb5e2da4ed0ca1 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MujocoBinaryRetriever.cs: b8c1e5ff59fc9ac6be491a16252d38b9 -> 
+  custom:scripting/monoscript/fileName/LightFlicker.cs: 10986106b750453c905cb11118ec8f88 -> 
+  custom:scripting/monoscript/fileName/MjBaseBody.cs: 70d16e8258164a72ab6e2d6ac87246a9 -> 
+  custom:scripting/monoscript/fileName/FixedSizeIListHelper.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/MjcfGenerationContext.cs: 6c253e5cb18192860c82555858378195 -> 
+  custom:scripting/monoscript/fileName/MjGizmos.cs: bcbc4c4d757983b1927b21ad54571734 -> 
+  custom:scripting/monoscript/fileName/PlayerMovement.cs: 42480eed24e61f9d7e7e895933644f96 -> 
+  custom:scripting/monoscript/fileName/IMjShape.cs: 28e2fc1a70053b697c9dba3b4c33e299 -> 
+  custom:scripting/monoscript/fileName/MjTendonConstraint.cs: ce02803b10ebaa17a0fa840232fc8804 -> 
+  custom:scripting/monoscript/fileName/MjXmlModifiers.cs: f73fbca2b6c8621fb12f8a84c02432b7 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MjGeomSettings.cs: f3b9636e7d28375599b704551650dbed -> 
+  custom:scripting/monoscript/fileName/MjBindings.cs: 15e5f349c6b6b7226f8b87b303badd89 -> 
+  custom:scripting/monoscript/fileName/MjBody.cs: fb3c30663f79557d77b9d66320fc5945 -> 
+  custom:scripting/monoscript/fileName/AbsoluteValueAttribute.cs: 09dd73acdf3bf8ae02bb9c5da352e3c1 -> 
+  custom:scripting/monoscript/fileName/MjGeomVectorSensor.cs: bb040ac3acaa482722a47ab9b3e710d4 -> 
+  custom:scripting/monoscript/fileName/MjMouseSpring.cs: 07cfd2983bd7502b3fbdeb74dd3d1902 -> 
+  custom:scripting/monoscript/fileName/PlayRandomSound.cs: 29a7bd3cdf0927d222f2cd2ff80b15bf -> 
+  custom:scripting/monoscript/fileName/MjPlaneShape.cs: cf90bac2c3e56f2a8f58d27cf928340f -> 
+  custom:scripting/monoscript/fileName/StlMeshImporter.cs: 6da5f9c74d96f2a80700038721e7ef5e -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c3c2d02238d9fd5e5138e188ce5e6829 -> 
+  custom:scripting/monoscript/fileName/MjSite.cs: 62c7d3a10dcdd79bdfd23e034057b677 -> 
+  custom:scripting/monoscript/fileName/MjBaseSensor.cs: f6b54bc2e6fd2eaf4083ed9730a9ae7a -> 
+  custom:scripting/monoscript/fileName/MjHierarchyTool.cs: a9e7f446b43cbe4a6a7af4bdd6c2ebe1 -> 
+  custom:scripting/monoscript/fileName/MjGeom.cs: 20eae74b07822d9f0b6b038f7e93a133 -> 
+  custom:scripting/monoscript/fileName/MjcfImporter.cs: 208df5a85caef54b5f5855a8c9c5a37a -> 
+========================================================================
+Received Import Request.
+  Time since last request: 659.712724 seconds.
+  path: Packages/com.unity.textmeshpro/package.json
+  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '18da73e3641dc8c8dead436da838c1c2') in 0.016623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.470341 seconds.
+  path: Packages/com.unity.test-framework/package.json
+  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4b81739ae675f580da85cd1fd366dd3e') in 0.001530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.724540 seconds.
+  path: Packages/com.unity.sysroot.linux-x86_64/package.json
+  artifactKey: Guid(82b3e10190ae04847a3432984fd63265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.sysroot.linux-x86_64/package.json using Guid(82b3e10190ae04847a3432984fd63265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '02c011aae440122488ea9abfb0b06ae2') in 0.001506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.851017 seconds.
+  path: Assets/Models/husky_description/meshes/large_top_plate_collision.stl
+  artifactKey: Guid(83b76ff2ff74978a98c9fa6530d5e2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/husky_description/meshes/large_top_plate_collision.stl using Guid(83b76ff2ff74978a98c9fa6530d5e2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '535efecb031335231f304cd0b92f6869') in 0.056448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Models/husky_description/meshes/wheel.stl
+  artifactKey: Guid(a070a4bb304fcc389af274f7fcf3830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/husky_description/meshes/wheel.stl using Guid(a070a4bb304fcc389af274f7fcf3830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9a4d379651888ad19bf7b1e3ab443536') in 0.005554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.973377 seconds.
+  path: Assets/Models/husky_description/meshes/accessories
+  artifactKey: Guid(8aa2263e39a89398b98ed3656b88a23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/husky_description/meshes/accessories using Guid(8aa2263e39a89398b98ed3656b88a23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a08b897971202c9b39521726388a5e7c') in 0.000298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.066932 seconds.
+  path: Assets/Models/husky_description/meshes/accessories/300_mm_sensor_arch.dae
+  artifactKey: Guid(113cfe14da4b7c40e9ff50db0ffbd8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/husky_description/meshes/accessories/300_mm_sensor_arch.dae using Guid(113cfe14da4b7c40e9ff50db0ffbd8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '31fe9071e8ce2fece53d0a7b1971f626') in 0.033280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Models/husky_description/meshes/accessories/lms1xx_mount.dae
+  artifactKey: Guid(7e51189792634b15badc79da50456492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/husky_description/meshes/accessories/lms1xx_mount.dae using Guid(7e51189792634b15badc79da50456492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ac8aa557b693556cd729b08167736c5e') in 0.011454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 75.930264 seconds.
+  path: Assets/Models/husky_description/urdf/meshes/base_link.dae
+  artifactKey: Guid(367c8baba8b1c349994cdfbef1993904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/husky_description/urdf/meshes/base_link.dae using Guid(367c8baba8b1c349994cdfbef1993904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7b21309773da6027111c1029a3dbed74') in 0.012131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.019582 seconds.
+  path: Assets/Models/husky_description/urdf/meshes/Cylinder.asset
+  artifactKey: Guid(8c5661df09ec10d3ab8498fba289a533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/husky_description/urdf/meshes/Cylinder.asset using Guid(8c5661df09ec10d3ab8498fba289a533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a0952716a024c0b044310291957ae982') in 0.016944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011095 seconds.
+  path: Assets/Models/husky_description/urdf/meshes/top_plate.prefab
+  artifactKey: Guid(ca64f6b5556e4e0b9832081ac2f8413b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/husky_description/urdf/meshes/top_plate.prefab using Guid(ca64f6b5556e4e0b9832081ac2f8413b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '8727c724406a6b9b98837e7d7499b644') in 0.023215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.005688 seconds.
+  path: Assets/Models/husky_description/urdf/meshes/top_plate.stl
+  artifactKey: Guid(38cd34a6311843fd987643f6acb013c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/husky_description/urdf/meshes/top_plate.stl using Guid(38cd34a6311843fd987643f6acb013c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5dc7d739311ff110583d58c7831e6187') in 0.005301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/husky_description/urdf/meshes/wheel.dae
+  artifactKey: Guid(23f3f6b92267c0d5c8df3655a0233b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/husky_description/urdf/meshes/wheel.dae using Guid(23f3f6b92267c0d5c8df3655a0233b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '5fba65ee6573b4890fa38eb6f6a40daf') in 0.017889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Models/husky_description/urdf/meshes/bumper_extension.dae
+  artifactKey: Guid(f31e8489914325dccad3d2ff2980048a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/husky_description/urdf/meshes/bumper_extension.dae using Guid(f31e8489914325dccad3d2ff2980048a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7a7e3ba9ba7a753912e6eab8339ba2bf') in 0.007190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Models/husky_description/urdf/meshes/top_plate_1.asset
+  artifactKey: Guid(3d27bcb1a63ae6e27b9e01c58fe307db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/husky_description/urdf/meshes/top_plate_1.asset using Guid(3d27bcb1a63ae6e27b9e01c58fe307db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1e7ae50a060e1d7fd154ec5f38f52bef') in 0.007648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 125, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
