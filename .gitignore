@@ -1,0 +1,26 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+Assets/AssetStoreTools*
+
+# ROS/colcon/ament 빌드
+build/
+install/
+log/
+.colcon/
+ament_ws/build/
+ament_ws/install/
+ament_ws/log/
+**/__pycache__/
+
+# 기타 IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
