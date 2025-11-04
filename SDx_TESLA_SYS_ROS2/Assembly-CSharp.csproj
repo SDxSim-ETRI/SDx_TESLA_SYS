@@ -32,7 +32,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -41,7 +41,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169;USG0001</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoStandardLibraries>true</NoStandardLibraries>
@@ -83,7 +83,6 @@
     <Compile Include="Assets/SciFi Warehouse Kit/Demo/Scripts/PlayRandomSound.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/MagneticFieldMsg.cs" />
-    <Compile Include="Assets/Scripts/FreeCameraController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
@@ -91,8 +90,8 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/PointCloud2Msg.cs" />
-    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/NavSatStatusMsg.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/FluidPressureMsg.cs" />
     <Compile Include="Assets/Scripts/ROS/DifferentialDriveController.cs" />
@@ -116,6 +115,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/ImageMsg.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
+    <Compile Include="Assets/Scripts/GUI/MuJoCo/MujocoJointListUI_TMP.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/IlluminanceMsg.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/MultiDOFJointStateMsg.cs" />
@@ -133,6 +133,7 @@
     <Compile Include="Assets/RosMessages/Sensor/msg/PointFieldMsg.cs" />
     <Compile Include="Assets/Scripts/ROS/CmdVelSubscriber.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/JoyMsg.cs" />
+    <Compile Include="Assets/Scripts/GUI/Common/FreeCameraController.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/RegionOfInterestMsg.cs" />
     <Compile Include="Assets/SciFi Warehouse Kit/Demo/Scripts/PushPhysics.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/RelativeHumidityMsg.cs" />
