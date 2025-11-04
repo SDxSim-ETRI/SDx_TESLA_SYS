@@ -67,9 +67,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/TimeReferenceMsg.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
-    <Compile Include="Assets/SciFi Warehouse Kit/Demo/Scripts/LightFlicker.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/CompressedImageMsg.cs" />
-    <Compile Include="Assets/SciFi Warehouse Kit/Demo/Scripts/PlayerMovement.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/JoyFeedbackMsg.cs" />
@@ -80,7 +78,6 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/ChannelFloat32Msg.cs" />
-    <Compile Include="Assets/SciFi Warehouse Kit/Demo/Scripts/PlayRandomSound.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/MagneticFieldMsg.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
@@ -126,7 +123,6 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
-    <Compile Include="Assets/SciFi Warehouse Kit/Demo/Scripts/MouseComponent.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/RangeMsg.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
@@ -135,7 +131,6 @@
     <Compile Include="Assets/RosMessages/Sensor/msg/JoyMsg.cs" />
     <Compile Include="Assets/Scripts/GUI/Common/FreeCameraController.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/RegionOfInterestMsg.cs" />
-    <Compile Include="Assets/SciFi Warehouse Kit/Demo/Scripts/PushPhysics.cs" />
     <Compile Include="Assets/RosMessages/Sensor/msg/RelativeHumidityMsg.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
