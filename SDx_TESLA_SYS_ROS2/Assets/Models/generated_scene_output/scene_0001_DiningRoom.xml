@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="MuJoCo Model">
+  <compiler angle="radian" />
+
+  <default>
+    <default class="objectmain-0">
+      <default class="objectvisual-0">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="objectcollision-0">
+        <geom type="mesh" group="3" />
+      </default>
+    </default>
+    <default class="objectmain-1">
+      <default class="objectvisual-1">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="objectcollision-1">
+        <geom type="mesh" group="3" />
+      </default>
+    </default>
+    <default class="objectmain-2">
+      <default class="objectvisual-2">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="objectcollision-2">
+        <geom type="mesh" group="3" />
+      </default>
+    </default>
+    <default class="objectmain-3">
+      <default class="objectvisual-3">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="objectcollision-3">
+        <geom type="mesh" group="3" />
+      </default>
+    </default>
+    <default class="objectmain-4">
+      <default class="objectvisual-4">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="objectcollision-4">
+        <geom type="mesh" group="3" />
+      </default>
+    </default>
+    <default class="objectmain-5">
+      <default class="objectvisual-5">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="objectcollision-5">
+        <geom type="mesh" group="3" />
+      </default>
+    </default>
+    <default class="ycbmain-0">
+      <default class="ycbvisual-0">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="ycbcollision-0">
+        <geom type="mesh" group="3" />
+      </default>
+    </default>
+    <default class="ycbmain-1">
+      <default class="ycbvisual-1">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="ycbcollision-1">
+        <geom type="mesh" group="3" />
+      </default>
+    </default>
+    <default class="ycbmain-2">
+      <default class="ycbvisual-2">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="ycbcollision-2">
+        <geom type="mesh" group="3" />
+      </default>
+    </default>
+    <default class="ycbmain-3">
+      <default class="ycbvisual-3">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="ycbcollision-3">
+        <geom type="mesh" group="3" />
+      </default>
+    </default>
+    <default class="ycbmain-4">
+      <default class="ycbvisual-4">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="ycbcollision-4">
+        <geom type="mesh" group="3" />
+      </default>
+    </default>
+    <default class="wallmain-0" />
+    <default class="wallmain-1" />
+    <default class="wallmain-2" />
+    <default class="wallmain-3" />
+    <default class="wallmain-4" />
+  </default>
+
+  <asset>
+    <texture type="2d" colorspace="linear" name="custom_floor" file="textures/material_06.png" />
+    <texture type="2d" colorspace="linear" name="objectmaterial_00-0" file="textures/material_00.png" />
+    <texture type="2d" colorspace="linear" name="objectmaterial_01-1" file="textures/material_01.png" />
+    <texture type="2d" colorspace="linear" name="objectmaterial_02-2" file="textures/material_02.png" />
+    <texture type="2d" colorspace="linear" name="objectmaterial_03-3" file="textures/material_03.png" />
+    <texture type="2d" colorspace="linear" name="objectmaterial_04-4" file="textures/material_04.png" />
+    <texture type="2d" colorspace="linear" name="objectmaterial_05-5" file="textures/material_05.png" />
+    <texture type="2d" colorspace="linear" name="ycbtexture_map-0" file="textures/002_master_chef_can/texture_map.png" />
+    <texture type="2d" colorspace="linear" name="ycbtexture_map-1" file="textures/006_mustard_bottle/texture_map.png" />
+    <texture type="2d" colorspace="linear" name="ycbtexture_map-2" file="textures/024_bowl/texture_map.png" />
+    <texture type="2d" colorspace="linear" name="ycbtexture_map-3" file="textures/035_power_drill/texture_map.png" />
+    <texture type="2d" colorspace="linear" name="ycbtexture_map-4" file="textures/037_scissors/texture_map.png" />
+    <material name="custom_material" texture="custom_floor" texuniform="true" texrepeat="8 8" reflectance="0.3" />
+    <material name="objectmaterial_0-0" texture="objectmaterial_00-0" specular="0" shininess="0.001" />
+    <material name="objectmaterial_0-1" texture="objectmaterial_01-1" specular="0" shininess="0.001" />
+    <material name="objectmaterial_0-2" texture="objectmaterial_02-2" specular="0.816993" shininess="0.001" />
+    <material name="objectmaterial_0-3" texture="objectmaterial_03-3" specular="0" shininess="0.001" />
+    <material name="objectmaterial_0-4" texture="objectmaterial_04-4" specular="0.0980392" shininess="0.001" />
+    <material name="objectmaterial_0-5" texture="objectmaterial_05-5" specular="0" shininess="0.001" />
+    <material name="ycbmaterial_0-0" texture="ycbtexture_map-0" specular="1" shininess="0" />
+    <material name="ycbmaterial_0-1" texture="ycbtexture_map-1" specular="1" shininess="0" />
+    <material name="ycbmaterial_0-2" texture="ycbtexture_map-2" specular="1" shininess="0" />
+    <material name="ycbmaterial_0-3" texture="ycbtexture_map-3" specular="1" shininess="0" />
+    <material name="ycbmaterial_0-4" texture="ycbtexture_map-4" specular="1" shininess="0" />
+    <mesh name="objectobject_00-0" content_type="model/obj" file="meshes/object_00.obj" />
+    <mesh name="objectobject_01-1" content_type="model/obj" file="meshes/object_01.obj" />
+    <mesh name="objectobject_02-2" content_type="model/obj" file="meshes/object_02.obj" />
+    <mesh name="objectobject_03-3" content_type="model/obj" file="meshes/object_03.obj" />
+    <mesh name="objectobject_04-4" content_type="model/obj" file="meshes/object_04.obj" />
+    <mesh name="objectobject_05-5" content_type="model/obj" file="meshes/object_05.obj" />
+    <mesh name="ycbtextured_simple-0" content_type="model/obj" file="meshes/002_master_chef_can/textured_simple.obj" />
+    <mesh name="ycbtextured_simple-1" content_type="model/obj" file="meshes/006_mustard_bottle/textured_simple.obj" />
+    <mesh name="ycbtextured_simple-2" content_type="model/obj" file="meshes/024_bowl/textured_simple.obj" />
+    <mesh name="ycbtextured_simple-3" content_type="model/obj" file="meshes/035_power_drill/textured_simple.obj" />
+    <mesh name="ycbtextured_simple-4" content_type="model/obj" file="meshes/037_scissors/textured_simple.obj" />
+  </asset>
+
+  <worldbody>
+    <geom size="6 6 0.1" type="plane" material="custom_material" />
+    <site pos="0.10897 0.429323 0" quat="0.707107 0.707107 0 0" group="3" />
+    <site pos="0 0 0" quat="0.707107 0.707107 0 0" group="3" />
+    <site pos="0 0 0" quat="0.707107 0.707107 0 0" group="3" />
+    <site pos="0 0 0" quat="0.707107 0.707107 0 0" group="3" />
+    <site pos="0 0 0" quat="0.707107 0.707107 0 0" group="3" />
+    <site pos="0 0 0" quat="0.707107 0.707107 0 0" group="3" />
+    <site pos="-0.7 -1 1" quat="0.707107 0.707107 0 0" group="3" />
+    <site pos="-0.4 -0.8 1" quat="0.707107 0.707107 0 0" group="3" />
+    <site pos="-0.1 -1 1" quat="0.707107 0.707107 0 0" group="3" />
+    <site pos="-0.7 -0.8 1" quat="0.707107 0.707107 0 0" group="3" />
+    <site pos="-0.4 -1 1" quat="0.707107 0.707107 0 0" group="3" />
+    <site pos="2.90897 0.429323 0.598322" group="3" />
+    <site pos="-3.83903 0.429323 0.598322" group="3" />
+    <site pos="-0.465027 3.32348 0.598322" group="3" />
+    <site pos="-0.465027 -2.46484 0.598322" group="3" />
+    <site pos="-0.465027 -0.438924 0.598322" group="3" />
+    <light pos="-6 -1 3" dir="0.937043 0.156174 -0.312348" />
+    <light pos="6 -1 3" dir="-0.937043 0.156174 -0.312348" />
+    <body name="objectworld-0" pos="0.10897 0.429323 0" quat="0.707107 0.707107 0 0">
+      <joint name="obj_0" pos="0 0 0" axis="0.707107 -0.707107 0" />
+      <body name="objectobject_00-0">
+        <geom class="objectvisual-0" material="objectmaterial_0-0" mesh="objectobject_00-0" />
+        <geom class="objectcollision-0" mesh="objectobject_00-0" />
+      </body>
+    </body>
+    <body name="objectworld-1" quat="0.707107 0.707107 0 0">
+      <joint name="obj_1" pos="0 0 0" axis="0.707107 -0.707107 0" />
+      <body name="objectobject_01-1">
+        <geom class="objectvisual-1" material="objectmaterial_0-1" mesh="objectobject_01-1" />
+        <geom class="objectcollision-1" mesh="objectobject_01-1" />
+      </body>
+    </body>
+    <body name="objectworld-2" quat="0.707107 0.707107 0 0">
+      <joint name="obj_2" pos="0 0 0" axis="0.707107 -0.707107 0" />
+      <body name="objectobject_02-2">
+        <geom class="objectvisual-2" material="objectmaterial_0-2" mesh="objectobject_02-2" />
+        <geom class="objectcollision-2" mesh="objectobject_02-2" />
+      </body>
+    </body>
+    <body name="objectworld-3" quat="0.707107 0.707107 0 0">
+      <joint name="obj_3" pos="0 0 0" axis="0.707107 -0.707107 0" />
+      <body name="objectobject_03-3">
+        <geom class="objectvisual-3" material="objectmaterial_0-3" mesh="objectobject_03-3" />
+        <geom class="objectcollision-3" mesh="objectobject_03-3" />
+      </body>
+    </body>
+    <body name="objectworld-4" quat="0.707107 0.707107 0 0">
+      <joint name="obj_4" pos="0 0 0" axis="0.707107 -0.707107 0" />
+      <body name="objectobject_04-4">
+        <geom class="objectvisual-4" material="objectmaterial_0-4" mesh="objectobject_04-4" />
+        <geom class="objectcollision-4" mesh="objectobject_04-4" />
+      </body>
+    </body>
+    <body name="objectworld-5" quat="0.707107 0.707107 0 0">
+      <joint name="obj_5" pos="0 0 0" axis="0.707107 -0.707107 0" />
+      <body name="objectobject_05-5">
+        <geom class="objectvisual-5" material="objectmaterial_0-5" mesh="objectobject_05-5" />
+        <geom class="objectcollision-5" mesh="objectobject_05-5" />
+      </body>
+    </body>
+    <body name="ycbworld-0" pos="-0.7 -1 1" quat="0.707107 0.707107 0 0">
+      <joint type="free" />
+      <body name="ycbtextured_simple-0">
+        <geom class="ycbvisual-0" material="ycbmaterial_0-0" mesh="ycbtextured_simple-0" />
+        <geom class="ycbcollision-0" mesh="ycbtextured_simple-0" />
+      </body>
+    </body>
+    <body name="ycbworld-1" pos="-0.4 -0.8 1" quat="0.707107 0.707107 0 0">
+      <joint type="free" />
+      <body name="ycbtextured_simple-1">
+        <geom class="ycbvisual-1" material="ycbmaterial_0-1" mesh="ycbtextured_simple-1" />
+        <geom class="ycbcollision-1" mesh="ycbtextured_simple-1" />
+      </body>
+    </body>
+    <body name="ycbworld-2" pos="-0.1 -1 1" quat="0.707107 0.707107 0 0">
+      <joint type="free" />
+      <body name="ycbtextured_simple-2">
+        <geom class="ycbvisual-2" material="ycbmaterial_0-2" mesh="ycbtextured_simple-2" />
+        <geom class="ycbcollision-2" mesh="ycbtextured_simple-2" />
+      </body>
+    </body>
+    <body name="ycbworld-3" pos="-0.7 -0.8 1" quat="0.707107 0.707107 0 0">
+      <joint type="free" />
+      <body name="ycbtextured_simple-3">
+        <geom class="ycbvisual-3" material="ycbmaterial_0-3" mesh="ycbtextured_simple-3" />
+        <geom class="ycbcollision-3" mesh="ycbtextured_simple-3" />
+      </body>
+    </body>
+    <body name="ycbworld-4" pos="-0.4 -1 1" quat="0.707107 0.707107 0 0">
+      <joint type="free" />
+      <body name="ycbtextured_simple-4">
+        <geom class="ycbvisual-4" material="ycbmaterial_0-4" mesh="ycbtextured_simple-4" />
+        <geom class="ycbcollision-4" mesh="ycbtextured_simple-4" />
+      </body>
+    </body>
+    <body name="wallworld-0" pos="2.90897 0.429323 0.598322">
+      <geom name="wallwall_unit-0" size="0.05 2.89416 0.607429" type="box" rgba="1 1 1 1" />
+    </body>
+    <body name="wallworld-1" pos="-3.83903 0.429323 0.598322">
+      <geom name="wallwall_unit-1" size="0.05 2.89416 0.607429" type="box" rgba="1 1 1 1" />
+    </body>
+    <body name="wallworld-2" pos="-0.465027 3.32348 0.598322">
+      <geom name="wallwall_unit-2" size="3.374 0.05 0.607429" type="box" rgba="1 1 1 0.3" />
+    </body>
+    <body name="wallworld-3" pos="-0.465027 -2.46484 0.598322">
+      <geom name="wallwall_unit-3" size="3.374 0.05 0.607429" type="box" rgba="1 1 1 0.3" />
+    </body>
+    <body name="wallworld-4" pos="-0.465027 -0.438924 0.598322">
+      <geom name="wallwall_unit-4" size="0.05 2.02591 0.607429" type="box" rgba="1 1 1 1" />
+    </body>
+  </worldbody>
+</mujoco>

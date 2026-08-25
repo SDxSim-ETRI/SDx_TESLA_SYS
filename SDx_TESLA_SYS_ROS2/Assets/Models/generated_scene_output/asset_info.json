@@ -1,0 +1,35 @@
+{
+  "scene_name": "scene_0001_DiningRoom",
+  "mjcf_file": "scene_0001_DiningRoom.xml",
+  "source_scene": "data/0001_DiningRoom/object",
+  "meshes": [
+    "object_03.obj",
+    "object_01.obj",
+    "object_00.obj",
+    "object_02.obj",
+    "object_04.obj",
+    "object_06.obj",
+    "object_05.obj",
+    "002_master_chef_can/textured_simple.obj",
+    "006_mustard_bottle/textured_simple.obj",
+    "024_bowl/textured_simple.obj",
+    "035_power_drill/textured_simple.obj",
+    "037_scissors/textured_simple.obj"
+  ],
+  "textures": [
+    "material_03.png",
+    "material_01.png",
+    "material_06.png",
+    "material_05.png",
+    "material_02.png",
+    "material_04.png",
+    "material_00.png",
+    "material_06.jpeg",
+    "002_master_chef_can/texture_map.png",
+    "006_mustard_bottle/texture_map.png",
+    "024_bowl/texture_map.png",
+    "035_power_drill/texture_map.png",
+    "037_scissors/texture_map.png"
+  ],
+  "created_at": "2026-05-18T01:15:18"
+}

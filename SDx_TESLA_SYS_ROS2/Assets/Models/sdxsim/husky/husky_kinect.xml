@@ -1,0 +1,126 @@
+<mujoco model="Husky_Kinect">
+  <compiler angle="radian" />
+  <option gravity="0 0 -9.81" timestep="0.002"/>
+  <default>
+    <default class="husky">
+      <material shininess="0.25" />
+      <joint armature="0.1" damping="1" />
+      <site size="0.001 0.005 0.005" group="4" rgba="0.5 0.5 0.5 0.3" />
+      <general biastype="affine" biasprm="0 -1" />
+      <default class="visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="collision">
+        <geom type="mesh" group="3" />
+      </default>
+    </default>
+  </default>
+
+  <asset>
+    <material name="husky_orange" class="husky" rgba="0.996 0.941 0.412 1" />
+    <material name="husky_black" class="husky" rgba="0.231 0.231 0.231 1" />
+    <material name="huskyoff_white" rgba="0.901961 0.921569 0.929412 1" />
+    <material name="huskygreen" rgba="0 1 0 1" />
+    <material name="huskylight_blue" rgba="0.039216 0.541176 0.780392 1" />
+    <material name="huskyblack" rgba="0.2 0.2 0.2 1" />
+    <material name="huskywhite" />
+    <material name="huskyred" rgba="1 0.072272 0.039546 1" />
+    <material name="huskygray" rgba="0.863156 0.863156 0.863157 1" />
+    <material name="huskybutton_green" rgba="0.102241 0.571125 0.102242 1" />
+    <material name="huskybutton_red" rgba="0.520996 0.008023 0.013702 1" />
+    <material name="huskybutton_blue" rgba="0.024157 0.445201 0.737911 1" />
+    <mesh name="base_link" content_type="model/stl" file="meshes/base_link.stl" />
+    <mesh name="wheel" content_type="model/stl" file="meshes/wheel.stl" />
+    <mesh name="bumper" content_type="model/stl" file="meshes/bumper.stl" />
+    <mesh name="top_chassis" content_type="model/stl" file="meshes/top_chassis.stl" />
+    <mesh name="top_structure" content_type="model/stl" file="meshes/roas_dyros.stl" scale="1.2 1.15 1" />
+    <mesh name="top_plate" content_type="model/stl" file="meshes/top_plate.stl" />
+    <mesh name="user_rail" content_type="model/stl" file="meshes/user_rail.stl" />
+    <mesh name="azure_kinect" content_type="model/stl" file="meshes/accessories/Azure_Kinect_DK.stl" scale="0.001 0.001 0.001" />
+  </asset>    
+  <worldbody>
+    <body name="huskyworld" pos="0.2 1.5 0.1" childclass="husky">
+      <joint type="free" stiffness="0" damping="0" frictionloss="0" armature="0" />
+      <body name="base_footprint" pos="0 0 0.1">
+        <body name="base">
+          <inertial pos="-0.00065 -0.085 0.062" quat="-0.00647333 0.677091 0.00807459 0.735827" mass="46.034" diaginertia="2.03957 1.73909 0.591743" />
+          <geom class="collision" size="0.4937 0.28545 0.061875" pos="0 0 0.061875" type="box" />
+          <geom class="collision" size="0.39496 0.28545 0.051875" pos="0 0 0.175625" type="box" />
+          <geom class="visual" pos="0.272 0 0.245" quat="1 0 0 0" material="husky_black" mesh="user_rail" />
+          <geom class="visual" pos="-0.48 0 0.091" quat="0 0 1 0" rgba="0.2 0.2 0.2 1" mesh="bumper" />
+          <geom class="visual" pos="0.48 0 0.091" quat="1 0 0 0" rgba="0.2 0.2 0.2 1" mesh="bumper" />
+          <geom class="visual" rgba="0.8 0.8 0 1" mesh="base_link" />
+          <geom class="visual" rgba="0.8 0.8 0 1" mesh="top_chassis" />
+          <site name="site" pos="0 0 0" rgba="0.1 0.1 0.9 1" />
+          <body name="top_structure_link" pos="-0.05 0 0">
+            <inertial pos="-0.2 0 0.4" quat="0.99484 -0.000285289 -0.10145 -0.00117881" mass="20" diaginertia="0.199543 0.192679 0.0978138" />
+            <geom class="visual" material="husky_black" mesh="top_structure" />
+            <geom class="collision" size="0.19496 0.28 0.6825" pos="-0.2 0 0.8" type="box" />
+          </body>
+          <body name="front_left_wheel_link" pos="0.256 0.2854 0.03282">
+            <inertial pos="0 0 0" quat="0.707107 0 0 0.707107" mass="2.637" diaginertia="0.04411 0.02467 0.02467" />
+            <joint name="front_left_wheel_joint" pos="0 0 0" axis="0 1 0" />
+            <geom class="visual" quat="0 0 0 1" material="husky_black" mesh="wheel" />
+            <geom class="collision" size="0.1651 0.05715" quat="0.707107 0.707106 0 0" type="cylinder" />
+          </body>
+          <body name="front_right_wheel_link" pos="0.256 -0.2854 0.03282">
+            <inertial pos="0 0 0" quat="0.707107 0 0 0.707107" mass="2.637" diaginertia="0.04411 0.02467 0.02467" />
+            <joint name="front_right_wheel_joint" pos="0 0 0" axis="0 1 0" />
+            <geom class="visual" quat="0 0 0 1" material="husky_black" mesh="wheel" />
+            <geom class="collision" size="0.1651 0.05715" quat="0.707107 0.707106 0 0" type="cylinder" />
+          </body>
+          <body name="rear_left_wheel_link" pos="-0.256 0.2854 0.03282">
+            <inertial pos="0 0 0" quat="0.707107 0 0 0.707107" mass="2.637" diaginertia="0.04411 0.02467 0.02467" />
+            <joint name="rear_left_wheel_joint" pos="0 0 0" axis="0 1 0" />
+            <geom class="visual" quat="0 0 0 1" material="husky_black" mesh="wheel" />
+            <geom class="collision" size="0.1651 0.05715" quat="0.707107 0.707106 0 0" type="cylinder" />
+          </body>
+          <body name="rear_right_wheel_link" pos="-0.256 -0.2854 0.03282">
+            <inertial pos="0 0 0" quat="0.707107 0 0 0.707107" mass="2.637" diaginertia="0.04411 0.02467 0.02467" />
+            <joint name="rear_right_wheel_joint" pos="0 0 0" axis="0 1 0" />
+            <geom class="visual" quat="0 0 0 1" material="husky_black" mesh="wheel" />
+            <geom class="collision" size="0.1651 0.05715" quat="0.707107 0.707106 0 0" type="cylinder" />
+          </body>
+          <body name="camerabase" childclass="husky" pos="0.365 0 0.255">
+            <!-- <body name="azure_rgb_link" pos="-0.579254 -0.0454297 1.09902" quat="-0.345692 0.618354 -0.588951 0.388936"> -->
+            <body name="azure_rgb_link" pos="-0.579254 -0.0454297 1.09902" quat="-0.345692 0.618354 -0.618354 0.345692">
+              <camera name="azure_rgb" pos="0 0 0.001" quat="0 1 0 0" resolution="1920 1080" sensorsize="0.00512 0.00288" focalpixel="977.724 983.148" />
+              <body name="azure_depth_link" pos="-0.032 -0.002 0.004" quat="0.998697 -0.0509846 -0.00199939 0" />
+              <body name="azure_kinect_link" pos="-0.032 0 0.004" quat="-0.497998 -0.498998 0.501997 -0.500997">
+                <geom class="visual" pos="-0.0259 0 0" quat="0.5 0.5 0.5 0.5" material="huskygray" mesh="azure_kinect" />
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+
+  </worldbody>
+
+<!--   <equality>
+    <joint name="huskyleft_wheels_gear" joint1="front_left_wheel_joint" joint2="rear_left_wheel_joint" polycoef="0 1 0 0 0" />
+    <joint name="huskyright_wheels_gear" joint1="front_right_wheel_joint" joint2="rear_right_wheel_joint" polycoef="0 1 0 0 0" />
+    <joint joint1="huskyfinger_joint1" joint2="huskyfinger_joint2" polycoef="0 1 0 0 0" solref="0.005" solimp="0.95 0.99" />
+  </equality> -->
+
+  <!-- <actuator>
+    <general name="front_left_wheel" joint="front_left_wheel_joint" ctrlrange="-20.8973 20.8973" forcerange="-500 500" biastype="affine" gainprm="140" biasprm="0 0 -140" />
+    <general name="front_right_wheel" joint="front_right_wheel_joint" ctrlrange="-20.8973 20.8973" forcerange="-500 500" biastype="affine" gainprm="140" biasprm="0 0 -140" />
+    <general name="rear_left_wheel" joint="rear_left_wheel_joint" ctrlrange="-20.8973 20.8973" forcerange="-500 500" biastype="affine" gainprm="140" biasprm="0 0 -140" />
+    <general name="rear_right_wheel" joint="rear_right_wheel_joint" ctrlrange="-20.8973 20.8973" forcerange="-500 500" biastype="affine" gainprm="140" biasprm="0 0 -140" />
+  </actuator> -->
+
+<actuator>
+  <general name="front_left_wheel_actuator" joint="front_left_wheel_joint" ctrlrange="-20.8973 20.8973" forcerange="-500 500" biastype="affine" gainprm="140" biasprm="0 0 -140" />
+  <general name="front_right_wheel_actuator" joint="front_right_wheel_joint" ctrlrange="-20.8973 20.8973" forcerange="-500 500" biastype="affine" gainprm="140" biasprm="0 0 -140" />
+  <general name="rear_left_wheel_actuator" joint="rear_left_wheel_joint" ctrlrange="-20.8973 20.8973" forcerange="-500 500" biastype="affine" gainprm="140" biasprm="0 0 -140" />
+  <general name="rear_right_wheel_actuator" joint="rear_right_wheel_joint" ctrlrange="-20.8973 20.8973" forcerange="-500 500" biastype="affine" gainprm="140" biasprm="0 0 -140" />
+</actuator>
+
+  <sensor>
+    <framepos objtype="site" objname="site" name="position_sensor" />
+    <framequat objtype="site" objname="site" name="orientation_sensor" />
+    <framelinvel objtype="site" objname="site" name="linear_velocity_sensor" />
+    <frameangvel objtype="site" objname="site" name="angular_velocity_sensor" />
+  </sensor>
+</mujoco>
