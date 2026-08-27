@@ -161,38 +161,4 @@ git lfs pull
 SDx_TESLA_SYS_ROS2
 ```
 
----
-
-# Repository 관리
-
-Unity에서 자동으로 생성되는 다음 파일 및 디렉터리는 Git에 Commit하지 않습니다.
-
-```text
-Library/
-Temp/
-Obj/
-Logs/
-UserSettings/
-Build/
-Builds/
-
-*.csproj
-*.sln
-
-.vs/
-.vscode/
-```
-
-Unity 프로젝트 동작에 필요한 주요 데이터는 다음 디렉터리에서 관리합니다.
-
-```text
-SDx_TESLA_SYS_ROS2/Assets/
-SDx_TESLA_SYS_ROS2/Packages/
-SDx_TESLA_SYS_ROS2/ProjectSettings/
-```
-
-Unity Asset의 `.meta` 파일 역시 Unity의 GUID 및 Asset 참조 정보를 포함하고 있으므로 반드시 함께 Commit해야 합니다.
-
----
-
 </div>
