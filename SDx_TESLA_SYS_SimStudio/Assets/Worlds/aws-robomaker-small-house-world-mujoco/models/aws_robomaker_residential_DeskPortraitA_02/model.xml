@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_DeskPortraitA_02">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_DeskPortraitA_01_collision.obj" name="aws_robomaker_residential_DeskPortraitA_02_aws_DeskPortraitA_01_collision_mesh" scale="0.010000 0.010000 0.010000" />
+    <mesh file="meshes/aws_DeskPortraitA_01.obj" name="aws_robomaker_residential_DeskPortraitA_02_aws_DeskPortraitA_01_mesh" scale="0.010000 0.010000 0.010000" />
+    <texture name="tex_aws_robomaker_residential_DeskPortraitA_02_aws_DeskPortraitA_01" file="materials/textures/aws_DeskPortraitA_01.png" type="2d" />
+    <texture name="tex_aws_robomaker_residential_DeskPortraitA_02_DeskPortraitA_02" file="materials/textures/DeskPortraitA_02.png" type="2d" />
+    <texture name="tex_aws_robomaker_residential_DeskPortraitA_02_aws_DeskPortraitA_02" file="materials/textures/aws_DeskPortraitA_02.png" type="2d" />
+    <material name="aws_robomaker_residential_DeskPortraitA_02_photo" texture="tex_aws_robomaker_residential_DeskPortraitA_02_DeskPortraitA_02" rgba="1.0 1.0 1.0 1.0" specular="0.1" shininess="0.2" reflectance="0.0" />
+    <material name="aws_robomaker_residential_DeskPortraitA_02_aws_DeskPortraitA_01" texture="tex_aws_robomaker_residential_DeskPortraitA_02_aws_DeskPortraitA_01" />
+    <material name="aws_robomaker_residential_DeskPortraitA_02_aws_DeskPortraitA_02" texture="tex_aws_robomaker_residential_DeskPortraitA_02_aws_DeskPortraitA_02" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_DeskPortraitA_02_DeskPortraitA_02" pos="1.892926 2.046082 0.070388" quat="-0.0027076988103038047 0.00024532249410777213 -0.009163240374734996 0.9999543205616251">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <body name="aws_robomaker_residential_DeskPortraitA_02_photo_body" pos="-0.000000 -0.042258 0.111399" quat="0.814059 0.580782 0.000000 0.000000">
+        <inertial pos="0 0 0" mass="0.1" diaginertia="0.01 0.01 0.01" />
+        <geom name="aws_robomaker_residential_DeskPortraitA_02_photo_geom" type="box" size="0.072548 0.101216 0.000010" material="aws_robomaker_residential_DeskPortraitA_02_photo" class="visual" />
+      </body>
+      <geom type="mesh" mesh="aws_robomaker_residential_DeskPortraitA_02_aws_DeskPortraitA_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_DeskPortraitA_02_aws_DeskPortraitA_01_mesh" material="aws_robomaker_residential_DeskPortraitA_02_aws_DeskPortraitA_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_PortraitC_01">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_PortraitC_01_collision.obj" name="aws_robomaker_residential_PortraitC_01_aws_PortraitC_01_collision_mesh" scale="0.010000 0.010000 0.010000" />
+    <mesh file="meshes/aws_PortraitC_01.obj" name="aws_robomaker_residential_PortraitC_01_aws_PortraitC_01_mesh" scale="0.010000 0.010000 0.010000" />
+    <texture name="tex_aws_robomaker_residential_PortraitC_01_PortraitC_01" file="materials/textures/PortraitC_01.png" type="2d" />
+    <texture name="tex_aws_robomaker_residential_PortraitC_01_aws_PortraitC_02" file="materials/textures/aws_PortraitC_02.png" type="2d" />
+    <texture name="tex_aws_robomaker_residential_PortraitC_01_aws_PortraitC_01" file="materials/textures/aws_PortraitC_01.png" type="2d" />
+    <material name="aws_robomaker_residential_PortraitC_01_photo" texture="tex_aws_robomaker_residential_PortraitC_01_PortraitC_01" rgba="1.0 1.0 1.0 1.0" specular="0.1" shininess="0.2" reflectance="0.0" />
+    <material name="aws_robomaker_residential_PortraitC_01_aws_PortraitC_02" texture="tex_aws_robomaker_residential_PortraitC_01_aws_PortraitC_02" />
+    <material name="aws_robomaker_residential_PortraitC_01_aws_PortraitC_01" texture="tex_aws_robomaker_residential_PortraitC_01_aws_PortraitC_01" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_PortraitC_01_PortraitC_01" pos="4.526084 -9.294904 1.0" quat="0.008031077063274994 0.0 0.0 0.9999677503805828">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <body name="aws_robomaker_residential_PortraitC_01_photo_body" pos="-0.000000 -0.001265 0.345883" quat="0.707107 0.707107 0.000000 0.000000">
+        <inertial pos="0 0 0" mass="0.1" diaginertia="0.01 0.01 0.01" />
+        <geom name="aws_robomaker_residential_PortraitC_01_photo_geom" type="box" size="0.230853 0.331531 0.000010" material="aws_robomaker_residential_PortraitC_01_photo" class="visual" />
+      </body>
+      <geom type="mesh" mesh="aws_robomaker_residential_PortraitC_01_aws_PortraitC_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_PortraitC_01_aws_PortraitC_01_mesh" material="aws_robomaker_residential_PortraitC_01_aws_PortraitC_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>

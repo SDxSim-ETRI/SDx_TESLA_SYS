@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_TV_02">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_TV_01_collision.obj" name="aws_robomaker_residential_TV_02_aws_TV_01_collision_mesh" scale="0.010000 0.010000 0.010000" />
+    <mesh file="meshes/aws_TV_01.obj" name="aws_robomaker_residential_TV_02_aws_TV_01_mesh" scale="0.010000 0.010000 0.010000" />
+    <texture name="tex_aws_robomaker_residential_TV_02_aws_TV_01" file="materials/textures/aws_TV_01.png" type="2d" />
+    <material name="aws_robomaker_residential_TV_02_aws_TV_01" texture="tex_aws_robomaker_residential_TV_02_aws_TV_01" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_TV_02_TV_02_001" pos="1.388739 -6.197322 0.676282" quat="0.9999897569399365 0.0 0.0 0.0045261479435165786">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_TV_02_aws_TV_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_TV_02_aws_TV_01_mesh" material="aws_robomaker_residential_TV_02_aws_TV_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>

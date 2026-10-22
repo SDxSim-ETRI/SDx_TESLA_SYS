@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="furn_right_shelf_scene">
+  <compiler angle="radian"/>
+  <asset>
+    <mesh name="furn_right_shelf_mesh" file="meshes/bookshelf_visual.obj"/>
+    <material name="furn_right_shelf_woodmat" rgba="0.82 0.75 0.64 1" specular="0.2" shininess="0.15"/>
+    <material name="furn_right_shelf_collisionmat" rgba="0.2 0.8 0.2 0" specular="0"/>
+  </asset>
+  <worldbody>
+    <body name="furn_right_shelf_body" pos="0 0 0">
+      <geom name="furn_right_shelf_visual" type="mesh" mesh="furn_right_shelf_mesh" material="furn_right_shelf_woodmat" contype="0" conaffinity="0" group="2"/>
+      <geom name="furn_right_shelf_col_side_left" type="box" pos="-0.526 0 0.777" size="0.012 0.18 0.776" group="3" contype="1" conaffinity="1" material="furn_right_shelf_collisionmat" friction="1.0 0.005 0.0001"/>
+      <geom name="furn_right_shelf_col_side_right" type="box" pos="0.526 0 0.777" size="0.012 0.18 0.776" group="3" contype="1" conaffinity="1" material="furn_right_shelf_collisionmat" friction="1.0 0.005 0.0001"/>
+      <geom name="furn_right_shelf_col_separator_left" type="box" pos="-0.1752 0 0.78" size="0.0122 0.171 0.741" group="3" contype="1" conaffinity="1" material="furn_right_shelf_collisionmat" friction="1.0 0.005 0.0001"/>
+      <geom name="furn_right_shelf_col_separator_right" type="box" pos="0.1752 0 0.78" size="0.0122 0.171 0.741" group="3" contype="1" conaffinity="1" material="furn_right_shelf_collisionmat" friction="1.0 0.005 0.0001"/>
+      <geom name="furn_right_shelf_col_floor" type="box" pos="0 0 0.0275" size="0.514 0.17 0.0105" group="3" contype="1" conaffinity="1" material="furn_right_shelf_collisionmat" friction="1.0 0.005 0.0001"/>
+      <geom name="furn_right_shelf_col_shelf_low" type="box" pos="0 0 0.4035" size="0.514 0.169 0.0105" group="3" contype="1" conaffinity="1" material="furn_right_shelf_collisionmat" friction="1.0 0.005 0.0001"/>
+      <geom name="furn_right_shelf_col_shelf_middle" type="box" pos="0 0 0.7795" size="0.514 0.169 0.0105" group="3" contype="1" conaffinity="1" material="furn_right_shelf_collisionmat" friction="1.0 0.005 0.0001"/>
+      <geom name="furn_right_shelf_col_shelf_high" type="box" pos="0 0 1.1545" size="0.514 0.169 0.0105" group="3" contype="1" conaffinity="1" material="furn_right_shelf_collisionmat" friction="1.0 0.005 0.0001"/>
+      <geom name="furn_right_shelf_col_top" type="box" pos="0 0 1.532" size="0.514 0.17 0.01" group="3" contype="1" conaffinity="1" material="furn_right_shelf_collisionmat" friction="1.0 0.005 0.0001"/>
+      <geom name="furn_right_shelf_col_drawer_unit" type="box" pos="0 0 0.213" size="0.513 0.16 0.174" group="3" contype="1" conaffinity="1" material="furn_right_shelf_collisionmat" friction="1.0 0.005 0.0001"/>
+    </body>
+  </worldbody>
+</mujoco>

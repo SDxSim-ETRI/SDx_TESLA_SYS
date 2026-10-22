@@ -1,0 +1,28 @@
+// Example only: remove .txt only when you are ready to integrate your real ROS backend.
+// DO NOT simulate a successful connection from the Connect button callback.
+using UnityEngine;
+using SDx.SimStudio.UI;
+
+public sealed class ExampleToolsConnection : MonoBehaviour
+{
+    [SerializeField] private SDxToolsPanel panel;
+    private void OnEnable()
+    {
+        if (panel == null) return;
+        panel.onRosFunctionRequested.AddListener(OnFunctionRequested);
+    }
+    private void OnDisable()
+    {
+        if (panel == null) return;
+        panel.SetRosConnected(false);
+        panel.onRosFunctionRequested.RemoveListener(OnFunctionRequested);
+    }
+    // Call these on the Unity MAIN THREAD from the real network integration.
+    public void OnActualConnectionSucceeded() { if (panel != null) panel.SetRosConnected(true); }
+    public void OnActualConnectionLost() { if (panel != null) panel.SetRosConnected(false); }
+    private void OnFunctionRequested(string ros, string robot, string function)
+    {
+        Debug.Log("Requested: " + ros + " / " + robot + " / " + function);
+        // Start your authorized Teleop UI/session here. Not implemented in the UI package.
+    }
+}

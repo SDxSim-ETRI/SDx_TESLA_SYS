@@ -7,3 +7,15 @@
 *.tga filter=lfs diff=lfs merge=lfs -text
 *.stl filter=lfs diff=lfs merge=lfs -text
 *.obj filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio/**/*.stl filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio/**/*.fbx filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio/**/*.blend filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio/**/*.png filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio/**/*.exr filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio/**/*.psd filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio/**/*.so filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio/**/*.dll filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio/**/*.obj filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio/**/*.tga filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_Tablet_01">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_Tablet_01_collision.obj" name="aws_robomaker_residential_Tablet_01_aws_Tablet_01_collision_mesh" scale="0.010000 0.010000 0.010000" />
+    <mesh file="meshes/aws_Tablet_01.obj" name="aws_robomaker_residential_Tablet_01_aws_Tablet_01_mesh" scale="0.010000 0.010000 0.010000" />
+    <texture name="tex_aws_robomaker_residential_Tablet_01_aws_Tablet_01" file="materials/textures/aws_Tablet_01.png" type="2d" />
+    <texture name="tex_aws_robomaker_residential_Tablet_01_aws_Tablet_01_nologo" file="materials/textures/aws_Tablet_01_nologo.png" type="2d" />
+    <material name="aws_robomaker_residential_Tablet_01_aws_Tablet_01" texture="tex_aws_robomaker_residential_Tablet_01_aws_Tablet_01" />
+    <material name="aws_robomaker_residential_Tablet_01_aws_Tablet_01_nologo" texture="tex_aws_robomaker_residential_Tablet_01_aws_Tablet_01_nologo" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_Tablet_01_Tablet_01_001" pos="1.775857 1.57283 0.40179" quat="0.7092992195281079 -0.007286711217252798 -0.007297213554377258 0.7048320875859688">
+      <inertial pos="0 0 0" mass="0.5" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_Tablet_01_aws_Tablet_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_Tablet_01_aws_Tablet_01_mesh" material="aws_robomaker_residential_Tablet_01_aws_Tablet_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_SecurityCamera_01">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_SecurityCamera_01_collision.obj" name="aws_robomaker_residential_SecurityCamera_01_aws_SecurityCamera_01_collision_mesh" scale="0.010000 0.010000 0.010000" />
+    <mesh file="meshes/aws_SecurityCamera_01.obj" name="aws_robomaker_residential_SecurityCamera_01_aws_SecurityCamera_01_mesh" scale="0.010000 0.010000 0.010000" />
+    <texture name="tex_aws_robomaker_residential_SecurityCamera_01_aws_SecurityCamera_01" file="materials/textures/aws_SecurityCamera_01.png" type="2d" />
+    <material name="aws_robomaker_residential_SecurityCamera_01_aws_SecurityCamera_01" texture="tex_aws_robomaker_residential_SecurityCamera_01_aws_SecurityCamera_01" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_SecurityCamera_01_SecurityCamera_01_001" pos="4.996294 0.842134 0.495067" quat="0.8049997164029747 0.0 0.0 -0.5932751946534848">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_SecurityCamera_01_aws_SecurityCamera_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_SecurityCamera_01_aws_SecurityCamera_01_mesh" material="aws_robomaker_residential_SecurityCamera_01_aws_SecurityCamera_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>

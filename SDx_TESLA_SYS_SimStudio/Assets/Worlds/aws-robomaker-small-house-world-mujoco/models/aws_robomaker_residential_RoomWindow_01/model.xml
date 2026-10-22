@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_RoomWindow_01">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_RoomWindow_01_collision.obj" name="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_collision_mesh" scale="0.010000 0.010000 0.010000" />
+    <mesh file="meshes/aws_RoomWindow_01.obj" name="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_mesh" scale="0.010000 0.010000 0.010000" />
+    <texture name="tex_aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01" file="materials/textures/aws_RoomWindow_01.png" type="2d" />
+    <material name="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01" texture="tex_aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_RoomWindow_01_RoomWindow_01_001" pos="0.026285 -9.4186 0.502739" quat="0.7071067811865476 0.0 0.0 0.7071067811865475">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_mesh" material="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_RoomWindow_01_RoomWindow_01_002" pos="2.37409 -9.4186 0.502739" quat="0.7071067811865476 0.0 0.0 0.7071067811865475">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_mesh" material="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_RoomWindow_01_RoomWindow_01_003" pos="3.373981 9.422616 0.502739" quat="0.7090464110185407 0.0 0.0 -0.7051618161966278">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_mesh" material="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_RoomWindow_01_RoomWindow_01_004" pos="-0.96852 9.422558 0.496581" quat="0.7090464110185407 0.0 0.0 -0.7051618161966278">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_mesh" material="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_RoomWindow_01_RoomWindow_01_005" pos="-4.470281 4.722317 0.502739" quat="0.7090464110185407 0.0 0.0 -0.7051618161966278">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_mesh" material="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_RoomWindow_01_RoomWindow_01_006" pos="-5.600688 3.48852 0.502739" quat="0.9999974435711343 0.0 0.0 0.002261161470613504">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_mesh" material="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_RoomWindow_01_RoomWindow_01_007" pos="-5.600688 1.140949 0.502739" quat="0.9999974435711343 0.0 0.0 0.002261161470613504">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_mesh" material="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_RoomWindow_01_RoomWindow_01_008" pos="-5.600688 -1.19934 0.502739" quat="0.9999974435711343 0.0 0.0 0.002261161470613504">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_mesh" material="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_RoomWindow_01_RoomWindow_01_009" pos="-4.387607 -2.396624 0.502739" quat="0.7071067811865476 0.0 0.0 0.7071067811865475">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01_mesh" material="aws_robomaker_residential_RoomWindow_01_aws_RoomWindow_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>

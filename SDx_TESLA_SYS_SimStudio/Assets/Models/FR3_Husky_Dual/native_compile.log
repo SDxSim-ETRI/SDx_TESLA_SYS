@@ -1,0 +1,16 @@
+{
+  "mujoco_version": "3.16.0",
+  "library": "/home/tesla/Desktop/work/SDx_TESLA_SYS/SDx_TESLA_SYS_SimStudio/Assets/Plugins/x86_64/libmujoco.so",
+  "models": [
+    {
+      "file": "dual_fr3_husky_standalone.xml",
+      "compile": "passed"
+    },
+    {
+      "file": "dual_fr3_husky_unity.xml",
+      "compile": "passed"
+    }
+  ],
+  "simulation_stepped": false,
+  "unity_import_tested": false
+}

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_CoffeeTable_01">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_CoffeeTable_01_collision.obj" name="aws_robomaker_residential_CoffeeTable_01_aws_CoffeeTable_01_collision_mesh" scale="0.010000 0.010000 0.010000" />
+    <mesh file="meshes/aws_CoffeeTable_01.obj" name="aws_robomaker_residential_CoffeeTable_01_aws_CoffeeTable_01_mesh" scale="0.010000 0.010000 0.010000" />
+    <texture name="tex_aws_robomaker_residential_CoffeeTable_01_aws_CoffeeTable_01" file="materials/textures/aws_CoffeeTable_01.png" type="2d" />
+    <material name="aws_robomaker_residential_CoffeeTable_01_aws_CoffeeTable_01" texture="tex_aws_robomaker_residential_CoffeeTable_01_aws_CoffeeTable_01" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_CoffeeTable_01_CoffeeTable_01_001" pos="1.733438 1.512301 0.041983" quat="0.7035624231956371 0.0 0.0 0.7106334615447567">
+      <inertial pos="0 0 0" mass="21.7" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_CoffeeTable_01_aws_CoffeeTable_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_CoffeeTable_01_aws_CoffeeTable_01_mesh" material="aws_robomaker_residential_CoffeeTable_01_aws_CoffeeTable_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>

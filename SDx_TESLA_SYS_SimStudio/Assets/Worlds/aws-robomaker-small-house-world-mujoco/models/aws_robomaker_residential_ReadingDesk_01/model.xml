@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_ReadingDesk_01">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_ReadingDesk_01_collision.obj" name="aws_robomaker_residential_ReadingDesk_01_aws_ReadingDesk_01_collision_mesh" scale="0.010000 0.010000 0.010000" />
+    <mesh file="meshes/aws_ReadingDesk_01.obj" name="aws_robomaker_residential_ReadingDesk_01_aws_ReadingDesk_01_mesh" scale="0.010000 0.010000 0.010000" />
+    <texture name="tex_aws_robomaker_residential_ReadingDesk_01_aws_ReadingDesk_01" file="materials/textures/aws_ReadingDesk_01.png" type="2d" />
+    <material name="aws_robomaker_residential_ReadingDesk_01_aws_ReadingDesk_01" texture="tex_aws_robomaker_residential_ReadingDesk_01_aws_ReadingDesk_01" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_ReadingDesk_01_ReadingDesk_01_001" pos="-2.057058 -8.987262 0.0" quat="0.7087446590176115 0.0 0.0 0.705465100705917">
+      <inertial pos="0 0 0" mass="14.6" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ReadingDesk_01_aws_ReadingDesk_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ReadingDesk_01_aws_ReadingDesk_01_mesh" material="aws_robomaker_residential_ReadingDesk_01_aws_ReadingDesk_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>

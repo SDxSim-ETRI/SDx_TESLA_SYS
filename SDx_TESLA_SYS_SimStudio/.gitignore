@@ -1,0 +1,31 @@
+
+# BEGIN SDx SimStudio generated files (added by migration kit)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/.vs/
+/.vscode/
+/.idea/
+*.sln
+*.csproj
+*.pidb
+*.user
+*.suo
+*.booproj
+*.opendb
+*.VC.db
+*.tmp
+*.bak
+*.orig
+*.blend1
+*.blend2
+.DS_Store
+Thumbs.db
+# Keep Assets, Packages, ProjectSettings, .meta, and the LFS-managed libmujoco.so.
+# END SDx SimStudio generated files

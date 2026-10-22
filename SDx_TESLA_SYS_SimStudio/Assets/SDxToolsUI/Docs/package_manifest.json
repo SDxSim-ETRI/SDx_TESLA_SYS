@@ -1,0 +1,19 @@
+{
+  "version": "1.2.0",
+  "sha256": {
+    "Docs/README_KO.md": "72243173565b85292a2c15893f56183f654bb248ee9aa83990a69e812e3954fa",
+    "Docs/static_validate.py": "5ce52cad43b5731c8404f5519b7127b4c520d3ae392596e0d19d6b3c0e41d4e2",
+    "Docs/SOURCES.md": "c1a239d644dd4c9df7ef52fe725611a165fa12bf89ecaadc32c8b35ef2ac9918",
+    "Docs/IntegrationExample.cs.txt": "daa3e9f536170ec9fb4e36d1e482bc0606f6c192cdb1e076f8adf05fee526428",
+    "Docs/TEST_STATUS.md": "0d38e09fc4ce950354337235be0684283f3a67b627a826b94842b6737bdadfff",
+    "Docs/STATIC_CHECKS.txt": "f4837520c293aa940bde807247e2536a3c54fb192d7cb14e05d7efc04e85a4d0",
+    "Runtime/SDxRosConnectionState.cs": "4f4ca5c389f15cfa0aba82b7b7b745af4d34d60f3f48648bbc8c342c3b6b4a18",
+    "Runtime/SDxKoreanTextField.cs": "8237794116926791c4e412aec3cdaab8bec6a6e2dc2057bfbb95bd5ebf7b6882",
+    "Runtime/SDxToolsPanel.cs": "ace27099231afce72a0a7f5dc6219c250b6b6f30f6c2d3e9b7df8f8e20a90ecd",
+    "Runtime/SDxHangulComposer.cs": "3a4dc13c90ffa71586317370e47a01940a8f638b891b011de6f55dd7a1306ca4",
+    "Runtime/SDxToolsWindowState.cs": "20e795f6e313b70a25531e07bff7c23848126bfa2b7b8717dcab8ea80ef30946",
+    "Runtime/SDxFolderBrowser.cs": "30efab8eb9949421953d3c463c7de0475331f12e2102bc347dfd3e806793e754",
+    "Editor/SDxToolsPanelInstaller.cs": "562caab85d9703338a7ea76d26b3f275017ad8ca1658fb2dd3164146855da424",
+    "Editor/SDxToolsTextSelfChecks.cs": "cefab9630523e441f5a6a67912c861d9709bb2883d55defc6a44bdf13d6c5060"
+  }
+}

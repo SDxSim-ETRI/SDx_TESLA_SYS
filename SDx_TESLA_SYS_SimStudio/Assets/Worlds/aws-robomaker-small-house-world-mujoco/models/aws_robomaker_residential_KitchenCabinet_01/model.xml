@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_KitchenCabinet_01">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_KitchenCabinet_01_collision_part1.obj" name="aws_robomaker_residential_KitchenCabinet_01_collision_part1_mesh" scale="0.010000 0.010000 0.010000" />
+    <mesh file="meshes/aws_KitchenCabinet_01_collision_part2.obj" name="aws_robomaker_residential_KitchenCabinet_01_collision_part2_mesh" scale="0.010000 0.010000 0.010000" />
+    <mesh file="meshes/aws_KitchenCabinet_01.obj" name="aws_robomaker_residential_KitchenCabinet_01_aws_KitchenCabinet_01_mesh" scale="0.010000 0.010000 0.010000" />
+    <texture name="tex_aws_robomaker_residential_KitchenCabinet_01_aws_KitchenCabinet_01" file="materials/textures/aws_KitchenCabinet_01.png" type="2d" />
+    <material name="aws_robomaker_residential_KitchenCabinet_01_aws_KitchenCabinet_01" texture="tex_aws_robomaker_residential_KitchenCabinet_01_aws_KitchenCabinet_01" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_KitchenCabinet_01_KitchenCabinet_01_001" pos="3.836509 8.002009 0.012068" quat="0.7076692917308742 0.0 0.0 -0.7065438228030324">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_KitchenCabinet_01_collision_part1_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_KitchenCabinet_01_collision_part2_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_KitchenCabinet_01_aws_KitchenCabinet_01_mesh" material="aws_robomaker_residential_KitchenCabinet_01_aws_KitchenCabinet_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>

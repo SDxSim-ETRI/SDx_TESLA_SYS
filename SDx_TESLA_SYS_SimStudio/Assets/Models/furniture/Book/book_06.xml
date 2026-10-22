@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="furn_book_06_scene">
+  <compiler angle="radian"/>
+  <asset>
+    <mesh name="furn_book_06_cover_mesh" file="meshes/book_06_cover.obj"/>
+    <material name="furn_book_06_cover_mat" rgba="0.800016 0.032973 0.523313 1" specular="0.16" shininess="0.18"/>
+    <mesh name="furn_book_06_pages_mesh" file="meshes/book_06_pages.obj"/>
+    <material name="furn_book_06_pages_mat" rgba="0.422512 0.383653 0.257808 1" specular="0.16" shininess="0.18"/>
+    <material name="furn_book_06_col_mat" rgba="0.9 0.2 0.2 0" specular="0"/>
+  </asset>
+  <worldbody>
+    <body name="furn_book_06_body" pos="0 0 0.35">
+      <freejoint name="furn_book_06_freejoint"/>
+      <inertial pos="0 0 0" mass="0.32" diaginertia="0.0019726 0.0028182 0.0009394"/>
+      <geom name="furn_book_06_visual_cover" type="mesh" mesh="furn_book_06_cover_mesh" material="furn_book_06_cover_mat" group="2" contype="0" conaffinity="0"/>
+      <geom name="furn_book_06_visual_pages" type="mesh" mesh="furn_book_06_pages_mesh" material="furn_book_06_pages_mat" group="2" contype="0" conaffinity="0"/>
+      <geom name="furn_book_06_col_box" type="box" size="0.091472 0.0209665 0.134364" group="3" material="furn_book_06_col_mat" contype="1" conaffinity="1" friction="1.25 0.005 0.0001" condim="4"/>
+    </body>
+  </worldbody>
+</mujoco>

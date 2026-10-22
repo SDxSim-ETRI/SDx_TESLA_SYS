@@ -1,0 +1,14 @@
+SDxToolsPanelInstaller.cs: lexical/delimiter check passed (NOT C# compilation)
+SDxToolsTextSelfChecks.cs: lexical/delimiter check passed (NOT C# compilation)
+SDxToolsWindowState.cs: lexical/delimiter check passed (NOT C# compilation)
+SDxHangulComposer.cs: lexical/delimiter check passed (NOT C# compilation)
+SDxRosConnectionState.cs: lexical/delimiter check passed (NOT C# compilation)
+SDxToolsPanel.cs: lexical/delimiter check passed (NOT C# compilation)
+SDxKoreanTextField.cs: lexical/delimiter check passed (NOT C# compilation)
+SDxFolderBrowser.cs: lexical/delimiter check passed (NOT C# compilation)
+Python reference composition: 11181 cases passed using C# key/character tables; not execution of C# composer
+Layout arithmetic: Run/dropdown and 32-unit path/instruction/command fields have no rectangle overlap at panel widths 230/254/320/420
+Source checks: no fake Connect success; no ROS/physics process, no native library changes
+
+v1.2: added Unicode compatibility and modern conjoining Jamo mapping; IMGUI loose Jamo fallback.
+Editor tests cover separated Jamo sequences; UI keyboard integration unverified here.

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_Ball_01">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <texture name="tex_aws_robomaker_residential_Ball_01_aws_Ball_01" file="materials/textures/aws_Ball_01.png" type="2d" />
+    <material name="aws_robomaker_residential_Ball_01_aws_Ball_01" texture="tex_aws_robomaker_residential_Ball_01_aws_Ball_01" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_Ball_01_Ball_01_001" pos="-4.225674 3.295503 0.318684" quat="0.7071067811865476 0.0 0.0 0.7071067811865475">
+      <inertial pos="0 0 0" mass="0.12" diaginertia="1.0 1.0 1.0" />
+      <geom type="sphere" size="0.31" rgba="0.12 0.76 0.97 1" />
+    </body>
+    <body name="aws_robomaker_residential_Ball_01_Ball_01_003" pos="4.22174 -6.945503 0.318684" quat="0.7071067811865476 0.0 0.0 0.7071067811865475">
+      <inertial pos="0 0 0" mass="0.12" diaginertia="1.0 1.0 1.0" />
+      <geom type="sphere" size="0.31" rgba="0.12 0.76 0.97 1" />
+    </body>
+  </worldbody>
+</mujoco>

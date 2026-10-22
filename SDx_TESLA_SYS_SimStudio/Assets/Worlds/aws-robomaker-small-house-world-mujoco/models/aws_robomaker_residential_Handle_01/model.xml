@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_Handle_01">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_Handle_01_collision.obj" name="aws_robomaker_residential_Handle_01_aws_Handle_01_collision_mesh" scale="1.000000 1.000000 1.000000" />
+    <mesh file="meshes/aws_Handle_01.obj" name="aws_robomaker_residential_Handle_01_aws_Handle_01_mesh" scale="1.000000 1.000000 1.000000" />
+    <texture name="tex_aws_robomaker_residential_Handle_01_aws_Handle_01" file="materials/textures/aws_Handle_01.png" type="2d" />
+    <material name="aws_robomaker_residential_Handle_01_aws_Handle_01" texture="tex_aws_robomaker_residential_Handle_01_aws_Handle_01" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_Handle_01_Handle_01_001" pos="5.523 5.724 0.9938" quat="0.7071395384185714 0.0 0.0 -0.7070740224369509">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_Handle_01_aws_Handle_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_Handle_01_aws_Handle_01_mesh" material="aws_robomaker_residential_Handle_01_aws_Handle_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>

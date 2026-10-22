@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_Chandelier_01">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_Chandelier_01_collision.obj" name="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01_collision_mesh" scale="0.010000 0.010000 0.010000" />
+    <mesh file="meshes/aws_Chandelier_01.obj" name="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01_mesh" scale="0.010000 0.010000 0.010000" />
+    <texture name="tex_aws_robomaker_residential_Chandelier_01_aws_Chandelier_01" file="materials/textures/aws_Chandelier_01.png" type="2d" />
+    <material name="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01" texture="tex_aws_robomaker_residential_Chandelier_01_aws_Chandelier_01" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_Chandelier_01_Chandelier_01_001" pos="-4.15574 1.221061 1.295" quat="0.7071067811865476 0.0 0.0 0.7071067811865475">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01_mesh" material="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_Chandelier_01_Chandelier_01_002" pos="0.69204 -6.451061 1.81" quat="0.7071067811865476 0.0 0.0 0.7071067811865475">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01_mesh" material="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_Chandelier_01_Chandelier_01_003" pos="1.59 7.824061 1.751" quat="0.7071067811865476 0.0 0.0 0.7071067811865475">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01_mesh" material="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_Chandelier_01_Chandelier_01_004" pos="1.59204 1.221061 1.7873" quat="0.7071067811865476 0.0 0.0 0.7071067811865475">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01_mesh" material="aws_robomaker_residential_Chandelier_01_aws_Chandelier_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>

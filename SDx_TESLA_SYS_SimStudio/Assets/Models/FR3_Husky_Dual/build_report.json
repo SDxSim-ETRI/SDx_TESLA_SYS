@@ -1,0 +1,421 @@
+{
+  "created_utc": "2026-10-21T06:29:46.569787+00:00",
+  "source_file": "fr3_husky_description/mjcf/dual_fr3_husky.xml.xacro",
+  "xacro_version": "2.1.1",
+  "configuration": {
+    "hand": true,
+    "cameras": false,
+    "control_mode": "effort"
+  },
+  "sources": {
+    "fr3_husky": {
+      "url": "https://github.com/JunHeonYoon/fr3_husky.git",
+      "recommended_branch": "main",
+      "commit": "b9bda9b8c7a337899062b2a4394efa351786804f",
+      "branch": "main",
+      "status_porcelain": ""
+    },
+    "franka_description": {
+      "url": "https://github.com/JunHeonYoon/franka_description.git",
+      "recommended_branch": "main",
+      "commit": "b13d568868adf3b789c692af00770698f6250a8a",
+      "branch": "main",
+      "status_porcelain": ""
+    },
+    "husky": {
+      "url": "https://github.com/JunHeonYoon/husky.git",
+      "recommended_branch": "humble-devel",
+      "commit": "6f7dd1fff0a381e4cdf5fbeb41ac1d4c03666507",
+      "branch": "humble-devel",
+      "status_porcelain": ""
+    }
+  },
+  "model": {
+    "body_joint_elements": 23,
+    "joint_names": [
+      "front_left_wheel_joint",
+      "front_right_wheel_joint",
+      "left_fr3_finger_joint1",
+      "left_fr3_finger_joint2",
+      "left_fr3_joint1",
+      "left_fr3_joint2",
+      "left_fr3_joint3",
+      "left_fr3_joint4",
+      "left_fr3_joint5",
+      "left_fr3_joint6",
+      "left_fr3_joint7",
+      "rear_left_wheel_joint",
+      "rear_right_wheel_joint",
+      "right_fr3_finger_joint1",
+      "right_fr3_finger_joint2",
+      "right_fr3_joint1",
+      "right_fr3_joint2",
+      "right_fr3_joint3",
+      "right_fr3_joint4",
+      "right_fr3_joint5",
+      "right_fr3_joint6",
+      "right_fr3_joint7",
+      "world_joint"
+    ],
+    "arm_joints": 14,
+    "wheel_joints": 4,
+    "finger_joints": 4,
+    "free_joints": 1,
+    "actuators": 20,
+    "actuator_names": [
+      "front_left_wheel_joint",
+      "front_right_wheel_joint",
+      "left_fr3_hand",
+      "left_fr3_joint1",
+      "left_fr3_joint2",
+      "left_fr3_joint3",
+      "left_fr3_joint4",
+      "left_fr3_joint5",
+      "left_fr3_joint6",
+      "left_fr3_joint7",
+      "rear_left_wheel_joint",
+      "rear_right_wheel_joint",
+      "right_fr3_hand",
+      "right_fr3_joint1",
+      "right_fr3_joint2",
+      "right_fr3_joint3",
+      "right_fr3_joint4",
+      "right_fr3_joint5",
+      "right_fr3_joint6",
+      "right_fr3_joint7"
+    ],
+    "fixed_tendons": 2,
+    "equality_constraints": 4,
+    "mesh_assets": 53
+  },
+  "assets": [
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link0_0.obj",
+      "destination": "meshes/eab981505dda3761.obj",
+      "ascii_stl_converted": false,
+      "sha256": "28bb76a006bb9d2c44db0d820fdccec3e65c81f3b56733c9caa22a1da76f6bd5"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link0_1.obj",
+      "destination": "meshes/b3a224665084e7b7.obj",
+      "ascii_stl_converted": false,
+      "sha256": "43ffda3294d0a83e32c99cf708b19ce2bbca179fa5a86e0b25da8611c7a4f362"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link0_2.obj",
+      "destination": "meshes/c2b9fe622454114d.obj",
+      "ascii_stl_converted": false,
+      "sha256": "b0d62fb962194aada53ee5446868a96a4f89139668b7df9676a25695d4bef557"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link0_3.obj",
+      "destination": "meshes/e989d3779323eca3.obj",
+      "ascii_stl_converted": false,
+      "sha256": "b1841889fe70a3a6a1fc99bbeae447c77e19cf7df014bf0e2f3dd6e7d2a287bb"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link0_4.obj",
+      "destination": "meshes/2edb614124c580cf.obj",
+      "ascii_stl_converted": false,
+      "sha256": "c1571d509f019fa6a75893a6c2b5f81980c0f9cb73eb0e1a10ddedab996e009d"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link0_5.obj",
+      "destination": "meshes/fa2c2126191b1883.obj",
+      "ascii_stl_converted": false,
+      "sha256": "aae746ba3d2dbca7ac15bf639475029d062a919871d810404ac49455d2b36c0a"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link0_6.obj",
+      "destination": "meshes/38bed480c3d6c2d2.obj",
+      "ascii_stl_converted": false,
+      "sha256": "410f5ca13739f30616f866217fe5a2b8a02ff1769d1cb8ff917f4bffaffd69e8"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link1.obj",
+      "destination": "meshes/0e1f0bd3e3e5bcbd.obj",
+      "ascii_stl_converted": false,
+      "sha256": "a9e73987b774f3fb76ec640c2f6e172b128736363792f1697a13d7795f745663"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link2.obj",
+      "destination": "meshes/7a4e4344158de023.obj",
+      "ascii_stl_converted": false,
+      "sha256": "1818f1eed57552d006a3e9353a670a39c271ac67833274efcee2403db7e4fa92"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link3_0.obj",
+      "destination": "meshes/f7112dc9fd7834a3.obj",
+      "ascii_stl_converted": false,
+      "sha256": "031bf65faf13ff31c01089d2d5989b3b5f8a06c43997066e49fdec1b5dce3c0a"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link3_1.obj",
+      "destination": "meshes/8e2e3c66ca617620.obj",
+      "ascii_stl_converted": false,
+      "sha256": "b626ac25b916d70a4f5463ed9f92dcdfc33d72391d766841b160b87dbd607875"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link4_0.obj",
+      "destination": "meshes/b199d92c9d879e82.obj",
+      "ascii_stl_converted": false,
+      "sha256": "f0462a58ecff7f27ce9aa66a762ca6a67c9ba02bf8c388f08eeed1b098e86d11"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link4_1.obj",
+      "destination": "meshes/5e9c17d85fd3dbb4.obj",
+      "ascii_stl_converted": false,
+      "sha256": "08c585de5637f51815081d27c941f5b0119788522c58da294f7c97bcece7cf59"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link5_0.obj",
+      "destination": "meshes/7bf0d99bff0bcf20.obj",
+      "ascii_stl_converted": false,
+      "sha256": "becf83239adc72e34312c9aff6af01e20beace624c79d8061b25e91d7a384af9"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link5_1.obj",
+      "destination": "meshes/19e9ce102ac42757.obj",
+      "ascii_stl_converted": false,
+      "sha256": "50fb459f57a759637080b32034342dda9b9fc8bb809eafce575094ede0dac738"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link5_2.obj",
+      "destination": "meshes/c4e91a9ee182f4de.obj",
+      "ascii_stl_converted": false,
+      "sha256": "5c0a033553c9b1026e083d1154f75302f985e92de3b4d2d10ad6d2acffe08f64"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link6_0.obj",
+      "destination": "meshes/90cc295c4e6986a6.obj",
+      "ascii_stl_converted": false,
+      "sha256": "c61c431d7d730baa3255b74a9645b625553621c594cd1d3bcae01c72b523d167"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link6_1.obj",
+      "destination": "meshes/154bd5f9b6af2abe.obj",
+      "ascii_stl_converted": false,
+      "sha256": "f82ef38bf84b0ebd6ac614fa47a5bb234faceee75e64b09b56059c9d07c4743b"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link6_2.obj",
+      "destination": "meshes/245a29c652dccf97.obj",
+      "ascii_stl_converted": false,
+      "sha256": "28ca84c6c6b5fc343914ec63e8f4a87dab1e586e09cdde3c7626c5290c764bc5"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link6_3.obj",
+      "destination": "meshes/31fa69d37ff92935.obj",
+      "ascii_stl_converted": false,
+      "sha256": "6137f1d15d689c3af3e5e86166f10bb9be49f305006885e2e63647ac0dd380a5"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link6_4.obj",
+      "destination": "meshes/79b539f14739c3fa.obj",
+      "ascii_stl_converted": false,
+      "sha256": "2a556a5863de9bcf8c139ffccff52c0c3a030a8bc694f1e4a29649ff01c07533"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link6_5.obj",
+      "destination": "meshes/3601c080b2a709f2.obj",
+      "ascii_stl_converted": false,
+      "sha256": "89ae90d302ec4e3ffd04b6aaa0d9aeda6d6c33a034e597f1a34c4cd15c7f8443"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link6_6.obj",
+      "destination": "meshes/37b7793de673c322.obj",
+      "ascii_stl_converted": false,
+      "sha256": "3018977e0461ff756e19e530ee672e2b2bee45e1b2acfaffc1b6811566a9278e"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link6_7.obj",
+      "destination": "meshes/740f6abc6f1e94c1.obj",
+      "ascii_stl_converted": false,
+      "sha256": "5acf5906a258d28b844c116bcec82fc070aaeca7de67acac8832b6bfd755a6da"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link7_0.obj",
+      "destination": "meshes/1268299bbc3301d6.obj",
+      "ascii_stl_converted": false,
+      "sha256": "e979db2cf609e3d7fc3224b4eae7215c7c79e32b3373b5c14ccc49525c494e77"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link7_1.obj",
+      "destination": "meshes/1a56aab220f7c98c.obj",
+      "ascii_stl_converted": false,
+      "sha256": "84b43a1659b89fca9fc4500bcbf0121d9ec479bf0b77de4f4a7ac8c459c74b76"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link7_2.obj",
+      "destination": "meshes/281c1655017d0674.obj",
+      "ascii_stl_converted": false,
+      "sha256": "7cf65dd223c729cc0a8c16340f3bb25bdcf9bb1d26eadb2cb1db9f3fad23688f"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/visual/link7_3.obj",
+      "destination": "meshes/32219fabf2f47645.obj",
+      "ascii_stl_converted": false,
+      "sha256": "b0eb7434aa8b1ad81afc626e2a9303cedd4f262fbabb98ecb516b1fbc60a7578"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/collision/link0.stl",
+      "destination": "meshes/91303c567d41e103.stl",
+      "ascii_stl_converted": false,
+      "sha256": "56990396d712b2ebb89f7d29083973c823babd3bfa605f2d2863bd1069d29788"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/collision/link1.stl",
+      "destination": "meshes/16241645c7f5255f.stl",
+      "ascii_stl_converted": false,
+      "sha256": "e023cf1db282e07f38597d4e7f9edae03cd0dc338974677b31639f677411dc18"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/collision/link2.stl",
+      "destination": "meshes/6aa85c7e1fa0e31c.stl",
+      "ascii_stl_converted": false,
+      "sha256": "3117fd3aea238c07fc1bf678784d38497bfdd603a7760bf36b7fb31b15f0624e"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/collision/link3.stl",
+      "destination": "meshes/f506739634c1a1d4.stl",
+      "ascii_stl_converted": false,
+      "sha256": "1f21215bdb62892271a263969c92dc1be15c409ec8fc96b6bdec3c28d77f0e6e"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/collision/link4.stl",
+      "destination": "meshes/cbec5ecb2b3dc0d4.stl",
+      "ascii_stl_converted": false,
+      "sha256": "b9574ef02cdf234dff9f12359e00f6c11a4b062cf73d1db20894c57f5a9d716a"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/collision/link5.stl",
+      "destination": "meshes/9754a3618f4195fb.stl",
+      "ascii_stl_converted": false,
+      "sha256": "c174872b06547dc6acdd027679e476d4cddffe0224cb048763bdbf4f68fe7542"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/collision/link6.stl",
+      "destination": "meshes/4d76452790478e0a.stl",
+      "ascii_stl_converted": false,
+      "sha256": "9ad5c4698aed204cd505e74356adfbb955196913d0b75a616c3865b319d39e6b"
+    },
+    {
+      "source": "franka_description/meshes/robot_arms/fr3/collision/link7.stl",
+      "destination": "meshes/cc9ae3333b778b1d.stl",
+      "ascii_stl_converted": false,
+      "sha256": "c48646a72ed0264e5f90b221327fd2b72163935ec7bc1cde9612ac1dcf23eabf"
+    },
+    {
+      "source": "franka_description/meshes/robot_ee/franka_hand_white/visual/hand_0.obj",
+      "destination": "meshes/8d7866b7f5e8e3c6.obj",
+      "ascii_stl_converted": false,
+      "sha256": "b94aab901086f85df04c019b30f43bf9aa23a7ad0443ec80a8c14662a41cabd2"
+    },
+    {
+      "source": "franka_description/meshes/robot_ee/franka_hand_white/visual/hand_1.obj",
+      "destination": "meshes/80d7400d700a32d0.obj",
+      "ascii_stl_converted": false,
+      "sha256": "cd76f7494bb314406a1819c46eb826ee254894f87235714f604a470653d9badb"
+    },
+    {
+      "source": "franka_description/meshes/robot_ee/franka_hand_white/visual/hand_2.obj",
+      "destination": "meshes/4fdd921e87b9622a.obj",
+      "ascii_stl_converted": false,
+      "sha256": "e0f44a71712afa5b98eb20355eff17763d3e2e19f459b2bef19abed3727e64b3"
+    },
+    {
+      "source": "franka_description/meshes/robot_ee/franka_hand_white/visual/hand_3.obj",
+      "destination": "meshes/676765a0d2f51ce5.obj",
+      "ascii_stl_converted": false,
+      "sha256": "a431a06d99e88a1b322b3122a01424ee7704daeaad0bc343b90b9604f014ad0c"
+    },
+    {
+      "source": "franka_description/meshes/robot_ee/franka_hand_white/visual/hand_4.obj",
+      "destination": "meshes/92a89005286fde8f.obj",
+      "ascii_stl_converted": false,
+      "sha256": "21f96ef6a8de082e41b1ea9834f1043de359e5d60305541bcb63539581f53bff"
+    },
+    {
+      "source": "franka_description/meshes/robot_ee/franka_hand_white/visual/finger_0.obj",
+      "destination": "meshes/df9437a5ef550d3a.obj",
+      "ascii_stl_converted": false,
+      "sha256": "215098c0fcdf7192f6c503a37cf49e3efecf8a9e1320f02b17c5584d89cc5b2c"
+    },
+    {
+      "source": "franka_description/meshes/robot_ee/franka_hand_white/visual/finger_1.obj",
+      "destination": "meshes/59385ed2b5fee168.obj",
+      "ascii_stl_converted": false,
+      "sha256": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44"
+    },
+    {
+      "source": "franka_description/meshes/robot_ee/franka_hand_white/collision/hand.stl",
+      "destination": "meshes/6ed16bd88fb4af26.stl",
+      "ascii_stl_converted": false,
+      "sha256": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed"
+    },
+    {
+      "source": "husky_description/meshes/base_link.stl",
+      "destination": "meshes/edb6df85746155da.stl",
+      "ascii_stl_converted": false,
+      "sha256": "52107dc0be1fc5a9b16549d1ea03e71a4732cd80dc261a8403f9d671173bd97a"
+    },
+    {
+      "source": "husky_description/meshes/wheel.stl",
+      "destination": "meshes/3b8c1703c96a8d9f.stl",
+      "ascii_stl_converted": false,
+      "sha256": "c6cdb0f65efac76467db6e27371420ed1275cb2c93ed7a41ed8b41b98a7da671"
+    },
+    {
+      "source": "husky_description/meshes/bumper.obj",
+      "destination": "meshes/0e5ad5b7d2ccf77c.obj",
+      "ascii_stl_converted": false,
+      "sha256": "172fddb64d55c7a0bfd78d2ea2f890b5940657f75e8aa4f3369e0338b226040d"
+    },
+    {
+      "source": "husky_description/meshes/top_chassis.stl",
+      "destination": "meshes/741ab1b3e56674df.stl",
+      "ascii_stl_converted": false,
+      "sha256": "b19fc4c116647c179714a9e50d0aa275feb833eeb84de83571a64f5e0ca15ae2"
+    },
+    {
+      "source": "husky_description/meshes/top_plate.stl",
+      "destination": "meshes/7e180a1560f18d8e.stl",
+      "ascii_stl_converted": false,
+      "sha256": "6c7eff8fc0f9dfe96d836a5d00b89ea2c754985440e3a3db7a010c5807b8491f"
+    },
+    {
+      "source": "husky_description/meshes/large_top_plate.obj",
+      "destination": "meshes/2b702f237e03b728.obj",
+      "ascii_stl_converted": false,
+      "sha256": "5e027492ff6530aa78fe845a78833e0588328a45c198f52e25f43d4c3c6271e7"
+    },
+    {
+      "source": "husky_description/meshes/user_rail.stl",
+      "destination": "meshes/d2682d73acc67e31.stl",
+      "ascii_stl_converted": false,
+      "sha256": "9289df409dec6a91e0bf6be606b30b83c50864975361f57f629f8166fa913289"
+    },
+    {
+      "source": "fr3_husky_description/meshes/ROAS_structure_single.stl",
+      "destination": "meshes/82a569cab35671f1.stl",
+      "ascii_stl_converted": false,
+      "sha256": "4299789939d821af9129c0c57785eb59b2182946ab27e7fa7dd7ca3c62c3204d"
+    },
+    {
+      "source": "fr3_husky_description/meshes/ROAS_structure.stl",
+      "destination": "meshes/7ea795560820713d.stl",
+      "ascii_stl_converted": false,
+      "sha256": "79fd04746920ea599800eb2182c24c346f1c141ae0c7d55cd1e7e50063a0e701"
+    }
+  ],
+  "removed_test_floors_from_unity_variant": 1,
+  "global_options_retained": true,
+  "native_compile": "passed",
+  "unity_import_tested": false,
+  "notes": [
+    "No simulation step or robot controller was executed.",
+    "Keep exactly one MjGlobalSettings in the final Unity scene.",
+    "Reconcile physical timestep before later Play-mode tests.",
+    "Source meshes keep their upstream licenses; notices are copied when found."
+  ]
+}

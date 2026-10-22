@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_ChairA_01">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_ChairA_01_collision.obj" name="aws_robomaker_residential_ChairA_01_aws_ChairA_01_collision_mesh" scale="0.010000 0.010000 0.010000" />
+    <mesh file="meshes/aws_ChairA_01.obj" name="aws_robomaker_residential_ChairA_01_aws_ChairA_01_mesh" scale="0.010000 0.010000 0.010000" />
+    <texture name="tex_aws_robomaker_residential_ChairA_01_aws_ChairA_01" file="materials/textures/aws_ChairA_01.png" type="2d" />
+    <material name="aws_robomaker_residential_ChairA_01_aws_ChairA_01" texture="tex_aws_robomaker_residential_ChairA_01_aws_ChairA_01" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_ChairA_01_ChairA_01_001" pos="-0.209028 7.11516 0.024685" quat="0.9999728920347408 4.999864460174121e-07 3.6815484319343873e-09 0.007363096863868157">
+      <inertial pos="0 0 0" mass="7.5" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairA_01_aws_ChairA_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairA_01_aws_ChairA_01_mesh" material="aws_robomaker_residential_ChairA_01_aws_ChairA_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_ChairA_01_ChairA_01_002" pos="-0.219468 6.25506 0.011308" quat="0.9994446681687965 0.0 0.0 0.03332199377234385">
+      <inertial pos="0 0 0" mass="7.5" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairA_01_aws_ChairA_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairA_01_aws_ChairA_01_mesh" material="aws_robomaker_residential_ChairA_01_aws_ChairA_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_ChairA_01_ChairA_01_003" pos="-1.68075 6.06678 0.01" quat="0.000468163380346609 0.0 0.0 0.9999998904115186">
+      <inertial pos="0 0 0" mass="7.5" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairA_01_aws_ChairA_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairA_01_aws_ChairA_01_mesh" material="aws_robomaker_residential_ChairA_01_aws_ChairA_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_ChairA_01_ChairA_01_004" pos="-1.67074 7.00277 0.0" quat="0.023580977434216666 0.0 0.0 0.9997219300901861">
+      <inertial pos="0 0 0" mass="7.5" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairA_01_aws_ChairA_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairA_01_aws_ChairA_01_mesh" material="aws_robomaker_residential_ChairA_01_aws_ChairA_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_ChairA_01_ChairA_01_005" pos="-1.91665 -8.27094 0.03665" quat="0.7071067811865476 0.0 0.0 0.7071067811865475">
+      <inertial pos="0 0 0" mass="7.5" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairA_01_aws_ChairA_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairA_01_aws_ChairA_01_mesh" material="aws_robomaker_residential_ChairA_01_aws_ChairA_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_SeasoningBox_01">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_SeasoningBox_01_collision.obj" name="aws_robomaker_residential_SeasoningBox_01_aws_SeasoningBox_01_collision_mesh" scale="0.001000 0.001000 0.001000" />
+    <mesh file="meshes/aws_SeasoningBox_01.obj" name="aws_robomaker_residential_SeasoningBox_01_aws_SeasoningBox_01_mesh" scale="0.01000 0.01000 0.01000" />
+    <texture name="tex_aws_robomaker_residential_SeasoningBox_01_aws_SeasoningBox_01" file="materials/textures/aws_SeasoningBox_01.png" type="2d" />
+    <material name="aws_robomaker_residential_SeasoningBox_01_aws_SeasoningBox_01" texture="tex_aws_robomaker_residential_SeasoningBox_01_aws_SeasoningBox_01" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_SeasoningBox_01_SeasoningBox_01_001" pos="2.651726 9.107968 0.902458" quat="0.7066505501158852 -1.414851785483843e-05 9.890371200225441e-06 0.7075627178723571">
+      <inertial pos="0 0 0" mass="1.0" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_SeasoningBox_01_aws_SeasoningBox_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_SeasoningBox_01_aws_SeasoningBox_01_mesh" material="aws_robomaker_residential_SeasoningBox_01_aws_SeasoningBox_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>

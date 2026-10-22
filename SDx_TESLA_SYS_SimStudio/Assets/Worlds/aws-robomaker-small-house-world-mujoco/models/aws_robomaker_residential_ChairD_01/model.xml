@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="aws_robomaker_residential_ChairD_01">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh file="meshes/aws_ChairD_01_collision.obj" name="aws_robomaker_residential_ChairD_01_aws_ChairD_01_collision_mesh" scale="0.010000 0.010000 0.010000" />
+    <mesh file="meshes/aws_ChairD_01.obj" name="aws_robomaker_residential_ChairD_01_aws_ChairD_01_mesh" scale="0.010000 0.010000 0.010000" />
+    <texture name="tex_aws_robomaker_residential_ChairD_01_aws_ChairD_01" file="materials/textures/aws_ChairD_01.png" type="2d" />
+    <material name="aws_robomaker_residential_ChairD_01_aws_ChairD_01" texture="tex_aws_robomaker_residential_ChairD_01_aws_ChairD_01" />
+  </asset>
+  <worldbody>
+    <body name="aws_robomaker_residential_ChairD_01_ChairD_01_001" pos="-4.104456 -1.380775 0.0" quat="0.7071067811865476 0.0 0.0 0.7071067811865475">
+      <inertial pos="0 0 0" mass="4.5" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairD_01_aws_ChairD_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairD_01_aws_ChairD_01_mesh" material="aws_robomaker_residential_ChairD_01_aws_ChairD_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_ChairD_01_ChairD_01_002" pos="-4.104456 0.325214 0.0" quat="0.708114273872829 0.0 0.0 -0.7060978509651167">
+      <inertial pos="0 0 0" mass="4.5" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairD_01_aws_ChairD_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairD_01_aws_ChairD_01_mesh" material="aws_robomaker_residential_ChairD_01_aws_ChairD_01" class="visual" />
+    </body>
+    <body name="aws_robomaker_residential_ChairD_01_ChairD_01_003" pos="4.504456 -8.270775 0.0" quat="0.34342536461081963 0.0 0.0 0.9391799715400269">
+      <inertial pos="0 0 0" mass="4.5" diaginertia="1.0 1.0 1.0" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairD_01_aws_ChairD_01_collision_mesh" class="collision" />
+      <geom type="mesh" mesh="aws_robomaker_residential_ChairD_01_aws_ChairD_01_mesh" material="aws_robomaker_residential_ChairD_01_aws_ChairD_01" class="visual" />
+    </body>
+  </worldbody>
+</mujoco>
