@@ -18,5 +18,6 @@ git lfs install
 git clone https://github.com/SDxSim-ETRI/SDx_TESLA_SYS.git
 cd SDx_TESLA_SYS
 git lfs pull
-[200~Run
+
+## Run
 Open SDx_TESLA_SYS_SimStudio in Unity Hub and run the scene.~
