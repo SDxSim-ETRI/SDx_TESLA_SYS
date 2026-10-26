@@ -1,0 +1,14 @@
+{
+  "model": "qwen3:4b",
+  "ollama_mode": "private",
+  "gateway_port": 8765,
+  "private_ollama_port": 11435,
+  "shared_ollama_port": 11434,
+  "ollama_executable": "",
+  "models_path": "/home/tesla/.local/share/sdx-simstudio/ollama-models",
+  "reuse_external_gateway": true,
+  "startup_timeout_seconds": 90,
+  "shutdown_timeout_seconds": 5,
+  "lock_wait_seconds": 15,
+  "keep_alive_seconds": 300
+}

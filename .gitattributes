@@ -19,3 +19,8 @@ SDx_TESLA_SYS_SimStudio/**/*.dll filter=lfs diff=lfs merge=lfs -text
 SDx_TESLA_SYS_SimStudio/**/*.obj filter=lfs diff=lfs merge=lfs -text
 SDx_TESLA_SYS_SimStudio/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
 SDx_TESLA_SYS_SimStudio/**/*.tga filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio_Release/*_Data/** filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio_Release/MonoBleedingEdge/** filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio_Release/UnityCrashHandler64 filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio_Release/*.x86_64 filter=lfs diff=lfs merge=lfs -text
+SDx_TESLA_SYS_SimStudio_Release/*.so filter=lfs diff=lfs merge=lfs -text

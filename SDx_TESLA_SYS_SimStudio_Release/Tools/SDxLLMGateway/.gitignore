@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+secrets*.json
+intent-gateway.json
+*.log
+live-eval*.json

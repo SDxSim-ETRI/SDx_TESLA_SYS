@@ -17,3 +17,79 @@
 
 # Legacy project
 /SDx_TESLA_SYS_ROS2/
+
+# BEGIN SDx source-and-release publish rules v1
+# Append this block to the repository ROOT .gitignore; keep existing rules.
+
+# Unity source: generated caches, IDE files and local settings only.
+/SDx_TESLA_SYS_SimStudio/[Ll]ibrary/
+/SDx_TESLA_SYS_SimStudio/[Tt]emp/
+/SDx_TESLA_SYS_SimStudio/[Oo]bj/
+/SDx_TESLA_SYS_SimStudio/[Ll]ogs/
+/SDx_TESLA_SYS_SimStudio/[Uu]ser[Ss]ettings/
+/SDx_TESLA_SYS_SimStudio/[Bb]uild/
+/SDx_TESLA_SYS_SimStudio/[Bb]uilds/
+/SDx_TESLA_SYS_SimStudio/[Mm]emoryCaptures/
+/SDx_TESLA_SYS_SimStudio/[Rr]ecordings/
+/SDx_TESLA_SYS_SimStudio/.vs/
+/SDx_TESLA_SYS_SimStudio/.vscode/
+/SDx_TESLA_SYS_SimStudio/.idea/
+/SDx_TESLA_SYS_SimStudio/*.csproj
+/SDx_TESLA_SYS_SimStudio/*.sln
+/SDx_TESLA_SYS_SimStudio/*.slnx
+/SDx_TESLA_SYS_SimStudio/*.user
+/SDx_TESLA_SYS_SimStudio/*.suo
+/SDx_TESLA_SYS_SimStudio/*.pidb
+/SDx_TESLA_SYS_SimStudio/*.booproj
+/SDx_TESLA_SYS_SimStudio/*.opendb
+/SDx_TESLA_SYS_SimStudio/*.VC.db
+
+# Patch backups are kept locally, not published.
+/SDx_PatchBackups/
+/SDx_TESLA_SYS_SimStudio/Assets/SDxScenario1/Backups/
+/SDx_TESLA_SYS_SimStudio/Assets/SDxScenario1/Backups.meta
+/SDx_TESLA_SYS_SimStudio/Assets/SDxDoorInteraction/Backups/
+/SDx_TESLA_SYS_SimStudio/Assets/SDxDoorInteraction/Backups.meta
+/SDx_TESLA_SYS_SimStudio/Assets/SDxRobotCameras/Backups/
+/SDx_TESLA_SYS_SimStudio/Assets/SDxRobotCameras/Backups.meta
+
+# Keep the complete release, even if an older ROOT rule ignores binaries.
+!/SDx_TESLA_SYS_SimStudio_Release/
+!/SDx_TESLA_SYS_SimStudio_Release/**
+
+# Exclude only local output / optional debug-only build folders from release.
+/SDx_TESLA_SYS_SimStudio_Release/[Ll]ogs/
+/SDx_TESLA_SYS_SimStudio_Release/*.log
+/SDx_TESLA_SYS_SimStudio_Release/*_BackUpThisFolder_ButDontShipItWithYourGame/
+/SDx_TESLA_SYS_SimStudio_Release/*_BurstDebugInformation_DoNotShip/
+
+# Gateway caches, evaluation logs and secrets (both copies).
+/SDx_TESLA_SYS_SimStudio/Tools/**/__pycache__/
+/SDx_TESLA_SYS_SimStudio/Tools/**/*.py[cod]
+/SDx_TESLA_SYS_SimStudio/Tools/**/.env
+/SDx_TESLA_SYS_SimStudio/Tools/**/.env.*
+/SDx_TESLA_SYS_SimStudio/Tools/**/secrets*.json
+/SDx_TESLA_SYS_SimStudio/Tools/**/intent-gateway.json
+/SDx_TESLA_SYS_SimStudio/Tools/**/*.log
+/SDx_TESLA_SYS_SimStudio/Tools/**/live-eval*.json
+/SDx_TESLA_SYS_SimStudio_Release/**/__pycache__/
+/SDx_TESLA_SYS_SimStudio_Release/**/*.py[cod]
+/SDx_TESLA_SYS_SimStudio_Release/**/.env
+/SDx_TESLA_SYS_SimStudio_Release/**/.env.*
+/SDx_TESLA_SYS_SimStudio_Release/**/secrets*.json
+/SDx_TESLA_SYS_SimStudio_Release/**/intent-gateway.json
+/SDx_TESLA_SYS_SimStudio_Release/Tools/**/*.log
+/SDx_TESLA_SYS_SimStudio_Release/Tools/**/live-eval*.json
+
+# Never put local Ollama stores in the repository.
+/.ollama/
+/ollama-models/
+/SDx_TESLA_SYS_SimStudio/**/.ollama/
+/SDx_TESLA_SYS_SimStudio/**/ollama-models/
+/SDx_TESLA_SYS_SimStudio_Release/**/.ollama/
+/SDx_TESLA_SYS_SimStudio_Release/**/ollama-models/
+
+# Keep Assets/Models, all required .meta, Packages, ProjectSettings, Tools,
+# play_settings.json, *_Data, .so, .dll, .x86_64 and launcher scripts.
+# Do not use global exclusions such as Models/, *.so, *.dll, or *.meta.
+# END SDx source-and-release publish rules v1

@@ -1,0 +1,7 @@
+{
+  "samples": 744,
+  "interval_seconds": 0.2,
+  "unexpected_robot_contacts": [],
+  "unexpected_target_book_contacts": [],
+  "continuous_contact_detection": false
+}

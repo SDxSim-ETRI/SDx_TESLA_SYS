@@ -1,0 +1,34 @@
+DRY RUN
+Unity project: /mnt/data/camera_work/tests/camera_install_test_mcgn72ev/UnityProject
+Existing GUI: verified v1.2 baseline
+Payload files: 13
+Existing file replaced: Assets/SDxToolsUI/Runtime/SDxToolsPanel.cs
+Added/updated folder: Assets/SDxRobotCameras
+DRY RUN PASSED: no files changed.
+
+INSTALL
+Unity project: /mnt/data/camera_work/tests/camera_install_test_mcgn72ev/UnityProject
+Existing GUI: verified v1.2 baseline
+Payload files: 13
+Existing file replaced: Assets/SDxToolsUI/Runtime/SDxToolsPanel.cs
+Added/updated folder: Assets/SDxRobotCameras
+INSTALL COMPLETE
+Backup: /mnt/data/camera_work/tests/camera_install_test_mcgn72ev/Home/SDx_Camera_Backups/20261022_085344_803420
+Protected scenario/door/UI helper/configuration files unchanged: 6
+Existing .meta files retained. No scene was modified by this installer.
+Open Unity -> Tools > SDx > Cameras > Create or Update Robot Follow Cameras.
+
+REPEAT
+Unity project: /mnt/data/camera_work/tests/camera_install_test_mcgn72ev/UnityProject
+Existing GUI: this camera patch already present
+Payload files: 13
+Existing file replaced: Assets/SDxToolsUI/Runtime/SDxToolsPanel.cs
+Added/updated folder: Assets/SDxRobotCameras
+INSTALL COMPLETE
+Backup: /mnt/data/camera_work/tests/camera_install_test_mcgn72ev/Home/SDx_Camera_Backups/20261022_085345_643891
+Protected scenario/door/UI helper/configuration files unchanged: 6
+Existing .meta files retained. No scene was modified by this installer.
+Open Unity -> Tools > SDx > Cameras > Create or Update Robot Follow Cameras.
+
+CUSTOM GUI REFUSAL
+ERROR: The installed SDxToolsPanel.cs differs from the uploaded v1.2 baseline and this camera patch. Nothing was changed. Preserve your customized file and merge the camera additions before installing.

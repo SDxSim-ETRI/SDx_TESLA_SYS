@@ -52,7 +52,9 @@ namespace SDx.SimStudio.UI
         [Tooltip("Auto: built-in Korean two-set composition on Linux; system IME on other desktop platforms.")]
         public SDxTextInputBackend textInputBackend = SDxTextInputBackend.Auto;
         [Tooltip("Built-in mode only. Toggle EN/KR with the button or F2 while editing. Keep the OS layout in English.")]
-        public bool startInKoreanMode = false;
+        public bool startInKoreanMode = true;
+        [Tooltip("Open each new Command in KR on the built-in input backend. Independent of older saved startInKoreanMode=false scenes.")]
+        public bool commandStartsInKoreanMode = true;
 
         [Header("Integration Hooks (not connected to ROS or AI by default)")]
         public SDxRosRequestEvent onConnectRequested = new SDxRosRequestEvent();
@@ -63,7 +65,31 @@ namespace SDx.SimStudio.UI
         public SDxTextEvent onPromptSubmitted = new SDxTextEvent();
         public bool logRequests = true;
 
-        public const string PackageVersion = "1.2.0";
+        [Header("Camera Controls")]
+        public bool showCameraGroup = true;
+        public SDxTextEvent onCameraViewRequested = new SDxTextEvent();
+        private bool cameraControlsAvailable;
+        private string activeCameraView = "Front";
+        private bool cameraExpanded = true;
+        private static readonly string[] CameraViews = { "Front", "Left", "Right", "Back", "Free" };
+
+        // Input fix 1.1.0: always-visible reply box, Enter chat and default KR.
+        public const string PackageVersion = "1.6.0";
+        public string ActiveCameraView { get { return activeCameraView; } }
+        public void SetCameraControlsState(bool available, string selectedView)
+        {
+            cameraControlsAvailable = available;
+            if (Array.IndexOf(CameraViews, selectedView) >= 0) activeCameraView = selectedView;
+        }
+
+        public Rect GetSceneCameraViewport()
+        {
+            if (!isActiveAndEnabled || Screen.width <= 0 || Screen.height <= 0 ||
+                window.Mode != SDxToolsWindowMode.Normal) return new Rect(0, 0, 1, 1);
+            float uiScale = Mathf.Clamp(Screen.height / 720f * interfaceScale, 0.60f, 3f);
+            float reserved = Mathf.Clamp(panelWidth * uiScale / Screen.width, 0f, 0.85f);
+            return new Rect(reserved, 0, 1 - reserved, 1);
+        }
         public bool IsRosConnected { get { return rosConnection.IsConnected; } }
         public bool IsKoreanMode { get { return koreanMode; } }
         public bool UsesBuiltInKoreanInput
@@ -80,6 +106,17 @@ namespace SDx.SimStudio.UI
         public string SelectedRobotModel { get { return Option(robotModels, robotModelIndex); } }
         public string SelectedRosFunction { get { return Option(rosFunctions, rosFunctionIndex); } }
         public string LastSubmittedPrompt { get; private set; } = "";
+        public string CommandReply { get; private set; } = "";
+        private bool commandReplyError;
+        private Vector2 commandReplyScroll;
+        private GUIStyle commandReplyStyle, commandReplyErrorStyle;
+        public void SetCommandReply(string text, bool isError = false)
+        {
+            if (CommandReply != (text ?? "")) commandReplyScroll = Vector2.zero;
+            CommandReply = text ?? "";
+            if (CommandReply.Length > 600) CommandReply = CommandReply.Substring(0, 600);
+            commandReplyError = isError;
+        }
         public bool IsPromptOpen { get { return promptOpen; } }
         public SDxToolsWindowMode WindowMode { get { return window.Mode; } }
         // For future camera/robot controllers that read raw Input in Update.
@@ -87,6 +124,26 @@ namespace SDx.SimStudio.UI
         // automatically suppress Input.GetKey/GetMouseButton in other scripts.
         public static bool WantsPointerInput { get; private set; }
         public static bool WantsKeyboardInput { get; private set; }
+
+        // Used by the Free camera. These are live state checks, not key interception.
+        public bool BlocksCameraKeyboardInput
+        {
+            get { return isActiveAndEnabled && (promptOpen || folderOpen || folderRequestPending ||
+                activeDropdown >= 0 || window.Mode == SDxToolsWindowMode.Maximized || WantsKeyboardInput); }
+        }
+
+        // Input.mousePosition uses a bottom-left origin; IMGUI uses top-left.
+        // Recompute the panel bounds so a resize/minimize never leaks a wheel event.
+        public bool BlocksCameraPointerInput(Vector2 screenPosition)
+        {
+            if (!isActiveAndEnabled) return false;
+            if (promptOpen || folderOpen || folderRequestPending || activeDropdown >= 0 ||
+                window.Mode == SDxToolsWindowMode.Maximized || hasCapture) return true;
+            float s = Mathf.Clamp(Screen.height / 720f * interfaceScale, 0.60f, 3f);
+            Rect bounds = new Rect(0, 0, Mathf.Min(panelWidth * s, Screen.width),
+                window.Mode == SDxToolsWindowMode.Minimized ? 36f * s : Screen.height);
+            return bounds.Contains(new Vector2(screenPosition.x, Screen.height - screenPosition.y));
+        }
 
         private const string PromptControl = "SDx.Tools.Prompt";
         private const string InstructionControl = "SDx.Tools.Instructions";
@@ -98,6 +155,7 @@ namespace SDx.SimStudio.UI
         private readonly SDxKoreanTextField pathInput = new SDxKoreanTextField();
         private readonly SDxKoreanTextField folderInput = new SDxKoreanTextField();
         private bool koreanMode, pathDraftDirty, previousPathFocus;
+        private readonly SDxEnterPressGate enterPressGate = new SDxEnterPressGate();
         private string lastTextControl = "", restoreTextFocus = "";
 #if ENABLE_LEGACY_INPUT_MANAGER || !ENABLE_INPUT_SYSTEM
         private bool ownsImeMode;
@@ -134,7 +192,7 @@ namespace SDx.SimStudio.UI
         private void Awake()
         {
             rosConnection.Reset();
-            koreanMode = startInKoreanMode;
+            koreanMode = startInKoreanMode || (commandStartsInKoreanMode && UsesBuiltInKoreanInput);
             instructions = SDxKoreanTextField.SingleLine(instructions);
             gistFolder = SDxKoreanTextField.SingleLine(initialGistFolder);
             if (rememberGistFolder && PlayerPrefs.HasKey(PreferenceKey))
@@ -148,7 +206,7 @@ namespace SDx.SimStudio.UI
 
         private void OnDisable()
         {
-            rosConnection.Reset(); CommitAllText(); RestoreImeMode();
+            rosConnection.Reset(); CommitAllText(); RestoreImeMode(); enterPressGate.Reset();
             activeDropdown = -1;
             promptOpen = folderOpen = folderRequestPending = false;
             WantsPointerInput = WantsKeyboardInput = false;
@@ -173,6 +231,7 @@ namespace SDx.SimStudio.UI
 #if ENABLE_LEGACY_INPUT_MANAGER || !ENABLE_INPUT_SYSTEM
             if (isActiveAndEnabled)
             {
+                enterPressGate.SyncReleased(Input.GetKey(KeyCode.Return), Input.GetKey(KeyCode.KeypadEnter));
                 Vector2 mouse = new Vector2(Input.mousePosition.x, Screen.height - Input.mousePosition.y);
                 WantsPointerInput = hasCapture || folderOpen || activeDropdown >= 0 ||
                     panelRect.Contains(mouse) || (promptOpen && chatRect.Contains(mouse));
@@ -206,13 +265,21 @@ namespace SDx.SimStudio.UI
             GUI.color = GUI.backgroundColor = GUI.contentColor = Color.white;
             GUI.enabled = true;
             Event e = Event.current;
+            bool freshEnterPress = TrackEnterPress(e);
             try
             {
+                // A viewport click releases an Instructions/path text focus, but never
+                // closes/submits a prompt. Free movement is blocked while chat is open.
+                if (activeCameraView == "Free" && e.type == EventType.MouseDown &&
+                    !BlocksCameraPointerInput(new Vector2(e.mousePosition.x, Screen.height - e.mousePosition.y)))
+                {
+                    CommitAllText(); GUI.FocusControl(null); WantsKeyboardInput = false;
+                }
                 ProcessPopupKeyboardAndOutsideClick(e);
                 if (activeDropdown < 0)
                 {
                     ProcessInputLanguageKeys(e);
-                    if (!folderOpen) ProcessPromptKeys(e);
+                    if (!folderOpen) ProcessPromptKeys(e, freshEnterPress);
                 }
                 bool modal = folderOpen || activeDropdown >= 0;
                 EventType inputType = e.type;
@@ -288,8 +355,11 @@ namespace SDx.SimStudio.UI
 
                 float rosH = S(rosExpanded ? 162 : 26);
                 float sceneH = S(sceneExpanded ? 230 : 26);
-                float promptH = S(promptExpanded ? 72 : 26);
-                float contentHeight = rosH + sceneH + promptH + S(16);
+                // Keep the same three-line area before and after the first response.
+                float promptH = promptExpanded ? S(70) + ReplyBoxHeight() + S(8) : S(26);
+                float cameraH = showCameraGroup ? S(cameraExpanded ? 136 : 26) : 0;
+                float contentHeight = rosH + sceneH + promptH + S(16) +
+                    (showCameraGroup ? cameraH + S(8) : 0);
                 float bottom = promptOpen && window.Mode == SDxToolsWindowMode.Maximized ? S(96) : S(6);
                 contentRect = new Rect(S(6), S(42), panelRect.width - S(12), Mathf.Max(S(40), panelRect.height - S(42) - bottom));
                 bool scrollNeeded = contentHeight > contentRect.height;
@@ -299,9 +369,11 @@ namespace SDx.SimStudio.UI
                 try
                 {
                     float y = 0;
-                    DrawRosSection(new Rect(0, y, width, rosH)); y += rosH + S(8);
+                    // Order: Camera -> Prompt -> Scene -> ROS Connection.
+                    if (showCameraGroup) { DrawCameraSection(new Rect(0, y, width, cameraH)); y += cameraH + S(8); }
+                    DrawPromptSection(new Rect(0, y, width, promptH)); y += promptH + S(8);
                     DrawSceneSection(new Rect(0, y, width, sceneH)); y += sceneH + S(8);
-                    DrawPromptSection(new Rect(0, y, width, promptH));
+                    DrawRosSection(new Rect(0, y, width, rosH));
                 }
                 finally { GUI.EndScrollView(); }
             }
@@ -388,6 +460,68 @@ namespace SDx.SimStudio.UI
             promptExpanded = Section(r, "Prompt", promptExpanded);
             if (!promptExpanded) return;
             if (GUI.Button(new Rect(r.x + S(8), r.y + S(36), r.width - S(16), S(26)), "Send Command", button)) OpenPrompt();
+            DrawCommandReply(new Rect(r.x + S(8), r.y + S(70), r.width - S(16), ReplyBoxHeight()));
+        }
+
+        // Height tracks the actual GUI font. About three text lines remain visible
+        // at any Interface Scale; long replies remain available via vertical scrolling.
+        private float ReplyBoxHeight()
+        {
+            float line = commandReplyStyle.lineHeight;
+            if (line <= 0) line = F(10) * 1.3f;
+            return Mathf.Ceil(line * 3f) + S(8);
+        }
+
+        private void DrawCommandReply(Rect rect)
+        {
+            Fill(rect, Color.white);
+            Outline(rect, new Color32(178, 181, 184, 255));
+            Rect inner = new Rect(rect.x + S(4), rect.y + S(4), rect.width - S(8), rect.height - S(8));
+            GUIStyle style = commandReplyError ? commandReplyErrorStyle : commandReplyStyle;
+            var content = new GUIContent(CommandReply);
+            float textWidth = Mathf.Max(S(20), inner.width);
+            float textHeight = style.CalcHeight(content, textWidth);
+            bool needsScroll = textHeight > inner.height + .5f;
+            if (needsScroll)
+            {
+                float bar = GUI.skin.verticalScrollbar.fixedWidth;
+                textWidth = Mathf.Max(S(20), textWidth - Mathf.Max(S(14), bar) - S(4));
+                textHeight = style.CalcHeight(content, textWidth);
+            }
+            commandReplyScroll = GUI.BeginScrollView(inner, commandReplyScroll,
+                new Rect(0, 0, textWidth, Mathf.Max(inner.height, textHeight)), false, needsScroll);
+            try { GUI.Label(new Rect(0, 0, textWidth, Mathf.Max(inner.height, textHeight)), content, style); }
+            finally { GUI.EndScrollView(); }
+        }
+
+        private void DrawCameraSection(Rect r)
+        {
+            cameraExpanded = Section(r, "Camera", cameraExpanded);
+            if (!cameraExpanded) return;
+            float x = r.x + S(8), y = r.y + S(36);
+            float width = (r.width - S(24)) / 2f;
+            bool wasEnabled = GUI.enabled;
+            try
+            {
+                GUI.enabled = wasEnabled && cameraControlsAvailable;
+                for (int i = 0; i < CameraViews.Length; ++i)
+                {
+                    string view = CameraViews[i];
+                    Rect rect = view == "Free"
+                        ? new Rect(x, y + S(64), r.width - S(16), S(26))
+                        : new Rect(x + (i % 2) * (width + S(8)), y + (i / 2) * S(32), width, S(26));
+                    GUIStyle style = view == activeCameraView ? blueButton : button;
+                    if (GUI.Button(rect, new GUIContent(view, cameraControlsAvailable
+                        ? (view == "Free" ? "Free camera: WASD, Q/E up/down, hold right mouse to look, wheel to zoom."
+                            : "Look at the robot from its " + view.ToLowerInvariant() + " side.")
+                        : "Use Tools > SDx > Cameras > Create or Update Robot Follow Cameras first."), style))
+                    {
+                        GUI.FocusControl(null);
+                        onCameraViewRequested.Invoke(view);
+                    }
+                }
+            }
+            finally { GUI.enabled = wasEnabled; }
         }
 
         private void DrawDropdownRow(float x, float y, float width, string caption, string[] options, int selected, int id, float rightReserve = 0)
@@ -479,7 +613,13 @@ namespace SDx.SimStudio.UI
 
         public void OpenPrompt()
         {
+            CommitAllText();
+            if (!promptOpen && commandStartsInKoreanMode && UsesBuiltInKoreanInput)
+                SetKoreanMode(true);
             activeDropdown = -1; promptOpen = true; focusPrompt = true;
+            restoreTextFocus = "";
+            // Block Free camera immediately, not only after the next repaint.
+            WantsKeyboardInput = true;
         }
 
         private void DrawPromptBar()
@@ -495,18 +635,56 @@ namespace SDx.SimStudio.UI
             DrawLanguageButton(new Rect(chatRect.xMax - S(76), chatRect.y + S(4), S(42), S(18)));
             if (GUI.Button(new Rect(chatRect.xMax - S(24), chatRect.y + S(4), S(18), S(18)), "x", smallButton)) ClosePrompt();
             Rect input = new Rect(chatRect.x + S(8), chatRect.y + S(34), chatRect.width - S(16), S(32));
+            if (focusPrompt) GUI.FocusControl(PromptControl);
             promptText = DrawSingleLine(input, PromptControl, promptText, 4096, "Type a command...", promptInput);
-            if (focusPrompt && Event.current.type == EventType.Repaint)
-            { GUI.FocusControl(PromptControl); focusPrompt = false; }
+            // Register the field first, then focus it in this event. Retry until assigned.
+            if (focusPrompt)
+            {
+                GUI.FocusControl(PromptControl);
+                if (GUI.GetNameOfFocusedControl() == PromptControl && GUIUtility.keyboardControl != 0)
+                    focusPrompt = false;
+            }
         }
 
-        private void ProcessPromptKeys(Event e)
+        private bool TrackEnterPress(Event e)
         {
-            if (!promptOpen || e.type != EventType.KeyDown) return;
-            if (e.keyCode == KeyCode.Escape) { ClosePrompt(); e.Use(); return; }
-            if (GUI.GetNameOfFocusedControl() != PromptControl) return;
+            if (e.type != EventType.KeyDown && e.type != EventType.KeyUp) return false;
+            if (e.keyCode != KeyCode.Return && e.keyCode != KeyCode.KeypadEnter) return false;
+            bool keypad = e.keyCode == KeyCode.KeypadEnter;
+            if (e.type == EventType.KeyUp) { enterPressGate.KeyUp(keypad); return false; }
+            return e.type == EventType.KeyDown && enterPressGate.KeyDown(keypad, Time.frameCount);
+        }
+
+        private static bool HasGameKeyboardFocus()
+        {
+            if (!Application.isFocused) return false;
+#if UNITY_EDITOR
+            var focused = UnityEditor.EditorWindow.focusedWindow;
+            return focused != null && focused.GetType().Name == "GameView";
+#else
+            return true;
+#endif
+        }
+
+        private void ProcessPromptKeys(Event e, bool freshEnterPress)
+        {
+            if (e.type != EventType.KeyDown || !HasGameKeyboardFocus()) return;
+            if (promptOpen && e.keyCode == KeyCode.Escape)
+            { ClosePrompt(); e.Use(); return; }
             if (e.keyCode != KeyCode.Return && e.keyCode != KeyCode.KeypadEnter) return;
-            // Do not submit the Return used to confirm an IME composition.
+            if (e.control || e.command || e.alt || e.shift) return;
+            string focused = GUI.GetNameOfFocusedControl();
+            // Enter still belongs to Instructions/path fields, dropdowns and folder dialogs.
+            if (folderOpen || folderRequestPending || activeDropdown >= 0) return;
+            if (!promptOpen && IsTextControl(focused)) return;
+            if (!freshEnterPress) { e.Use(); return; }
+            if (!promptOpen)
+            {
+                OpenPrompt(); e.Use(); return;
+            }
+            if (focused != PromptControl)
+            { focusPrompt = true; e.Use(); return; }
+            // Native IME confirmation is NOT submission. A new Enter press is needed.
 #if ENABLE_LEGACY_INPUT_MANAGER || !ENABLE_INPUT_SYSTEM
             if (!UsesBuiltInKoreanInput)
             {
@@ -515,6 +693,7 @@ namespace SDx.SimStudio.UI
                 if (Time.frameCount - lastImeFrame <= 1) return;
             }
 #endif
+            // Built-in Hangul is already reflected in promptText; commit the last syllable.
             promptInput.Commit();
             string text = promptText.Trim();
             ClosePrompt();
@@ -751,7 +930,7 @@ namespace SDx.SimStudio.UI
 
         private void OnApplicationFocus(bool focused)
         {
-            if (!focused) { CommitAllText(); RestoreImeMode(); }
+            if (!focused) { CommitAllText(); RestoreImeMode(); enterPressGate.Reset(); }
         }
 
         private void Notify(string message) { toast = message; toastUntil = Time.unscaledTime + 3.5f; }
@@ -803,6 +982,10 @@ namespace SDx.SimStudio.UI
             whiteHint = new GUIStyle(hint) { alignment = TextAnchor.MiddleRight };
             whiteHint.normal.textColor = Color.white;
             errorStyle = new GUIStyle(hint); errorStyle.normal.textColor = new Color32(170, 57, 47, 255);
+            commandReplyStyle = new GUIStyle(hint) { alignment = TextAnchor.UpperLeft,
+                padding = new RectOffset(0, 0, 0, 0), clipping = TextClipping.Clip };
+            commandReplyErrorStyle = new GUIStyle(commandReplyStyle);
+            commandReplyErrorStyle.normal.textColor = errorStyle.normal.textColor;
             button = MakeControl(font, new Color32(223, 224, 226, 255), new Color32(232, 236, 239, 255),
                 new Color32(201, 211, 219, 255), ink, TextAnchor.MiddleCenter);
             blueButton = MakeControl(font, groupColor, new Color32(57, 150, 194, 255), titleColor, Color.white, TextAnchor.MiddleCenter);

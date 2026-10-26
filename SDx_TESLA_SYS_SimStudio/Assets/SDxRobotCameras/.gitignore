@@ -1,0 +1,3 @@
+# Optional local scene snapshots; keep scripts and camera references in the active scene.
+/Backups/
+/Backups.meta

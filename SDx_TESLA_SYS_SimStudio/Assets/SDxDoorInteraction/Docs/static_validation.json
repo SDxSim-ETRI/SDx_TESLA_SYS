@@ -1,0 +1,42 @@
+{
+  "static": "passed",
+  "joint_count": 1,
+  "geom_count": 12,
+  "collision_geom_count": 10,
+  "handle_clearances_m": {
+    "front": 0.06308284890000002,
+    "back": 0.06256871110000001
+  },
+  "meshes": {
+    "sdxdoor_frame_mesh": {
+      "vertices": 132,
+      "triangles": 84,
+      "lo": [
+        -0.032710428,
+        -1.247879982,
+        0.0
+      ],
+      "hi": [
+        0.03168018,
+        1.247879982,
+        2.205852458
+      ]
+    },
+    "sdxdoor_leaf_mesh": {
+      "vertices": 9408,
+      "triangles": 10104,
+      "lo": [
+        -0.020431289,
+        -1.166917542,
+        0.000598982
+      ],
+      "hi": [
+        0.009917152,
+        1.170378625,
+        2.124690324
+      ]
+    }
+  },
+  "world_clearance": "NOT tested; current MainScene not supplied",
+  "native": "NOT RUN"
+}

@@ -1,0 +1,5 @@
+# Safety scene copies are local. Keep model sources and Generated/ in Git.
+/Backups/
+/Backups.meta
+**/__pycache__/
+*.pyc

@@ -1,0 +1,34 @@
+<mujoco model="sdx_passive_sliding_door">
+  <compiler angle="radian" inertiafromgeom="auto" />
+  <asset>
+    <mesh name="sdxdoor_844c88f431_frame_mesh" file="../../Models/meshes/door_frame.obj" />
+    <mesh name="sdxdoor_844c88f431_leaf_mesh" file="../../Models/meshes/door_leaf.obj" />
+    <texture name="sdxdoor_844c88f431_wood_texture" type="2d" file="../../Models/textures/aws_FoldingDoor_01.png" />
+    <material name="sdxdoor_844c88f431_surface_material" texture="sdxdoor_844c88f431_wood_texture" rgba="1 1 1 1" specular="0.2" shininess="0.25" />
+    <material name="sdxdoor_844c88f431_handle_material" rgba="0.18 0.20 0.21 1" specular="0.5" shininess="0.6" />
+  </asset>
+  <worldbody>
+    <body name="sdxdoor_844c88f431_frame">
+      <geom name="sdxdoor_844c88f431_frame_visual" type="mesh" mesh="sdxdoor_844c88f431_frame_mesh" material="sdxdoor_844c88f431_surface_material" contype="0" conaffinity="0" density="0" group="2" />
+      <geom name="sdxdoor_844c88f431_frame_left_collision" type="box" pos="-0.0005151241 -1.203755 1.1029262" size="0.032195304 0.044124991 1.1029262" contype="1" conaffinity="1" density="0" condim="4" friction="1.0 0.005 0.0001" margin="0.0005" solref="0.015 1" solimp="0.9 0.95 0.001" group="3" />
+      <geom name="sdxdoor_844c88f431_frame_right_collision" type="box" pos="-0.0005151241 1.203755 1.1029262" size="0.032195304 0.044124991 1.1029262" contype="1" conaffinity="1" density="0" condim="4" friction="1.0 0.005 0.0001" margin="0.0005" solref="0.015 1" solimp="0.9 0.95 0.001" group="3" />
+      <geom name="sdxdoor_844c88f431_frame_top_collision" type="box" pos="-0.0005151241 0 2.1648712" size="0.032195304 1.15963 0.040981229" contype="1" conaffinity="1" density="0" condim="4" friction="1.0 0.005 0.0001" margin="0.0005" solref="0.015 1" solimp="0.9 0.95 0.001" group="3" />
+    </body>
+    <body name="sdxdoor_844c88f431_leaf" pos="0.159999996424 0 0">
+      <joint name="sdxdoor_844c88f431_slide" type="slide" axis="0 -1 0" limited="true" range="0 2.40000009537" ref="0" damping="25" frictionloss="3" armature="0.05" stiffness="0" solreflimit="0.02 1" solimplimit="0.95 0.99 0.001" />
+      <inertial pos="-0.0052570689 0.0017305419 1.0626447" mass="18" diaginertia="14.9620761023 6.76902758424 8.19581160159" />
+      <geom name="sdxdoor_844c88f431_leaf_visual" type="mesh" mesh="sdxdoor_844c88f431_leaf_mesh" material="sdxdoor_844c88f431_surface_material" contype="0" conaffinity="0" density="0" group="2" />
+      <geom name="sdxdoor_844c88f431_panel_collision" type="box" pos="-0.0052570689 0.0017305419 1.0626447" size="0.01517422 1.1686481 1.0620457" contype="1" conaffinity="1" density="0" condim="4" friction="1.0 0.005 0.0001" margin="0.0005" solref="0.015 1" solimp="0.9 0.95 0.001" group="3" />
+      <geom name="sdxdoor_844c88f431_handle_front_grip" type="capsule" size=".012" fromto="0.085 0 0.7 0.085 0 1" contype="1" conaffinity="1" density="0" condim="4" friction="1.2 0.01 0.0001" margin="0.0005" solref="0.015 1" solimp="0.9 0.95 0.001" group="2" material="sdxdoor_844c88f431_handle_material" />
+      <geom name="sdxdoor_844c88f431_handle_front_support_1" type="capsule" size=".008" fromto="0.0099171515 0 0.72 0.085 0 0.72" contype="1" conaffinity="1" density="0" condim="4" friction="1.2 0.01 0.0001" margin="0.0005" solref="0.015 1" solimp="0.9 0.95 0.001" group="2" material="sdxdoor_844c88f431_handle_material" />
+      <geom name="sdxdoor_844c88f431_handle_front_support_2" type="capsule" size=".008" fromto="0.0099171515 0 0.98 0.085 0 0.98" contype="1" conaffinity="1" density="0" condim="4" friction="1.2 0.01 0.0001" margin="0.0005" solref="0.015 1" solimp="0.9 0.95 0.001" group="2" material="sdxdoor_844c88f431_handle_material" />
+      <site name="sdxdoor_844c88f431_front_grasp" type="sphere" size=".006" pos="0.085 0 0.85" quat="0.5 0.5 0.5 0.5" rgba="0.2 0.8 0.2 1" group="4" />
+      <site name="sdxdoor_844c88f431_front_approach" type="sphere" size=".006" pos="0.205 0 0.85" quat="0.5 0.5 0.5 0.5" rgba="0.2 0.8 0.2 1" group="4" />
+      <geom name="sdxdoor_844c88f431_handle_back_grip" type="capsule" size=".012" fromto="-0.095 0 0.7 -0.095 0 1" contype="1" conaffinity="1" density="0" condim="4" friction="1.2 0.01 0.0001" margin="0.0005" solref="0.015 1" solimp="0.9 0.95 0.001" group="2" material="sdxdoor_844c88f431_handle_material" />
+      <geom name="sdxdoor_844c88f431_handle_back_support_1" type="capsule" size=".008" fromto="-0.020431289 0 0.72 -0.095 0 0.72" contype="1" conaffinity="1" density="0" condim="4" friction="1.2 0.01 0.0001" margin="0.0005" solref="0.015 1" solimp="0.9 0.95 0.001" group="2" material="sdxdoor_844c88f431_handle_material" />
+      <geom name="sdxdoor_844c88f431_handle_back_support_2" type="capsule" size=".008" fromto="-0.020431289 0 0.98 -0.095 0 0.98" contype="1" conaffinity="1" density="0" condim="4" friction="1.2 0.01 0.0001" margin="0.0005" solref="0.015 1" solimp="0.9 0.95 0.001" group="2" material="sdxdoor_844c88f431_handle_material" />
+      <site name="sdxdoor_844c88f431_back_grasp" type="sphere" size=".006" pos="-0.095 0 0.85" quat="0.5 0.5 -0.5 -0.5" rgba="0.2 0.8 0.2 1" group="4" />
+      <site name="sdxdoor_844c88f431_back_approach" type="sphere" size=".006" pos="-0.215 0 0.85" quat="0.5 0.5 -0.5 -0.5" rgba="0.2 0.8 0.2 1" group="4" />
+    </body>
+  </worldbody>
+</mujoco>

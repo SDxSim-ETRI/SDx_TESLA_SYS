@@ -1,0 +1,44 @@
+{
+  "package_version": "1.0.0",
+  "baseline_archive": "SDx_TESLA_SYS_SimStudio.tar.gz",
+  "baseline_sha256": "2dfe013251e0492fc45e28b6070f1b2c145583066b51d421fb06f83b1efed03c",
+  "native_library_version": "3.16.0",
+  "physics_step_s": 0.001,
+  "test_basis": "Collision model reconstructed from uploaded MainScene plus requested screenshot changes; not Unity-exported integrated scene.",
+  "execution": "State-preserving chunks; serialized full integration state between chunks. Second experiment reset a completed/disturbed state before repeating.",
+  "unity_editor_executed": false,
+  "csharp_compiled": false,
+  "native_passes": 2,
+  "native_final_book_unity_xyz": [
+    5.228949522747317,
+    0.9243414348207446,
+    -4.500098046023266
+  ],
+  "target_unity_xyz": [
+    5.23,
+    0.924364,
+    -4.5
+  ],
+  "native_position_error_m": 0.0010552841647628142,
+  "native_upright_error_deg": 0.037978777037812356,
+  "simulation_duration_s": 148.871,
+  "reset_checked": [
+    "qpos restored including surroundings",
+    "qvel zero",
+    "ctrl zero",
+    "doors at open reference"
+  ],
+  "contact_audit": {
+    "samples": 744,
+    "interval_seconds": 0.2,
+    "unexpected_robot_contacts": [],
+    "unexpected_target_book_contacts": [],
+    "continuous_contact_detection": false
+  },
+  "grasp_method": "Freejoint book held by physical finger contact; no weld, attachment or pose forcing during task",
+  "notes": [
+    "Unused right shelf/books absent from the trial as requested.",
+    "Existing HouseWallB collision masks remain disabled.",
+    "No promise of real-world or arbitrary-scene success."
+  ]
+}

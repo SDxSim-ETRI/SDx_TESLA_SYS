@@ -7,6 +7,7 @@ using System.Xml;
 using Mujoco;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // Standalone editor extension for MuJoCo Unity plugin 3.16.0 and Unity 2022.3.
 // Put under Assets/MuJoCoSetup/Editor/ (or any Assets/Editor folder).
@@ -22,10 +23,27 @@ public static class MjcfTextureRestorer {
         new HashSet<string>(StringComparer.OrdinalIgnoreCase);
   }
 
+  // Avoid a second copy of the currently installed residential world.
+  // This safeguard only concerns small_house.xml; other MJCF imports remain repeatable.
+  private static bool SmallHouseAlreadyInCurrentScene(string xmlPath) {
+    if (!string.Equals(Path.GetFileName(xmlPath), "small_house.xml", StringComparison.OrdinalIgnoreCase))
+      return false;
+    Scene scene = SceneManager.GetActiveScene();
+    if (!scene.IsValid() || !scene.isLoaded) return false;
+    return scene.GetRootGameObjects().Any(root => root.name.StartsWith("small_house", StringComparison.OrdinalIgnoreCase));
+  }
+
   [MenuItem("Tools/MuJoCo/Import MJCF with Textures", false, 210)]
   private static void ImportWithTextures() {
     string xmlPath = SelectRootXml();
     if (string.IsNullOrEmpty(xmlPath)) return;
+    if (SmallHouseAlreadyInCurrentScene(xmlPath)) {
+      EditorUtility.DisplayDialog("MuJoCo", "The residential small_house world is already in this scene. " +
+        "A second import would duplicate the house and collision geometry. " +
+        "Use 'Restore Textures on Selected Import' for an existing world, or open a new scene for a separate world.", "OK");
+      Debug.Log("[SDx OneTime] Duplicate small_house import skipped without scene changes.");
+      return;
+    }
 
     try {
       GameObject importedRoot = new MjImporterWithAssets().ImportFile(xmlPath);

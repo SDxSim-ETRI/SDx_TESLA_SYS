@@ -1,0 +1,90 @@
+--- v1.2/SDxToolsPanel.cs
++++ v1.3/SDxToolsPanel.cs
+@@ -63,7 +63,31 @@
+         public SDxTextEvent onPromptSubmitted = new SDxTextEvent();
+         public bool logRequests = true;
+ 
+-        public const string PackageVersion = "1.2.0";
++        [Header("Camera Controls")]
++        public bool showCameraGroup = true;
++        public SDxTextEvent onCameraViewRequested = new SDxTextEvent();
++        private bool cameraControlsAvailable;
++        private string activeCameraView = "Front";
++        private bool cameraExpanded = true;
++        private static readonly string[] CameraViews = { "Front", "Left", "Right", "Back" };
++
++        // Camera integration 1.0.0. Existing Korean input, ROS and prompt methods are unchanged.
++        public const string PackageVersion = "1.3.0";
++        public string ActiveCameraView { get { return activeCameraView; } }
++        public void SetCameraControlsState(bool available, string selectedView)
++        {
++            cameraControlsAvailable = available;
++            if (Array.IndexOf(CameraViews, selectedView) >= 0) activeCameraView = selectedView;
++        }
++
++        public Rect GetSceneCameraViewport()
++        {
++            if (!isActiveAndEnabled || Screen.width <= 0 || Screen.height <= 0 ||
++                window.Mode != SDxToolsWindowMode.Normal) return new Rect(0, 0, 1, 1);
++            float uiScale = Mathf.Clamp(Screen.height / 720f * interfaceScale, 0.60f, 3f);
++            float reserved = Mathf.Clamp(panelWidth * uiScale / Screen.width, 0f, 0.85f);
++            return new Rect(reserved, 0, 1 - reserved, 1);
++        }
+         public bool IsRosConnected { get { return rosConnection.IsConnected; } }
+         public bool IsKoreanMode { get { return koreanMode; } }
+         public bool UsesBuiltInKoreanInput
+@@ -289,7 +313,9 @@
+                 float rosH = S(rosExpanded ? 162 : 26);
+                 float sceneH = S(sceneExpanded ? 230 : 26);
+                 float promptH = S(promptExpanded ? 72 : 26);
+-                float contentHeight = rosH + sceneH + promptH + S(16);
++                float cameraH = showCameraGroup ? S(cameraExpanded ? 104 : 26) : 0;
++                float contentHeight = rosH + sceneH + promptH + S(16) +
++                    (showCameraGroup ? cameraH + S(8) : 0);
+                 float bottom = promptOpen && window.Mode == SDxToolsWindowMode.Maximized ? S(96) : S(6);
+                 contentRect = new Rect(S(6), S(42), panelRect.width - S(12), Mathf.Max(S(40), panelRect.height - S(42) - bottom));
+                 bool scrollNeeded = contentHeight > contentRect.height;
+@@ -301,7 +327,8 @@
+                     float y = 0;
+                     DrawRosSection(new Rect(0, y, width, rosH)); y += rosH + S(8);
+                     DrawSceneSection(new Rect(0, y, width, sceneH)); y += sceneH + S(8);
+-                    DrawPromptSection(new Rect(0, y, width, promptH));
++                    DrawPromptSection(new Rect(0, y, width, promptH)); y += promptH + S(8);
++                    if (showCameraGroup) DrawCameraSection(new Rect(0, y, width, cameraH));
+                 }
+                 finally { GUI.EndScrollView(); }
+             }
+@@ -388,6 +415,33 @@
+             promptExpanded = Section(r, "Prompt", promptExpanded);
+             if (!promptExpanded) return;
+             if (GUI.Button(new Rect(r.x + S(8), r.y + S(36), r.width - S(16), S(26)), "Send Command", button)) OpenPrompt();
++        }
++
++        private void DrawCameraSection(Rect r)
++        {
++            cameraExpanded = Section(r, "Camera", cameraExpanded);
++            if (!cameraExpanded) return;
++            float x = r.x + S(8), y = r.y + S(36);
++            float width = (r.width - S(24)) / 2f;
++            bool wasEnabled = GUI.enabled;
++            try
++            {
++                GUI.enabled = wasEnabled && cameraControlsAvailable;
++                for (int i = 0; i < CameraViews.Length; ++i)
++                {
++                    string view = CameraViews[i];
++                    Rect rect = new Rect(x + (i % 2) * (width + S(8)), y + (i / 2) * S(32), width, S(26));
++                    GUIStyle style = view == activeCameraView ? blueButton : button;
++                    if (GUI.Button(rect, new GUIContent(view, cameraControlsAvailable
++                        ? "Look at the robot from its " + view.ToLowerInvariant() + " side."
++                        : "Use Tools > SDx > Cameras > Create or Update Robot Follow Cameras first."), style))
++                    {
++                        GUI.FocusControl(null);
++                        onCameraViewRequested.Invoke(view);
++                    }
++                }
++            }
++            finally { GUI.enabled = wasEnabled; }
+         }
+ 
+         private void DrawDropdownRow(float x, float y, float width, string caption, string[] options, int selected, int id, float rightReserve = 0)

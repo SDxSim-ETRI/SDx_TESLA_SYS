@@ -1,0 +1,16 @@
+{
+  "name": "SDx.Scenario1",
+  "rootNamespace": "SDx.Scenario1",
+  "references": [
+    "Mujoco.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": true,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

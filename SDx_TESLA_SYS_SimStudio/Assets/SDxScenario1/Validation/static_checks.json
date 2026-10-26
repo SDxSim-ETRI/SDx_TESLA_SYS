@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "Balanced C# delimiters: Core/Scenario1Plan.cs",
+    "Balanced C# delimiters: Core/Scenario1Native.cs",
+    "Balanced C# delimiters: Core/SDxScenario1Controller.cs",
+    "Balanced C# delimiters: Bridge/SDxScenario1CommandBridge.cs",
+    "Balanced C# delimiters: Editor/SDxScenario1Installer.cs",
+    "Unsafe code restricted to Core assembly",
+    "Exported arm waypoints match native test values",
+    "No double-stepping, runtime parenting or pose-animation path",
+    "No container-only paths in Unity code",
+    "Installer Python parses",
+    "Installer copy/reinstall preserves existing meta and original ProjectSettings",
+    "Both final native physics trials passed"
+  ],
+  "count": 12,
+  "csharp_compilation": false
+}

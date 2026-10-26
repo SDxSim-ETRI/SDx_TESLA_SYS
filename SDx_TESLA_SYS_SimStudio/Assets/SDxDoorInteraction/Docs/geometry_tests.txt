@@ -1,0 +1,17 @@
+test_collision_count (__main__.GeometryTests.test_collision_count) ... ok
+test_finger_clearance_in_front_and_back_channels (__main__.GeometryTests.test_finger_clearance_in_front_and_back_channels) ... ok
+test_frame_opening_not_filled (__main__.GeometryTests.test_frame_opening_not_filled) ... ok
+test_full_open_clears_aperture (__main__.GeometryTests.test_full_open_clears_aperture) ... ok
+test_full_static_validation (__main__.GeometryTests.test_full_static_validation) ... ok
+test_no_library_or_absolute_home_dependency (__main__.GeometryTests.test_no_library_or_absolute_home_dependency) ... ok
+test_no_motor_or_artificial_grasp (__main__.GeometryTests.test_no_motor_or_artificial_grasp) ... ok
+test_sites_in_same_moving_body (__main__.GeometryTests.test_sites_in_same_moving_body) ... ok
+test_sliding_sweep_does_not_hit_own_frame (__main__.GeometryTests.test_sliding_sweep_does_not_hit_own_frame) ... ok
+test_source_triangle_accounting (__main__.GeometryTests.test_source_triangle_accounting) ... ok
+test_spherical_pad_contact_hits_bar_not_panel (__main__.GeometryTests.test_spherical_pad_contact_hits_bar_not_panel) ... ok
+test_valid_positive_box_extents (__main__.GeometryTests.test_valid_positive_box_extents) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.092s
+
+OK

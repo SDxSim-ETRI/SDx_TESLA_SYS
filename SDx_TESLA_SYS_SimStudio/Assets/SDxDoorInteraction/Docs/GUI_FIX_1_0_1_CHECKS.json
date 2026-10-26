@@ -1,0 +1,90 @@
+{
+  "scope": "Static source checks only: NOT a C# compile, Unity UI test or native simulation.",
+  "checks": [
+    {
+      "check": "SDxPassiveSlidingDoorEditor.cs: UNITY_EDITOR guard",
+      "passed": true
+    },
+    {
+      "check": "SDxPassiveSlidingDoorEditor.cs: balanced delimiters and no lexical errors",
+      "passed": true
+    },
+    {
+      "check": "SDxDoorUpgradeWindow.cs: UNITY_EDITOR guard",
+      "passed": true
+    },
+    {
+      "check": "SDxDoorUpgradeWindow.cs: balanced delimiters and no lexical errors",
+      "passed": true
+    },
+    {
+      "check": "Window OnGUI does not invoke Upgrade immediately",
+      "passed": true
+    },
+    {
+      "check": "Window OnGUI does not import/save/destroy/change selection",
+      "passed": true
+    },
+    {
+      "check": "Window uses scoped scroll layout",
+      "passed": true
+    },
+    {
+      "check": "Window snapshots click-time settings",
+      "passed": true
+    },
+    {
+      "check": "Upgrade uses delayed dispatch",
+      "passed": true
+    },
+    {
+      "check": "Upgrade prevents duplicate queuing",
+      "passed": true
+    },
+    {
+      "check": "Inspector does not run dangerous actions inline",
+      "passed": true
+    },
+    {
+      "check": "Inspector does not change selection inline",
+      "passed": true
+    },
+    {
+      "check": "Inspector horizontal layout is scoped",
+      "passed": true
+    },
+    {
+      "check": "Inspector deferred queue exists",
+      "passed": true
+    },
+    {
+      "check": "Inspector queue suppresses duplicate dispatch",
+      "passed": true
+    },
+    {
+      "check": "Both queues preserve Unity ExitGUI exception control flow",
+      "passed": true
+    },
+    {
+      "check": "Queued work checks unloaded scenes",
+      "passed": true
+    },
+    {
+      "check": "Editor patch is visibly versioned",
+      "passed": true
+    },
+    {
+      "check": "No runtime/model source included in patch",
+      "passed": true
+    },
+    {
+      "check": "Only the original two Editor filenames are replaced",
+      "passed": true
+    }
+  ],
+  "passed": 20,
+  "sources_sha256": {
+    "SDxPassiveSlidingDoorEditor.cs": "0dde863413e8dd09bcd46711c71c4ef692e9d622977be83485ab72e61a2a8e8e",
+    "SDxDoorUpgradeWindow.cs": "85e800d23e82b253ca3df05763f2568df9c9b3822da26d237ea8f8e0d991fa0b"
+  }
+}

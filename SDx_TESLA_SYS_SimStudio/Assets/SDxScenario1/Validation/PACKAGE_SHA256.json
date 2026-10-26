@@ -1,0 +1,20 @@
+{
+  ".gitignore": "91d1130fce0f6aa49572c8eec4e06a954f9e4d4d22b5c19b6c4f636f82178a25",
+  "Bridge/SDxScenario1CommandBridge.cs": "4a9878dfc9d95f4abe61b104f1265bb2415d4ae422eb05bc5105f4cb212f5835",
+  "Core/SDx.Scenario1.asmdef": "9a28d7204a3b48ea11ca94a47a7aec8395634bffcdb518f8c4982f391f8ca22f",
+  "Core/SDxScenario1Controller.cs": "cd7b02662252cca5cdb87a2c0f5c947920eccd142ef4ca6cf3359889515d33db",
+  "Core/Scenario1Native.cs": "238421c2c693ce83fcec2f94514b2cbdd7b6045f2ffe63fb9f2716e8153a2279",
+  "Core/Scenario1Plan.cs": "1875f4ce71a1f152314af440c90736a2ed926b0feac0c45b46f5cbd174b30204",
+  "Docs/DESIGN.md": "9623f062f755fc799668d52a1b0368b3dd74afccb703f9b8149326698cc251da",
+  "Docs/Native_Route.png": "1d1dbe18e1228e903c05d5d4bef6c964226104a401e3cc962144157738648a6c",
+  "Docs/VALIDATION_KO.md": "8e7a8ca97bacd8386d48a72efdddbdd07ef20b89f4e6dfd84f458b2e093f9c7f",
+  "Editor/SDxScenario1Installer.cs": "b2612525bf310e8d23f77ceb86da713b0311774facb0da6d0e00418cc2354a0e",
+  "README_KO.md": "cfcd2634682c2dcd08d9614b3c60e02472137fc1fec2f3f988c05971db00b930",
+  "Tools/install.py": "1ed3c7c20776ba2f22597d24bc6dadc50576f7ff380224c416d7185ac3b816d7",
+  "Validation/native_run_1.json": "40ce85e607dbf821a71fa2f911dd87c12dc86bac135102af83ac247777e09475",
+  "Validation/native_run_2.json": "8c41ce16f3d7c87e829da23a60c9026c1b675cfda2c2a3574db3d6a5b6ec040b",
+  "Validation/native_trace.json": "0b14c064d79425ec259a1c921788cbab1ce50ad743bad68816c3d19fda819587",
+  "Validation/native_validation.json": "51e13cd8dc84a1b19efec998254e5d4478f8b051170062a3d1f14f4527dcb375",
+  "Validation/path_contact_audit.json": "a83e82d44788916aa1ecf4994943ac668f7e9bfa6b426d11b87c87b423f0bc36",
+  "Validation/static_checks.json": "36714fdb6932aa7aa541d9545d0a61a5f70a36565052abba5df0485518bd6d6d"
+}

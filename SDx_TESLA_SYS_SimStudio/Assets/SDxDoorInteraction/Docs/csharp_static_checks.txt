@@ -1,0 +1,4 @@
+Editor/SDxDoorUpgradeWindow.cs: lexical/delimiter check passed (NOT compiled)
+Editor/SDxPassiveSlidingDoorEditor.cs: lexical/delimiter check passed (NOT compiled)
+Runtime/SDxPassiveSlidingDoor.cs: lexical/delimiter check passed (NOT compiled)
+Unity Editor / C# compilation: NOT RUN.

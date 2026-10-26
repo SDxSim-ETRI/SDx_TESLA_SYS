@@ -1,0 +1,20 @@
+{
+  ".gitignore": "ee6bb28c534424366ac7777c8c740a01889efec1d936eda6c49ba92fffc0b3c7",
+  "Docs/TEST_STATUS.md": "485e2fc2cb2def7b704c53effad0d759f7066fcb9498a289f8f338b0df6d25a4",
+  "Docs/csharp_static_checks.txt": "4288ea53ff19552f7f07f2cd006f0276cac2cae73b39c5bb16c1afa2a7f14d4b",
+  "Docs/geometry_tests.txt": "edb83cc99d77fe904059cfca21682b1df67f56b496516788bbee851f504c59bf",
+  "Docs/model_measurements.json": "a99ce6b71923cf55aa90d521361d3ec0e14ade6006e7376075276a259f4ae43a",
+  "Docs/static_validation.json": "03814bc42a2de9fc6cf3ffbd2b1ba775ebe4a6966ebff9a810504fb0e21edb1c",
+  "Editor/SDxDoorUpgradeWindow.cs": "8100d722c450d1490e52e0c94e75763d19395563281c9f7f86b219493c13e55d",
+  "Editor/SDxPassiveSlidingDoorEditor.cs": "f2623ce963b94ac951a6b90665eee0d2b7a663b082838df5766fdead83d3cff7",
+  "Models/door_slide.xml": "c121819b88d15a77503e040586894a8d75153b869f5d68f49362e13969041bce",
+  "Models/meshes/door_frame.obj": "55cb6c51299518d69123e41398c2d32feb32638352c3ddf41eb43fd2abe7438c",
+  "Models/meshes/door_leaf.obj": "b5c3a395828cd715dc8bb39edb86ed0459c9aafb2f5b66deaa46e34c6098d3c3",
+  "Models/textures/aws_FoldingDoor_01.png": "7a577c2be79cd88afea14d39f68e10574f530a3756d081d2d4036a050bf92382",
+  "README.md": "39b55fa492c33d86c7a9a6a55157d61639393b76d181956d49be00d06af6a8bb",
+  "Runtime/SDxPassiveSlidingDoor.cs": "caed15515c14e58f01a6bc2a6a11323122b84d329e9192774594a94dc11d4ad7",
+  "ThirdParty/AWS_UPSTREAM_LICENSE.txt": "19ae24203736ceb016d6abcf94c2615a4688e5e07f188255c81dc6a0af3f285b",
+  "ThirdParty/SOURCE_NOTES.md": "fd7271444676c00a83e0ebe9e417fc2ea7eafbfb6a345bd659dbef451b64c97e",
+  "Tools/test_geometry.py": "3c739aae89987b4734bb3d9c263c3dbc75e00bb563655ac00353bf70f1995275",
+  "Tools/verify_doors.py": "6ba93d71e4aaa2fe882b77b79c2d1528da6ac02b69f2605285de7e1497f4a16e"
+}

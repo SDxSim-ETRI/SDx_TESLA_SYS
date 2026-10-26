@@ -1,0 +1,71 @@
+{
+  "source_sha256": "46c7f5e09c3681b2065414fc78425ca9fffb3cc6d173828d612098d3368709ec",
+  "input_units_to_meters": 0.01,
+  "source_faces": 10668,
+  "removed_original_handle_faces": 480,
+  "pieces": {
+    "door_frame.obj": {
+      "triangles": 84,
+      "vertices": 132,
+      "bounds_min": [
+        -0.032710427800000004,
+        -1.2478799820000002,
+        0.0
+      ],
+      "bounds_max": [
+        0.0316801796,
+        1.2478799820000002,
+        2.2058524584
+      ]
+    },
+    "door_leaf.obj": {
+      "triangles": 10104,
+      "vertices": 9408,
+      "bounds_min": [
+        -0.0204312892,
+        -1.1669175417,
+        0.0005989824
+      ],
+      "bounds_max": [
+        0.0099171515,
+        1.1703786255,
+        2.1246903242
+      ]
+    }
+  },
+  "design": {
+    "kinematics": "One rigid sliding leaf per selected original doorway. No folding links.",
+    "travel_m": 2.4,
+    "rail_offset_m": 0.16,
+    "mass_kg": 18.0,
+    "diaginertia_kg_m2": [
+      14.962076102276301,
+      6.769027584243968,
+      8.195811601591098
+    ],
+    "damping_Ns_m": 25,
+    "frictionloss_N": 3,
+    "handle_radius_m": 0.012,
+    "handle_front_center_m": [
+      0.085,
+      0,
+      0.85
+    ],
+    "handle_back_center_m": [
+      -0.095,
+      0,
+      0.85
+    ],
+    "front_grip_clearance_m": 0.06308284850000001,
+    "back_grip_clearance_m": 0.06256871080000001,
+    "origin_note": "Original body origin and current scene pose preserved; depth offset is deliberate."
+  },
+  "geometry_changes": [
+    "Original frame split by connected component 6",
+    "All non-frame/non-handle triangles retained in rigid leaf",
+    "Original 4 thin rods and 8 supports removed",
+    "New 24 mm diameter D-handle on each face",
+    "New U-frame collisions and shallow panel collision",
+    "No hidden large collider spanning handle gaps"
+  ]
+}
