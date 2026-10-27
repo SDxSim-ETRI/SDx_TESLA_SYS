@@ -63,7 +63,7 @@ ollama --version
 ~/.local/share/sdx-simstudio/ollama-models
 ```
 
-**일반 사용자 계정으로 모델을 준비합니다. `sudo ollama`를 사용하지 마세요.**
+**일반 사용자 계정으로 모델을 준비합니다. `sudo ollama`를 사용하지 마세요.**  
 이 위치에 `qwen3:4b`가 이미 준비되어 있으면 재설치하지 않아도 됩니다.  
 
 ### 터미널 A: 모델 다운로드용 임시 서버 시작
