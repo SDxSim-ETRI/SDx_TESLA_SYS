@@ -12,8 +12,8 @@
     </td>
   </tr>
   <tr>
-    <th align="center" width="50%">동작 시연 1</th>
-    <th align="center" width="50%">동작 시연 2</th>
+    <th align="center" width="50%">동작 화면 (1)</th>
+    <th align="center" width="50%">동작 화면 (2)</th>
   </tr>
   <tr>
     <td align="center" valign="top" width="50%">
